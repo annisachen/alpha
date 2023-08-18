@@ -1,0 +1,77 @@
+{
+    "type": 2,
+    "cType": "carousel",
+    "cards": [
+        {
+            "cLinkDisable": "N",
+            "cWidth": "segment",
+            "cImageData": {
+                "cImage": "img-credbank07",
+                "cAppImage": "card22.jpg",
+                "cImageTextType": 6,
+                "cImageTexts": [
+                    {
+                        "cImageText": "優惠次數"
+                    }
+                ]
+            },
+            "cTextType": "1",
+            "cTexts": [
+                {
+                    "cUseHtml": false,
+                    "cLabel": "你的優惠次數",
+                    "cText": "1"
+                }
+            ],
+            "cLinkList": [
+                {
+                    "clAction": 2,
+                    "clText": "就調這個額度",
+                    "clAlt": "就調這個額度",
+                    "clReply": "",
+                    "clUrl": "",
+                    "clIntent": "信用卡",
+                    "clSecondBotIntent": "c_h_q_creditLimit_useThisCardLimit",
+                    "clParameter": {
+                        "confirmCardDataId": "2285c39b-e7fc-445b-a5de-081943ad5f4d",
+                        "passing": "{\"confirmCardDataId\":\"2285c39b-e7fc-445b-a5de-081943ad5f4d\"}"
+                    }
+                }
+            ]
+        },
+        {
+            "cLinkDisable": "N",
+            "cWidth": "segment",
+            "cImageData": {
+                "cImage": "img-credbank07",
+                "cAppImage": "card22.jpg",
+                "cImageTextType": 6,
+                "cImageTexts": [
+                    {
+                        "cImageText": "永久可調高額度"
+                    }
+                ]
+            },
+            "cTextType": "1",
+            "cTexts": [
+                {
+                    "cUseHtml": false,
+                    "cLabel": "你沒有優惠次數",
+                    "cText": ""
+                }
+            ],
+            "cLinkList": [
+                {
+                    "clAction": 4,
+                    "clReply": "",
+                    "clUrl": "null586658d2-eb17-4852-9473-0c4ad88938f5",
+                    "clIntent": "",
+                    "clSecondBotIntent": "",
+                    "clParameter": {
+                        "passing": "{}"
+                    }
+                }
+            ]
+        }
+    ]
+}

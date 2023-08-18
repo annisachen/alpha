@@ -1,0 +1,207 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 1,
+            "text": "已完成開卡，快來看看你的卡片資訊吧。",
+            "useHtml": false,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": true,
+            "isShowTime": false,
+            "isFirstDialog": true
+        },
+        {
+            "type": 2,
+            "cType": "carousel",
+            "cards": [
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImageUrl": "https://www.cathaybk.com.tw/cathaybk/-/media/6efd3a3d144142088a4b522fa2df8d38?v=1",
+                        "cAppImage": "",
+                        "cImage": "img-credbank01",
+                        "cOutUrl": "Y",
+                        "cImageTextType": 2,
+                        "cImageTexts": []
+                    },
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "VISA CUBE悠遊御璽卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡別",
+                            "cText": "正卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號",
+                            "cText": "XXXX XXXX XXXX 1963"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡片額度",
+                            "cText": "NT$200,000"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "核卡日",
+                            "cText": "2023/08/12"
+                        }
+                    ],
+                    "cTextType": "1"
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        },
+        {
+            "type": 1,
+            "text": "阿發推薦你更多信用卡優惠，手刀快點【<a href=\"javascript: void(0)\" onclick=\"App.handleFAQLink(903, '', '最新活動')\">點我</a>】",
+            "useHtml": true,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        },
+        {
+            "type": 1,
+            "text": "還有其他需要阿發幫你的地方嗎？",
+            "useHtml": false,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        },
+        {
+            "type": 1,
+            "text": "阿發幫你找出限時優惠貸款活動，方案任你選，最快五分鐘撥款！（推估額度係依本行往來狀況試算，最高可貸額度與初步推估額度可能不同）",
+            "useHtml": false,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        },
+        {
+            "type": 2,
+            "cType": "card",
+            "cards": [
+                {
+                    "cLinkDisable": "N",
+                    "cName": "大樹貸客戶信貸諮詢",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cOutUrlsml": "Y",
+                        "cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=Loan_20200507_20200507042311.jpg",
+                        "cAppImage": ""
+                    },
+                    "cTextType": "1",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "夢想金-大樹速貸"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "初估額度：",
+                            "cText": "160萬"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "貸款利率：",
+                            "cText": "3.7%"
+                        }
+                    ],
+                    "cLinkType": 1,
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "立即申辦",
+                            "clAlt": "立即申辦",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "貸款",
+                            "clSecondBotIntent": "l_h_treeQuickLoan",
+                            "clParameter": {
+                                "identify": "1",
+                                "note": "信用卡_辦理_卡片.開卡成功",
+                                "passing": "{\"identify\":\"1\",\"note\":\"信用卡_辦理_卡片.開卡成功\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "預約諮詢",
+                            "clAlt": "大樹貸客戶信貸諮詢",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "貸款",
+                            "clSecondBotIntent": "l_h_unsecuredWidget",
+                            "clParameter": {
+                                "identify": "1",
+                                "note": "信用卡_辦理_卡片.開卡成功",
+                                "passing": "{\"identify\":\"1\",\"note\":\"信用卡_辦理_卡片.開卡成功\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 4,
+                            "clText": "了解更多",
+                            "clAlt": "",
+                            "clReply": "",
+                            "clUrl": "https://www.cathaybk.com.tw/cathaybk/promo/event/loan/product/treeloan/index.html?P=all_afa?CUB_SRC=YAHOO&CUB_CHL1=URL&CUB_CHL2=01&MA_TK=DB519&CUB_DT=20220101&utm_source=Cathay_Afa&utm_medium=Afaanswer_tree3_A01_version5_test&utm_campaign=2022_cubloan_tree3_treeloan&c=DD&t=b6861f62-b319-43d9-a809-6d645766555f",
+                            "clIntent": "貸款",
+                            "clSecondBotIntent": "l_h_openWeb",
+                            "clParameter": {
+                                "identify": "1",
+                                "note": "信用卡_辦理_卡片.開卡成功",
+                                "passing": "{\"identify\":\"1\",\"note\":\"信用卡_辦理_卡片.開卡成功\"}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": true
+        },
+        {
+            "type": 4,
+            "lType": "select-tag04",
+            "linkList": [
+                {
+                    "lAction": 1,
+                    "lText": "看阿發還能幫什麼忙",
+                    "lAlt": "看阿發還能幫什麼忙",
+                    "lReply": "",
+                    "lUrl": "",
+                    "lCustomerAction": "",
+                    "lIntent": "hello",
+                    "lSecondBotIntent": "",
+                    "lParameter": {
+                        "passing": "{}"
+                    }
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:21:45",
+    "timestamp": 1692267705560
+}

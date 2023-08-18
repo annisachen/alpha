@@ -1,0 +1,76 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 1,
+            "text": "請確認卡片有在手邊，再進行開卡",
+            "useHtml": false,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": true,
+            "isShowTime": false,
+            "isFirstDialog": true
+        },
+        {
+            "type": 2,
+            "cType": "carousel",
+            "cards": [
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImageUrl": "https://www.cathaybk.com.tw/cathaybk/-/media/6efd3a3d144142088a4b522fa2df8d38?v=1",
+                        "cAppImage": "",
+                        "cImage": "img-credbank01",
+                        "cOutUrl": "Y",
+                        "cImageTextType": 2
+                    },
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "VISA CUBE悠遊御璽卡                                       "
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號",
+                            "cText": "XXXX XXXX XXXX 1963"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "核卡日",
+                            "cText": "2023/08/12"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "立即開卡",
+                            "clAlt": "立即開卡",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_c_prepareOpen",
+                            "clParameter": {
+                                "tempDataId": "45fc87d1-976f-4d12-8f79-a1f6bf40a9ac",
+                                "passing": "{\"tempDataId\":\"45fc87d1-976f-4d12-8f79-a1f6bf40a9ac\"}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ],
+                    "cTextType": "1"
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": true
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:16:55",
+    "timestamp": 1692267415573
+}
