@@ -1,0 +1,114 @@
+{
+  "channel": "MMB",
+  "chatWeb": false,
+  "content": [
+    {
+      "type": 1,
+      "text": "阿發查到你有臨時信用卡額度可調高哦～若要調高永久額度，請備妥財力證明至官網申請。",
+      "useHtml": false
+    },
+    {
+      "type": 2,
+      "cType": "carousel",
+      "cards": [
+        {
+          "cLinkDisable": "N",
+          "cWidth": "segment",
+          "cImageData": {
+            "cImage": "img-credbank07",
+            "cAppImage": "card22.jpg",
+            "cImageTextType": 6,
+            "cImageTexts": [
+              {
+                "cImageText": "臨時可調高額度"
+              }
+            ]
+          },
+          "cTextType": "3",
+          "cTexts": [
+            {
+              "cUseHtml": false,
+              "cLabel": "目前信用額度",
+              "cText": "NT$ 100,000"
+            },
+            {
+              "cUseHtml": false,
+              "cLabel": "可調高臨時信用額度",
+              "cText": "NT$ 180,000"
+            },
+            {
+              "cUseHtml": false,
+              "cLabel": "臨時提高信用額度期間",
+              "cText": "2023/08/11起2個月"
+            }
+          ],
+          "cLinkList": [
+            {
+              "clAction": 2,
+              "clText": "就調這個額度",
+              "clAlt": "就調這個額度",
+              "clReply": "",
+              "clUrl": "",
+              "clIntent": "信用卡",
+              "clSecondBotIntent": "c_h_q_creditLimit_useThisCardLimit",
+              "clParameter": {
+                "confirmCardDataId": "2285c39b-e7fc-445b-a5de-081943ad5f4d",
+                "passing": "{\"confirmCardDataId\":\"2285c39b-e7fc-445b-a5de-081943ad5f4d\"}"
+              }
+            }
+          ]
+        },
+        {
+          "cLinkDisable": "N",
+          "cWidth": "segment",
+          "cImageData": {
+            "cImage": "img-credbank07",
+            "cAppImage": "card22.jpg",
+            "cImageTextType": 6,
+            "cImageTexts": [
+              {
+                "cImageText": "永久可調高額度"
+              }
+            ]
+          },
+          "cTextType": "3",
+          "cTexts": [
+            {
+              "cUseHtml": false,
+              "cLabel": "目前信用額度",
+              "cText": "NT$ 20,000"
+            },
+            {
+              "cUseHtml": false,
+              "cLabel": ""
+            }
+          ],
+          "cLinkList": [
+            {
+              "clAction": 4,
+              "clReply": "",
+              "clUrl": "null586658d2-eb17-4852-9473-0c4ad88938f5",
+              "clIntent": "",
+              "clSecondBotIntent": "",
+              "clParameter": {
+                "passing": "{}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 11,
+      "annoTitle": "注意事項：",
+      "annoText": "<ol> \n<li>調整額度期間的生效起日限為當日，若遇假日，將自動調整生效起日為下一個營業日 \n<li>本次額度調整將即時調高你的臨時信用額度，並適用於你所持的每張信用卡（不含商務卡） \n<li>臨時調高之額度將無法使用分期交易 \n<li>下次帳單結帳時，若有超過原信用額度的部分，須全額繳清 \n<li>調升期間結束後，會恢復原信用額度，屆時如你所使用之額度已超過原信用額度，將暫時無法繼續刷卡 \n</ol>",
+      "useHtml": true
+    }
+  ],
+  "from": "bot",
+  "isIdleMsg": false,
+  "role": "alpha",
+  "showTime": "2023-08-11 15:52:06",
+  "timestamp": 1691740326379,
+  "toCelebrusMsg": "調額_有臨調永調高額度_皆有"
+}
