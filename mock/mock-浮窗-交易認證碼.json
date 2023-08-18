@@ -1,0 +1,20 @@
+{
+    "channel": "MMB",
+    "chatWeb": false,
+    "content": [
+        {
+            "type": 12,
+            "widget": "doCheckCode",
+            "pushOtp0018TransId": "20191125180038086463",
+            "pushOtp0018MessageId": "c62f94d6-3e4d-4f90-ba5d-fd36b9ad6ad8",
+            "txMsgId": "12345678901234567890",
+            "textMessage": "(關閉交易驗證碼視窗)",
+            "intent": "帳戶",
+            "secondBotIntent": "closeDoCheckCode"
+        }
+    ],
+    "from": "bot",
+    "role": "alpha",
+    "showTime": "2020-07-03 15:17:54",
+    "timestamp": 1593760674007
+}

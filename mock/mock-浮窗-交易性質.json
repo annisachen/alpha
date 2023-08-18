@@ -1,0 +1,67 @@
+{
+    "channel": "MMB",
+    "chatWeb": false,
+    "content": [
+        {
+            "type": 12,
+            "widget": "selectPurposes",
+            "textMessage": "(選擇外匯交易性質)",
+            "intent": "外匯",
+            "secondBotIntent": "f_e_waitPurposes",
+            "closeTextMessage": "(關閉交易性質清單)",
+            "closeIntent": "外匯",
+            "closeSecondBotIntent": "f_e_modalClose",
+            "dataList": [
+                {
+                    "remitCode": "692",
+                    "remitName": "購買外匯不再匯出",
+                    "hasSubRemit": "0"
+                },
+                {
+                    "remitCode": "692A",
+                    "remitName": "國外存款及股本、股權投資款等",
+                    "hasSubRemit": "0"
+                },
+                {
+                    "remitCode": "692E",
+                    "remitName": "國外服務支出 (旅遊、留學、商務與探親等)",
+                    "hasSubRemit": "1"
+                },
+                {
+                    "remitCode": "692E",
+                    "remitName": "國外服務支出 (旅遊、留學、商務與探親等)國外服務支出 (旅遊、留學、商務與探親等)國外服務支出 (旅遊、留學、商務與探親等)國外服務支出 (旅遊、留學、商務與探親等)",
+                    "hasSubRemit": "1"
+                },
+                {
+                    "remitCode": "692E",
+                    "remitName": "國外服務支出 (旅遊、留學、商務與探親等)國外服務支出 (旅遊、留學、商務與探親等)國外服務支出 (旅遊、留學、商務與探親等)國外服務支出 (旅遊、留學、商務與探親等)",
+                    "hasSubRemit": "1"
+                },
+                {
+                    "remitCode": "692E",
+                    "remitName": "國外服務支出 (旅遊、留學、商務與探親等)",
+                    "hasSubRemit": "1"
+                },
+                {
+                    "remitCode": "692E",
+                    "remitName": "國外服務支出 (旅遊、留學、商務與探親等)",
+                    "hasSubRemit": "1"
+                },
+                {
+                    "remitCode": "692E",
+                    "remitName": "國外服務支出 (旅遊、留學、商務與探親等)",
+                    "hasSubRemit": "1"
+                },
+                {
+                    "remitCode": "692E",
+                    "remitName": "國外服務支出 (旅遊、留學、商務與探親等)",
+                    "hasSubRemit": "1"
+                }
+            ]
+        }
+    ],
+    "from": "bot",
+    "role": "alpha",
+    "showTime": "2020-07-03 15:17:54",
+    "timestamp": 1593760674007
+}
