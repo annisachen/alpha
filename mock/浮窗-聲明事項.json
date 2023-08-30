@@ -1,0 +1,17 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+		{
+		  "type": 300,  
+		  "widget": "doInitNotify",
+		  "content":"聲明事項內容XXXXXXXXX",
+		  "closeTime":3  
+		}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
