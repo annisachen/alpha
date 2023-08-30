@@ -15,17 +15,17 @@
 			{
 			  "noticeContent":"<ol><li>...</li></ol>",
 			  "noticeTitle":"帳單分期注意事項",
-			  "openEffect": 1
+			  "openEffect": "1"
 			},
 			{
 			  "noticeContent":"<ol><li>...</li></ol>",
 			  "noticeTitle":"消費分期注意事項",
-			  "openEffect": 1
+			  "openEffect": "1"
 			},
 			{
 			  "noticeContent":"<div>...</div>",
 			  "noticeTitle":"同意網路銀行服務條款",
-			  "openEffect": 1
+			  "openEffect": "1"
 			}
 		  ],
 		  "confirmText":"我已閱讀",
