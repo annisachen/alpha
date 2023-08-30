@@ -1,0 +1,27 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+		{
+		  "type": 12,
+		  "widget": "doCipNotify",
+		  "intent": "待確認",
+		  "secondBotIntent":"待確認",
+		  "textMessage":"這是字串"
+		  "title":"Hi，Amber",  
+		  "content":"阿發提醒你，還有信用卡尚未開卡，要來進行開卡嗎？",
+		  "useHtml":flase  
+		  "submitBtnText":"好，進行開卡",
+		  "closeBtnText":"下次再說",
+		  "closeIntent": "待確認",
+		  "closeSecondBotIntent": "待確認",
+		  "closeTextMessage":"(下次再說)",
+		  "userAction": "xxx"
+		}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
