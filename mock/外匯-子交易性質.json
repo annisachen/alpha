@@ -1,0 +1,33 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+		{
+			"type":12,
+			"widget":"selectPurposes",
+			"textMessage":"(選擇外匯交易性質)",
+			"intent":"外匯",
+			"secondBotIntent":"f_e_waitPurposes",
+			"closeTextMessage":"(關閉交易性質清單)",
+			"closeIntent":"外匯",
+			"closeSecondBotIntent":"f_e_modalClose",
+			"dataList":[
+				{
+				 "remitCode":"111",
+				 "remitName":"航空貨運費支出",
+				 "hasSubRemit":"2"
+				},       
+				{
+				 "remitCode":"116",
+				 "remitName":"航空客運費支出",
+				 "hasSubRemit":"2"
+				}
+			  ]
+		}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
