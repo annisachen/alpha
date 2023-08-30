@@ -11,9 +11,9 @@
 		  "closeIntent": "",
 		  "closeSecondBotIntent": "",
 		  "closeTextMessage": "",
-		  "annoTitle":"個人資料運用告知聲明",//視窗標題
+		  "annoTitle":"個人資料運用告知聲明",
 		  "annoText":"個人資料運用告知聲明<br/><br/>...",
-		  "submitCloseText":"我知道了"//(點了後關閉視窗)顯示按鈕文字
+		  "submitCloseText":"我知道了"
 		}
     ],
     "from": "bot",
