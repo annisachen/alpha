@@ -1,0 +1,22 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+		   {
+			  "action": 7,
+			  "type": 12,
+			  "widget": "doOpenCardData",
+			  "intent": "信用卡",
+			  "secondBotIntent": "c_h_c_doOpenCard",
+			  "textMessage": "(發送開卡輸入資訊)",
+			  "closeIntent": "信用卡",
+			  "closeSecondBotIntent": "c_h_c_cvcLoginCancel",
+			  "closeTextMessage": "(CVC驗證取消)"
+			}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
