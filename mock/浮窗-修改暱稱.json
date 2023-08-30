@@ -1,0 +1,23 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+		{
+		  "type": 12,
+		  "widget": "doUpdateNickname",
+		  "intent": "暱稱",
+		  "secondBotIntent": "confirmUpdateNickname",
+		  "textMessage": "(確認修改暱稱)",
+		  "label": "輸入暱稱",
+		  "placeholder": "請輸入12位內中英數字",
+		  "closeTextMessage": "(關閉修改暱稱視窗)",
+		  "closeIntent": "暱稱",
+		  "closeSecondBotIntent": "closeDoUpdateNicknameModal"
+		}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
