@@ -1,0 +1,55 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+			{
+			  "type": 12,
+			  "widget": "doCommonAccountList",
+			  "accountListID": [
+				{
+				  "groupid": 1, 
+				  "nickName": "XXX",
+				  "nomtoFlag": "1",
+				  "sameidtoFlag": "0",
+				  "toActno": "0000001506099999",
+				  "toBankname": "國泰世華商業銀行",
+				  "toBankno": "013",
+				  "unnomtoFlag": "0"
+				}
+			  ],
+			  "accountListTransfer": [
+				{
+				  "groupid": 2, 
+				  "nickName": "XXX",
+				  "nomtoFlag": "1",
+				  "sameidtoFlag": "0",
+				  "toActno": "0000001506099999",
+				  "toBankname": "國泰世華商業銀行",
+				  "toBankno": "013",
+				  "unnomtoFlag": "0"
+				}
+			  ],
+			  "accountListCommon": [
+				{
+				  "groupid": 3, 
+				  "nickName": "XXX",
+				  "nomtoFlag": "1",
+				  "sameidtoFlag": "0",
+				  "toActno": "0000001506099999",
+				  "toBankname": "國泰世華商業銀行",
+				  "toBankno": "013",
+				  "unnomtoFlag": "0"
+				}
+			  ],
+			  "alternatives": false, 
+			  "textMessage": "(送出轉入帳號)",
+			  "intent": "帳戶",
+			  "secondBotIntent": "selectToAccount"
+			}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
