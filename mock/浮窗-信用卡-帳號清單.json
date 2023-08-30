@@ -1,0 +1,32 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+		{
+		  "type": 12,
+		  "widget": "doSelectMyAccount",
+		  "intent": "信用卡",
+		  "secondBotIntent": "c_p_pay_chooseAccount",
+		  "textMessage":"(submit)",
+		  "closeIntent": "信用卡",
+		  "closeSecondBotIntent": "c_p_pay_cancelChooseAccount",
+		  "closeTextMessage":"(沒有選擇繳款帳戶)",
+		  "dataList": [
+			{
+			  "accountNum":"6195882924114493",
+			  "accountName":"帳戶名稱1"
+			},
+			{
+			  "accountNum":"7188555719348124",
+			  "accountName":"帳戶名稱2"
+			}
+		  ],
+		  "subTitle":"請選擇你要扣款的帳戶"
+		}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
