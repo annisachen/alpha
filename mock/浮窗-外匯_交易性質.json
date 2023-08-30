@@ -1,0 +1,37 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+		{
+		  "type": 12,
+		  "widget": "selectPurposes",
+		  "intent": "外匯",
+		  "secondBotIntent": "f_e_waitPurposes",
+		  "textMessage": "(送出交易性質)",
+		  "closeIntent": "外匯",
+		  "closeSecondBotIntent": "f_e_modalClose",
+		  "dataList": [
+			{
+			  "remitCode": "692",
+			  "remitName": "購買外匯不再匯出",
+			  "hasSubRemit": "0"
+			},
+			{
+			  "remitCode": "692A",
+			  "remitName": "國外存款及股本、股權投資款等",
+			  "hasSubRemit": "0"
+			},
+			{
+			  "remitCode": "692E",
+			  "remitName": "國外服務支出 (旅遊、留學、商務與探親等)",
+			  "hasSubRemit": "1"
+			}
+		  ]
+		}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
