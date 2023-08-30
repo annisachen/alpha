@@ -1,0 +1,21 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+		{
+		  "type": 12,
+		  "widget": "doInputEmail",
+		  "intent": "信用卡",
+		  "secondBotIntent": "c_h_e_elecbill_inputEmail",
+		  "textMessage":"(送出email)",
+		  "closeIntent": "信用卡",
+		  "closeSecondBotIntent": "c_h_e_elecbill_inputEmailCancel",
+		  "closeTextMessage":"(關閉視窗)"
+		}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
