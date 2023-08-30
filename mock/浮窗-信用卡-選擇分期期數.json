@@ -1,0 +1,70 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+		{
+		  "type": 12,
+		  "widget": "doInstallment",
+		  "intent": "信用卡",
+		  "secondBotIntent": "c_h_i_installment_selectMonth",
+		  "textMessage":"(選擇分期期數)",
+		  "closeIntent": "信用卡",
+		  "closeSecondBotIntent": "c_h_i_installment_cancelSelect",
+		  "closeTextMessage":"(沒有選擇分期期數)",
+		  "dataList": [
+			{
+			  "InstallmentAmt":"4000",
+			  "amount":"1,333",
+			  "CEPPPlan":"514",
+			  "groupId":"E7",
+			  "NoninstNum":"0",
+			  "BillCycle":"17",
+			  "StatementDate":"202004",
+			  "CheckValue":"9375856451",
+			  "minPayAmt":"735",
+			  "instNum":"3",
+			  "rateYear":"14.4",
+			  "totalAmt":"4000",
+			  "AutopayFlag":"Y",
+			  "BillSeqNo":"45483893605732",
+			  "rate":"1.2%",
+			  "rateOrg":"1.2",
+			  "GraceDate":"20200415",
+			  "CustomerName":"林XX",
+			  "DueDate":"20200415"
+			},
+			{
+			  "InstallmentAmt":"4000",
+			  "amount":"1,333",
+			  "CEPPPlan":"514",
+			  "groupId":"E7",
+			  "NoninstNum":"0",
+			  "BillCycle":"17",
+			  "StatementDate":"202004",
+			  "CheckValue":"9375856451",
+			  "minPayAmt":"735",
+			  "instNum":"3",
+			  "rateYear":"14.4",
+			  "totalAmt":"4000",
+			  "AutopayFlag":"Y",
+			  "BillSeqNo":"45483893605732",
+			  "rate":"1.2%",
+			  "rateOrg":"1.2",
+			  "GraceDate":"20200415",
+			  "CustomerName":"林XX",
+			  "DueDate":"20200415"
+			}
+		  ],
+		  "annoTitle":"帳單分期申請金額 NT$6,883",
+		  "annoText":"請選擇期數",
+		  "text":"*本試算僅供參考，客戶每月應繳金額應視其個別產品及個人信用狀況而有所不同。",
+		  "amount":"23,456",
+		  "unit":"NT$"
+		}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
