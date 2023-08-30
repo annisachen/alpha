@@ -6,7 +6,7 @@
 		  "type": 14,
 		  "action":7,
 		  "billTitle":"未出帳消費明細",
-		  "billFlag":"2",
+		  "billFlag":"1",
 		  "billTotal":"帳單總額 NT$4,000共4筆",
 		  "billSubTitle":"*即時交易明細，為你的名下所有正附卡近30天刷卡當下的授權金額紀錄",  
 		  "billContentList": [
