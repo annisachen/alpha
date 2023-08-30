@@ -1,0 +1,16 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+		 {
+		  "type": 13,
+		  "annoText": "分行可領取外幣現鈔：美元、人民幣、歐元、港幣、日幣",
+		  "useHtml": false
+		}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
