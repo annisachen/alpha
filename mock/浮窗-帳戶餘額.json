@@ -1,0 +1,33 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+		{
+		  "type": 12,
+		  "widget": "doAccountList",
+		  "title": "我的台幣帳戶",
+		  "submitBtnText": "立即轉帳",
+		  "textMessage": "(送出轉出帳號)",
+		  "intent": "帳戶",
+		  "secondBotIntent": "selectFromAccount",
+		  "amount": "1,000",
+		  "accountList": [
+			{
+			  "accountNumber": "0000099905508888",
+			  "productName": "活期儲蓄存款",
+			  "branchCode": "0018",
+			  "availableBalance": "NT$2,000",
+			  "nickName": "",
+			  "cMoneyOK": true, 
+			  "cDesc": "可用額額不足",
+			  "disable": true 
+			}
+		  ]
+		}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
