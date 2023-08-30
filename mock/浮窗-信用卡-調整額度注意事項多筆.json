@@ -1,0 +1,68 @@
+{
+  "channel": "MMB",
+  "chatWeb": false,
+  "content": [
+    {
+      "type": 12,
+      "action": 7,
+      "widget": "doMultipleNoticeboard",
+      "textMessage": "同意注意事項",
+      "secondBotIntent": "c_h_q_waitscreen",
+      "closeTextMessage": "不同意注意事項",
+      "noticeContentList": [
+        {
+          "noticeContent": "一、欲調整永久額度須查詢聯徵中心記錄。線上調閱紀錄須20~40秒，請耐心等候。</br>\n二、若信用卡已申請不調額，則該卡片額度不會一併調整。</br>",
+          "openEffect": "1",
+          "noticeTitle": "注意事項"
+        },
+        {
+          "noticeContent": "一、 適用範圍</br>本約定條款係存戶使用　貴行網路銀行（以下簡稱「本服務」）之一般性共通約定，除另有約定外，悉依本約定條款之約定，其他個別約款不得牴觸本約定條款。但個別約款對存戶之保護更有利者，從其約定。本契約條款如有疑義時，    應為有利於消費者之解釋。</br>二、 貴行資訊</br>1.\t貴行名稱：國泰世華商業銀行</br>",
+          "openEffect": "2",
+          "noticeTitle": "同意網路銀行服務條款"
+        }
+      ],
+      "closeSecondBotIntent": "c_h_q_close",
+      "confirmText": "確認",
+      "contentTitle": "注意事項",
+      "intent": "信用卡",
+      "closeIntent": "信用卡",
+      "isRead": false 
+    },
+    {
+      "type": 2,
+      "cType": "card",
+      "cards": [
+        {
+          "cLinkDisable": "N",
+          "cName": "注意事項",
+          "cWidth": "segment",
+          "cImageData": {
+            "cImage": "img-credbank06",
+            "cAppImage": "card13-1.png",
+            "cImageTextType": 5,
+            "cImageTexts": [
+              {
+                "cImageText": "注意事項"
+              }
+            ]
+          },
+          "cLinkType": 1,
+          "cLinkList": [
+            {
+              "clAction": 2,
+              "clText": "檢視",
+              "clAlt": "檢視",
+              "clReply": "",
+              "clUrl": "",
+              "clIntent": "信用卡",
+              "clSecondBotIntent": "c_h_q_viewapplydoc",
+              "clParameter": {
+                "passing": "{}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
