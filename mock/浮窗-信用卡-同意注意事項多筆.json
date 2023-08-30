@@ -1,0 +1,41 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+		{
+		  "type": 12,
+		  "widget": "doMultipleNoticeboard",
+		  "intent": "信用卡",
+		  "secondBotIntent": "c_h_i_installment_agreeNotice",
+		  "textMessage":"同意注意事項",
+		  "closeIntent": "信用卡",
+		  "closeSecondBotIntent": "c_h_i_installment_notAgreeNotice",
+		  "closeTextMessage":"不同意注意事項",
+		  "noticeContentList": [
+			{
+			  "noticeContent":"<ol><li>...</li></ol>",
+			  "noticeTitle":"帳單分期注意事項",
+			  "openEffect": 1
+			},
+			{
+			  "noticeContent":"<ol><li>...</li></ol>",
+			  "noticeTitle":"消費分期注意事項",
+			  "openEffect": 1
+			},
+			{
+			  "noticeContent":"<div>...</div>",
+			  "noticeTitle":"同意網路銀行服務條款",
+			  "openEffect": 1
+			}
+		  ],
+		  "confirmText":"我已閱讀",
+		  "contentTitle":"分期注意事項",
+		  "isRead":false
+		}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
