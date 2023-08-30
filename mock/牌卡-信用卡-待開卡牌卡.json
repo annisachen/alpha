@@ -1,0 +1,63 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+		{
+		  "type": 1,
+		  "text": "請確認卡片有在手邊，再進行開卡",
+		  "useHtml": false
+		},
+		{
+		  "type": 2,
+		  "cType": "carousel",
+		  "cards": [
+			{
+			  "cLinkDisable": "N",
+			  "cWidth": "segment",
+			  "cLinkType": 1,
+			  "cImageData": {
+				"cImageUrl": "https://www.cathaybk.com.tw/cathaybk/-/media/68880bab41bc436ea1c84d776986daa7.png?la=en&hash=85B723B32669CD492112BD36A262A1C397F603E8",
+				"cAppImage": "",
+				"cImage": "img-credbank01",
+				"cOutUrl": "Y",
+				"cImageTextType": 2
+			  },
+			  "cTexts": [
+				{
+				  "cLabel": "MasterCard  蝦皮購物聯名鈦金卡"
+				},
+				{
+				  "cLabel": "卡號",
+				  "cText": "XXXX XXXX XXXX 8984"
+				},
+				{
+				  "cLabel": "核卡日",
+				  "cText": "2022/08/23"
+				}
+			  ],
+			  "cLinkList": [
+				{
+				  "clAction": 2,
+				  "clText": "立即開卡",
+				  "clAlt": "立即開卡",
+				  "clReply": "",
+				  "clUrl": "",
+				  "clIntent": "信用卡",
+				  "clSecondBotIntent": "c_h_c_prepareOpen",
+				  "clParameter": {
+					"tempDataId": "215e9692-65cd-43ba-9318-54a3a5ba82db",
+					"passing": "{\"tempDataId\":\"215e9692-65cd-43ba-9318-54a3a5ba82db\"}"
+				  }
+				}
+			  ],
+			  "cTextType": "1"
+			}
+		  ]
+		}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
