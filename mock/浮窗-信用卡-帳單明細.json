@@ -1,0 +1,96 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+		{
+		  "type": 14,
+		  "action":7,
+		  "billTitle":"未出帳消費明細",
+		  "billFlag":"2",
+		  "billTotal":"帳單總額 NT$4,000共4筆",
+		  "billSubTitle":"*即時交易明細，為你的名下所有正附卡近30天刷卡當下的授權金額紀錄",  
+		  "billContentList": [
+				{
+				  "billList": [
+					{
+					  "billDate": "2022/07/25",
+					  "billContent": "台哥大電話費",
+					  "billAmount": "NT$641"
+					},
+					{
+					  "billDate": "2022/07/25",
+					  "billContent": "台哥大電話費",
+					  "billAmount": "NT$641"
+					}
+				  ],
+				  "billCard": "消費金額"
+				},
+				{
+				  "billList": [
+					{
+					  "billDate": "2022/07/25",
+					  "billContent": "金華酒店",
+					  "billAmount": "NT$641"
+					},
+					{
+					  "billDate": "2022/07/25",
+					  "billContent": "Google Play Store",
+					  "billAmount": "NT$641"
+					},
+					{
+					  "billDate": "",
+					  "billContent": "國外交易手續費",
+					  "billAmount": "NT$15"
+					}
+				  ],
+				  "billCard": "卡號末四碼：1642"
+				},
+				{
+				  "billList": [
+					{
+					  "billDate": "2022/07/25",
+					  "billContent": "台哥大電話費",
+					  "billAmount": "NT$641"
+					},
+					{
+					  "billDate": "2022/07/25",
+					  "billContent": "台哥大電話費",
+					  "billAmount": "NT$641"
+					}
+				  ],
+				  "billCard": "消費金額"
+				},
+				{
+				  "billList": [
+					{
+					  "billDate": "2022/07/25",
+					  "billContent": "金華酒店",
+					  "billAmount": "NT$641"
+					},
+					{
+					  "billDate": "2022/07/25",
+					  "billContent": "Google Play Store",
+					  "billAmount": "NT$641"
+					},
+					{
+					  "billDate": "",
+					  "billContent": "國外交易手續費",
+					  "billAmount": "NT$15"
+					}
+				  ],
+				  "billCard": "卡號末四碼：1642"
+				}
+		  ],
+			  "billDay":"05/04",//結帳日
+			  "billDueDay":"05/12",//繳款截止日
+			  "billCurrentBalance":"NT$４,000",//總額
+			  "billDueAmount":"NT$660",//最低應繳
+			  "showTwd":"Y"//是否為台幣
+		}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
