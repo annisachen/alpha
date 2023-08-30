@@ -1,0 +1,67 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+			{
+			  "type": 1,
+			  "text": "國泰世華【MasterCard  蝦皮購物聯名鈦金卡】已開卡，請至蝦皮購物查詢綁卡結果，若未成功綁定，請輸入卡號等資訊付款並設為預設卡！",
+			  "useHtml": false
+			},
+			{
+			  "type": 2,
+			  "cType": "carousel",
+			  "cards": [
+				{
+				  "cLinkDisable": "N",
+				  "cWidth": "segment",
+				  "cLinkType": 1,
+				  "cImageData": {
+					"cImageUrl": "https://88.8.143.220/cathaybk/-/media/d2d1bc6592784b3da245ce251e6e2a93?v=2",
+					"cAppImage": "",
+					"cImage": "img-credbank01",
+					"cOutUrl": "Y",
+					"cImageTextType": 2,
+					"cImageTexts": []
+				  },
+				  "cTexts": [
+					{
+					  "cLabel": "MasterCard 蝦皮購物聯名鈦金卡"
+					},
+					{
+					  "cLabel": "卡別",
+					  "cText": "正卡"
+					},
+					{
+					  "cLabel": "卡號",
+					  "cText": "XXXX XXXX XXXX 8984"
+					},
+					{
+					  "cLabel": "卡片額度",
+					  "cText": "NT$30,000"
+					},
+					{
+					  "cLabel": "核卡日",
+					  "cText": "2022/08/23"
+					}
+				  ],
+				  "cTextType": "1"
+				}
+			  ]
+			},
+			{
+			  "type": 1,
+			  "text": "阿發推薦你更多優惠資訊，快來<a href=\"javascript: void(0)\" onclick=\"App.handleFAQLink(903, '', '信用卡行銷活動')\">看看有什麼信用卡優惠！</a>",
+			  "useHtml": true
+			},
+			{
+			  "type": 1,
+			  "text": "還有其他需要阿發幫你的地方嗎？",
+			  "useHtml": false
+			}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
