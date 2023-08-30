@@ -13,7 +13,7 @@
       		  "secondBotIntent": "doSecurityValid",
       		  "closeTextMessage": "(關閉交易驗證碼視窗)",
       		  "closeIntent": "帳戶",
-      		  "closeSecondBotIntent": "closeDoCheckCode",   
+      		  "closeSecondBotIntent": "closeDoCheckCode"
       		}
     ],
     "from": "bot",
