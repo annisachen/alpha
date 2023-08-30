@@ -11,9 +11,9 @@
 			  "closeIntent": "信用卡",
 			  "closeSecondBotIntent": "c_h_i_installment_notAgree",
 			  "closeTextMessage":"不同意注意事項",
-			  "annoTitle":"分期同意書",//視窗標題
-			  "annoText":"國泰世華銀行信用卡分期付款同意書<br/><br/>...",//內文
-			  "isRead":false//是否為檢視模式 true:僅可檢視，不得點選確認按鈕
+			  "annoTitle":"分期同意書",
+			  "annoText":"國泰世華銀行信用卡分期付款同意書<br/><br/>...",
+			  "isRead":false
 		}
     ],
     "from": "bot",
