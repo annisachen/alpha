@@ -1,0 +1,63 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+		  {
+			"type": 1,
+			"text": "來看看信用卡申辦進度吧！",
+			"useHtml": false
+		  },
+		  {
+			"type": 2,
+			"cType": "carousel",
+			"cards": [
+			  {
+				"cLinkDisable": "N",
+				"cWidth": "segment",
+				"cLinkType": 1,
+				"cImageData": {
+				  "cImageUrl": "https://88.8.143.220/cathaybk/-/media/8318deba0a2e460a9547987b5d62811f?v=1",
+				  "cAppImage": "",
+				  "cImage": "img-credbank01",
+				  "cOutUrl": "Y",
+				  "cImageTextType": 2,
+				  "cImageTexts": []
+				},
+				"cTexts": [
+				  {
+					"cLabel": "MasterCard 世界icash聯名卡"
+				  },
+				  {
+					"cLabel": "收件日期",
+					"cText": "2022/06/14"
+				  },
+				  {
+					"cLabel": "最新狀態",
+					"cText": "審核已通過，卡片寄送將另以簡訊通知"
+				  }
+				],
+				"cLinkList": [
+				  {
+					"clAction": 2,
+					"clText": "立即開卡",
+					"clAlt": "立即開卡",
+					"clReply": "",
+					"clUrl": "",
+					"clIntent": "信用卡",
+					"clSecondBotIntent": "c_q_p_prepareOpenCard",
+					"clParameter": {
+					  "passing": "{}"
+					}
+				  }
+				],
+				"cTextType": "1"
+			  }
+			]
+		  }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
