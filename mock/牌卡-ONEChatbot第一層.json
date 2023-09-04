@@ -238,6 +238,9 @@
             "isShowPic": false,
             "isShowTime": true
         }
+    ]
+}
+
     ],
     "from": "bot",
     "isIdleMsg": false,
