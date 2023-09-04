@@ -1,0 +1,25 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+          {
+              "action": 7,  
+              "type": 12,
+              "widget": "doOneCardCVC",
+              "intent": "信用卡",
+              "secondBotIntent": "c_h_adv_cvcLogin",
+              "textMessage": "(CVC驗證)",
+              "closeIntent": "信用卡",
+              "closeSecondBotIntent": "c_h_adv_cvcLoginCancel",
+              "closeTextMessage": "(CVC驗證取消)",
+              "subTitle": "你要申請預借的卡片末四碼：6731 ",
+              "isShowPic": false,
+              "isShowTime": false
+          }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
