@@ -1,0 +1,247 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 1,
+            "text": "[BK]阿發幫你整理了重點待扣款項目，實際扣款內容項目請查看明細。如果已完成繳納請忽略此訊息。",
+            "useHtml": false,
+            "channel": "ChatWeb",
+            "role": "",
+            "isShowPic": true,
+            "isShowTime": false,
+            "isFirstDialog": true
+        },
+        {
+            "type": 2,
+            "cType": "card",
+            "cards": [
+                {
+                    "cLinkDisable": "N",
+                    "cTitle": "投信",
+                    "cName": "",
+                    "cWidth": "segment",
+                    "cTextType": "tagSumH",
+                    "cTexts": [
+                        {
+                            "cUserHtml": false,
+                            "cLabel": "扣款日期",
+                            "cText": "2023/01/01",
+                            "cTextClass": "0"
+                        },
+                        {
+                            "cUserHtml": false,
+                            "cLabel": "基金扣款總額",
+                            "cTextClass": "2",
+                            "cAmtList": [
+                                {
+                                    "cUnit": "NT$",
+                                    "cAmount": "3,000"
+                                }
+                            ]
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "查看明細",
+                            "clAlt": "查看明細",
+                            "clIntent": "oneChatBot",
+                            "clParameter": {
+                                "requestType": "getSitePaymentsDetail",
+                                "userAction": "查看明細_bk"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cTitle": "銀行",
+                    "cName": "",
+                    "cWidth": "segment",
+                    "cTextType": "tagSumH",
+                    "cTexts": [
+                        {
+                            "cUserHtml": false,
+                            "cLabel": "繳款日期",
+                            "cText": "2023/04/26",
+                            "cTextClass": "0"
+                        },
+                        {
+                            "cUserHtml": false,
+                            "cLabel": "信用卡應繳總額",
+                            "cTextClass": "2",
+                            "cAmtList": [
+                                {
+                                    "cUnit": "NT$",
+                                    "cAmount": "21,257"
+                                }
+                            ]
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "繳款",
+                            "clAlt": "我要繳款",
+                            "clParameter": {
+                                "userAction": "繳款_bk"
+                            }
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "查看明細",
+                            "clAlt": "消費明細",
+                            "clParameter": {
+                                "userAction": "查看明細_bk"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cTitle": "產險",
+                    "cName": "",
+                    "cWidth": "segment",
+                    "cTextType": "tagSumH",
+                    "cTexts": [
+                        {
+                            "cUserHtml": false,
+                            "cLabel": "保單到期日",
+                            "cText": "2023/06/30",
+                            "cTextClass": "0"
+                        },
+                        {
+                            "cUserHtml": false,
+                            "cLabel": "車險續保總額",
+                            "cTextClass": "2",
+                            "cAmtList": [
+                                {
+                                    "cUnit": "NTD",
+                                    "cAmount": "20,000"
+                                }
+                            ]
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 4,
+                            "clText": "前往 查看車險續保明細",
+                            "clAlt": "前往 查看車險續保明細",
+                            "clUrl": "https://www.cathaysite.com.tw/ChatWeb/chat?deeplink_channel=bk&deeplink_type=chat&deeplink_memo=ONE-pay&initMessage=%E6%9F%A5%E7%9C%8B%E8%BB%8A%E9%9A%AA%E7%BA%8C%E4%BF%9D%E6%98%8E%E7%B4%B0",
+                            "clIntent": "oneChatBot",
+                            "clParameter": {
+                                "userAction": "前往 查看車險續保明細_bk",
+                                "transfer": "site_payt",
+                                "requestType": "recordLog",
+                                "logAction": "updateTransfer",
+                                "tradeId": "bk_fa25544402665739559aba945fa024446e183db6d6191c0291258a06a688d577"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cTitle": "證券",
+                    "cName": "",
+                    "cWidth": "segment",
+                    "cTextType": "tagSumH",
+                    "cTexts": [
+                        {
+                            "cUserHtml": false,
+                            "cLabel": "補款期限",
+                            "cText": "-",
+                            "cTextClass": "0"
+                        },
+                        {
+                            "cUserHtml": false,
+                            "cLabel": "待扣款總額",
+                            "cTextClass": "2",
+                            "cAmtList": [
+                                {
+                                    "cUnit": "",
+                                    "cAmount": "無待扣款項"
+                                }
+                            ]
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 4,
+                            "clText": "前往 查詢投資績效",
+                            "clAlt": "前往 查詢投資績效",
+                            "clUrl": "https://ctyeservice.page.link/9qYT",
+                            "clIntent": "oneChatBot",
+                            "clParameter": {
+                                "userAction": "前往 查詢投資績效_bk",
+                                "transfer": "sec_payt",
+                                "requestType": "recordLog",
+                                "logAction": "updateTransfer",
+                                "tradeId": "bk_fa25544402665739559aba945fa024446e183db6d6191c0291258a06a688d577"
+                            }
+                        },
+                        {
+                            "clAction": 4,
+                            "clText": "前往 查詢大盤行情",
+                            "clAlt": "前往 查詢大盤行情",
+                            "clUrl": "https://ctyeservice.page.link/D3R3",
+                            "clIntent": "oneChatBot",
+                            "clParameter": {
+                                "userAction": "前往 查詢大盤行情_bk",
+                                "transfer": "sec_payt",
+                                "requestType": "recordLog",
+                                "logAction": "updateTransfer",
+                                "tradeId": "bk_fa25544402665739559aba945fa024446e183db6d6191c0291258a06a688d577"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cTitle": "人壽",
+                    "cName": "",
+                    "cWidth": "segment",
+                    "cTextType": "tagText",
+                    "cTexts": [
+                        {
+                            "cUserHtml": false,
+                            "cLabel": "目前無法取得資料，你可以前往該間公司的阿發查詢相關資訊。",
+                            "cText": "",
+                            "cTextClass": "1"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 4,
+                            "clText": "前往 國泰人壽智能助理阿發",
+                            "clAlt": "前往 國泰人壽智能助理阿發",
+                            "clUrl": "https://www.cathaylife.com.tw/ChatBot/ChatWeb/chat?deeplink_channel=bk&deeplink_type=chat&deeplink_memo=ONE-payt&subChannel=bk_payt",
+                            "clParameter": {
+                                "userAction": "前往 國泰人壽智能助理阿發_bk"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "",
+            "isShowPic": false,
+            "isShowTime": false
+        },
+        {
+            "type": 11,
+            "annoTitle": "注意事項",
+            "annoText": "若對金額內容有疑問，請聯絡各子公司",
+            "useHtml": false,
+            "channel": "ChatWeb",
+            "role": "",
+            "isShowPic": false,
+            "isShowTime": true
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
