@@ -1,0 +1,94 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 2,
+            "cType": "card",
+            "cards":
+            [
+                {
+                    "cLinkDisable": "N",
+                    "cName": "",
+                    "cWidth": "segment",
+                    "cImageData":
+                    {  
+                        "cBackgroundColor":"#FFD600",
+                        "cImage": "img-credbank00",
+                        "cAppImage": "",
+                        "cImageTextType": 1,
+                        "cImageTexts":
+                        [
+                            {
+                                "cImageText": "股票交割款",
+                                "cImageTextTitle": "款項名稱"
+                            },
+                            {
+                                "cImageText": "2022/09/14 10:00前",
+                                "cImageTextTitle": "補款期限"
+                            }
+                        ]
+                    },
+                    "cTextType": "3",
+                    "cTexts":
+                    [
+                        {
+                            "cUseHtml": true,
+                            "cLabel": "證券帳戶",
+                            "cText": "敦南 9809563"
+                        },
+                        {
+                            "cUseHtml": true,
+                            "cLabel": "扣款金額",
+                            "cText": "股票交割 NT$ 44,335"
+                        },
+                        {
+                            "cUseHtml": true,
+                            "cLabel": "銀行交割帳戶",
+                            "cText": "013 國泰世華館前分行<br>805403148846"
+                        },
+                        {
+                            "cUseHtml": true,
+                            "cLabel": "交割帳戶不足金額",
+                            "cText": "<font color=\"#E00000\">-NT. 4</font>"
+                        }
+                    ],
+      "cLinkType": 1,
+      "cLinkList": [
+        {
+          "clAction": 2,  //轉帳
+          "clText": "國泰世華帳戶轉帳",
+          "clAlt": "我要轉帳",
+          "clReply": "",
+          "clUrl": "",
+          "clIntent": "轉帳",
+          "clSecondBotIntent": "doTransfer",
+          "clParameter": {
+            "passing": "這是個字串"
+          }
+        },
+        {
+          "clAction": 21, //複製帳戶帳號，sdk提供複製功能，複製內容請抓copyText，比照"clAction": 2 回傳資訊。
+          "clText": "複製帳戶帳號",
+          "clAlt": "複製帳戶帳號",
+          "clReply": "",
+          "clUrl": "",
+          "clIntent": "sendSysMsg",
+          "clSecondBotIntent": "",
+          "clParameter": {
+                "copyText": "573519202826",
+                "hintMsg": "複製成功",//有內容的話出對話泡泡
+                "passing": "{\"copyText\":\"573519202826\",\"hintMsg\":\"複製成功\"}"
+          }
+        }
+      ]
+    }
+  ]
+}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
