@@ -1,0 +1,93 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+    {
+        "type": 1,
+        "text": "阿發幫你找到最近一天在國泰投信要扣款的基金項目如下，相關<a href=\"javascript: void(0)\" onclick=\"App.handleOneChatBot('eyJtc2ciOiIo5rOo5oSP5LqL6aCF6KuL6bue5oiRKSIsInNlY29uZEJvdEludGVudCI6IiIsInBhcmFtZXRlciI6eyJyZXF1ZXN0VHlwZSI6ImdldE5vdGljZWJvYXJkIiwicHJvamVjdCI6Ik9ORS1wYXl0Iiwia2V5IjoicGF5bWVudC5zaXRlLm5vdGljZWJvYXJkIn0sImludGVudCI6Im9uZUNoYXRCb3QifQ==')\">注意事項請點我</a>",
+        "useHtml": true,
+        "channel": "ChatWeb",
+        "role": "",
+        "isShowPic": true,
+        "isShowTime": false,
+        "isFirstDialog": true
+    },
+    {
+        "type": 2,
+        "cType": "card",
+        "cards": [
+            {
+                "cLinkDisable": "N",
+                "cTitle": "投信",
+                "cName": "",
+                "cWidth": "segment",
+                "cTextType": "tagSumV",
+                "cTexts": [
+                    {
+                        "cUserHtml": true,
+                        "cLabel": "扣款時間",
+                        "cText": "2023/01/01",
+                        "cTextClass": "1"
+                    },
+                    {
+                        "cUserHtml": true,
+                        "cLabel": "扣款帳戶",
+                        "cText": "013 國泰世華商業銀行<br>209506202929",
+                        "cTextClass": "1"
+                    },
+                    {
+                        "cUserHtml": true,
+                        "cLabel": "申購基金",
+                        "cText": "國泰科技生化基金",
+                        "cTextClass": "1"
+                    },
+                    {
+                        "cUserHtml": false,
+                        "cLabel": "扣款總金額",
+                        "cTextClass": "2",
+                        "cAmtList": [
+                            {
+                                "cUnit": "NT$",
+                                "cAmount": "3,000"
+                            }
+                        ]
+                    }
+                ],
+                "cLinkList": [
+                    {
+                        "clAction": 4,
+                        "clText": "前往 CUBE App查看餘額",
+                        "clAlt": "前往 CUBE App查看餘額",
+                        "clUrl": "https://mymobibank.page.link/ojcH",
+                        "clIntent": "oneChatBot",
+                        "clParameter": {
+                            "userAction": "查看餘額_bk",
+                            "transfer": "site_payt",
+                            "requestType": "recordLog",
+                            "logAction": "updateTransfer",
+                            "tradeId": "bk_540bf2b02e5b477cccfc7e1ddf6b88e2e61349c2c4e3f3ebc2edaf5ac308e4bc"
+                        }
+                    },
+                    {
+                        "clAction": 4,
+                        "clText": "前往 查看我的投資",
+                        "clAlt": "前往 查看我的投資",
+                        "clUrl": "https://www.cathaysite.com.tw/ChatWeb/chat?deeplink_channel=bk&deeplink_type=chat&deeplink_memo=ONE-pay&initMessage=%E6%9F%A5%E7%9C%8B%E6%88%91%E7%9A%84%E6%8A%95%E8%B3%87",
+                        "clIntent": "oneChatBot",
+                        "clParameter": {
+                            "userAction": "前往 查看我的投資_bk",
+                            "transfer": "site_payt",
+                            "requestType": "recordLog",
+                            "logAction": "updateTransfer",
+                            "tradeId": "bk_540bf2b02e5b477cccfc7e1ddf6b88e2e61349c2c4e3f3ebc2edaf5ac308e4bc"
+                        }
+                    }
+                ]
+            }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
