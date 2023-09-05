@@ -13,7 +13,7 @@
                     "cWidth": "segment",
                     "cImageData":
                     {  
-                        "cBackgroundColor":"#FFD600",
+                        "cBackgroundColor":"#FFFFFF",
                         "cImage": "img-credbank00",
                         "cAppImage": "",
                         "cImageTextType": 1,
@@ -56,7 +56,7 @@
       "cLinkType": 1,
       "cLinkList": [
         {
-          "clAction": 2,  //轉帳
+          "clAction": 2,  
           "clText": "國泰世華帳戶轉帳",
           "clAlt": "我要轉帳",
           "clReply": "",
@@ -68,7 +68,7 @@
           }
         },
         {
-          "clAction": 21, //複製帳戶帳號，sdk提供複製功能，複製內容請抓copyText，比照"clAction": 2 回傳資訊。
+          "clAction": 21, 
           "clText": "複製帳戶帳號",
           "clAlt": "複製帳戶帳號",
           "clReply": "",
@@ -77,7 +77,7 @@
           "clSecondBotIntent": "",
           "clParameter": {
                 "copyText": "573519202826",
-                "hintMsg": "複製成功",//有內容的話出對話泡泡
+                "hintMsg": "複製成功",
                 "passing": "{\"copyText\":\"573519202826\",\"hintMsg\":\"複製成功\"}"
           }
         }
