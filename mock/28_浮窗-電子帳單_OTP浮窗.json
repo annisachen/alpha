@@ -13,7 +13,7 @@
             "closeSecondBotIntent": "c_h_e_elecbill_emailVerifyCancel",
             "closeTextMessage": "(關閉Email驗證視窗)",
             "noticeText": "1.單日同一電子信箱最多發送10次驗證碼<br>2.若您尚未收到電子郵件驗證碼，請優先查看垃圾郵件資料夾，或稍後等待電子信件送達。\r\n",
-            "email": "test123123123@safasfasf.com",/
+            "email": "test123123123@safasfasf.com",
             "showEmail": "test1231231**@***asfasf.com",
             "custId": "L123673216",
             "isShowPic": false,
