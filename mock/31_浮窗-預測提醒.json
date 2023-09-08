@@ -10,7 +10,7 @@
 		  "textMessage":"這是字串"
 		  "title":"Hi，Amber",  
 		  "content":"阿發提醒你，還有信用卡尚未開卡，要來進行開卡嗎？",
-		  "useHtml":flase  
+		  "useHtml":flase,
 		  "submitBtnText":"好，進行開卡",
 		  "closeBtnText":"下次再說",
 		  "closeIntent": "待確認",
