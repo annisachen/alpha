@@ -2,51 +2,56 @@
     "channel": "MMB",
     "chatWeb": true,
     "content": [
-              {
-                "cLinkDisable": "N",
-                "cName": "彈力貸",
-                "cWidth": "segment secard",
-                "cImageData": {
-                  "cImage": "img-creditcard",
-                  "cImageUrl": "http://10.20.30.135:63000/MMBChatWeb/resources/common/images/card-cor03_2x.jpg",
-                  "cAppImage": "",
-                  "cOutUrlsml": "Y"
-                },
-                "cTextType": "1",
-                "cTexts": [
-                  {
-                    "cLabel": "彈力貸"
-                  },
-                  {
-                    "cLabel": "貸款額度：",
-                    "cText": "20萬"
-                  },
-                  {
-                    "cLabel": "貸款利率：",
-                    "cText": "5.21%"
-                  },
-                  {
-                    "cText": "貸款入帳後，記得進行相關補款動作喔！"
-                  }
-                ],
-                "cLinkType": 1,
-                "cLinkList": [
-                  {
-                    "clAction": 4,
-                    "clText": "查看專屬方案",
-                    "clAlt": "",
-                    "clReply": "",
-                    "clUrl": "https://preview.page.link/mymobibank.page.link/LnPL",
-                    "clIntent": "",
-                    "clSecondBotIntent": "",
-                    "clParameter": {
-                      "closeSdk": true,
-                      "passing": "{}"
-                    }
-                  }
-                ]
-              }
-
+        {
+            "type": 2,
+            "cType": "card",
+            "cards": [
+                {
+                    "cLinkDisable": "N",
+                    "cName": "彈力貸",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "http://10.20.30.135:63000/MMBChatWeb/resources/common/images/card-cor03_2x.jpg",
+                        "cAppImage": "",
+                        "cOutUrlsml": "Y"
+                    },
+                    "cTextType": "1",
+                    "cTexts": [
+                        {
+                            "cLabel": "彈力貸"
+                        },
+                        {
+                            "cLabel": "貸款額度：",
+                            "cText": "20萬"
+                        },
+                        {
+                            "cLabel": "貸款利率：",
+                            "cText": "5.21%"
+                        },
+                        {
+                            "cText": "貸款入帳後，記得進行相關補款動作喔！"
+                        }
+                    ],
+                    "cLinkType": 1,
+                    "cLinkList": [
+                        {
+                            "clAction": 4,
+                            "clText": "查看專屬方案",
+                            "clAlt": "",
+                            "clReply": "",
+                            "clUrl": "https://preview.page.link/mymobibank.page.link/LnPL",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "closeSdk": true,
+                                "passing": "{}"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     ],
     "from": "bot",
     "isIdleMsg": false,
