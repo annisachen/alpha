@@ -1,63 +1,74 @@
 {
-"type":1,
-"text":"這邊是faq的答案....這邊是faq的答案....這邊是faq的答案....這邊是faq的答案....這邊是faq的答案...."
-},
-{
-"type":100,
-"widget":"faqReplyOption",
-"showText":"答案沒幫助",
-"showTextList":[
-{
-"lAction":16,
-"lText":"",
-"lAlt":"",
-"lIntent":"feedback",
-"lSecondBotIntent":"feedback",
-"lParameter":{
-"message_id": "1694139986936",
-"text":"Y"
-}
-],
-"showType":"frqQr-tag2",
-"replyText":"已收到你的回饋，我們會持續改進，謝謝！",
-"faqTime":1694139986936,
-"linkList":[
-{
-"lAction":16,
-"lText":"答非所問",
-"lAlt":"答非所問",
-"lIntent":"feedback",
-"lSecondBotIntent":"",
-"lParameter":{
-"message_id": "1694139986936",
-"text":"答非所問"
-}
-},
-{
-"lAction":16,
-"lText":"答案不完整",
-"lAlt":"答案不完整",
-"lReply":"",
-"lUrl":"",
-"lCustomerAction":"",
-"lIntent":"feedback",
-"lSecondBotIntent":"content",
-"lParameter":{
-"message_id": "1694139986936",
-"text":"答案不完整"}
-},
-{
-"lAction":16,
-"lText":"答案有誤",
-"lAlt":"答案有誤",
-"lReply":"",
-"lUrl":"",
-"lCustomerAction":"",
-"lIntent":"feedback",
-"lSecondBotIntent":"content",
-"lParameter":{
-"passing":"{"message_id": "1694139986936"}"
-}
-}
-]
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+        {
+            "type":1,
+            "text":"這邊是faq的答案....這邊是faq的答案....這邊是faq的答案....這邊是faq的答案....這邊是faq的答案...."
+        },
+        {
+            "type":100,
+            "widget":"faqReplyOption",
+            "showText":"答案沒幫助",
+            "showTextList":[
+            {
+              "lAction":16,
+              "lText":"",
+              "lAlt":"",
+              "lIntent":"feedback",
+              "lSecondBotIntent":"feedback",
+              "lParameter":{
+                "message_id": "1694139986936",
+                "text":"Y"
+              }
+            }],
+            "showType":"frqQr-tag2", 
+            "replyText":"已收到你的回饋，我們會持續改進，謝謝！",
+            "faqTime":1694139986936,
+            "linkList":[
+              {
+                "lAction":16,
+                "lText":"答非所問",
+                "lAlt":"答非所問",
+                "lIntent":"feedback",
+                "lSecondBotIntent":"",
+                "lParameter":{
+                    "message_id": "1694139986936",
+                    "text":"答非所問"
+                    }
+              },
+              {
+                "lAction":16,
+                "lText":"答案不完整",
+                "lAlt":"答案不完整",
+                "lReply":"",
+                "lUrl":"",
+                "lCustomerAction":"",
+                "lIntent":"feedback",
+                "lSecondBotIntent":"",
+                "lParameter":{
+                "message_id": "1694139986936",
+                "text":"答案不完整"}
+              },
+              {
+                "lAction":16,
+                "lText":"答案有誤",
+                "lAlt":"答案有誤",
+                "lReply":"",
+                "lUrl":"",
+                "lCustomerAction":"",
+                "lIntent":"feedback",
+                "lSecondBotIntent":"",
+                "lParameter":{
+                  "passing":""
+                  }
+              }
+            ]
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
 }
