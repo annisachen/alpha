@@ -53,7 +53,7 @@
                     "clIntent": "oneChatBot",
                     "clParameter": {
                         "requestType": "getLifePaymentsDetail",
-                        "userAction": "查看明細_life"
+                        "userAction": "查看明細_life",
 			"passing":"{\"userAction\":\"查看明細_life\"}"
                     }
                 }
@@ -92,7 +92,7 @@
                     "clIntent": "oneChatBot",
                     "clParameter": {
                         "requestType": "getSitePaymentsDetail",
-                        "userAction": "查看明細_site"
+                        "userAction": "查看明細_site",
 			"passing":"{\"userAction\":\"查看明細_site\"}",
                     }
                 }
