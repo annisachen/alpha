@@ -54,7 +54,7 @@
                     "clParameter": {
                         "requestType": "getLifePaymentsDetail",
                         "userAction": "查看明細_life",
-			"passing":"{\"userAction\":\"查看明細_life\",\"requestType\":\"getLifePaymentsDetail\",\"tradeId\":\"bk_031fb3ed24d9467b785b685206eee8855b0510518e5a28cf1aa8238bca85aff5\"}"}"
+			"passing":"{\"userAction\":\"查看明細_life\",\"requestType\":\"getLifePaymentsDetail\",\"tradeId\":\"bk_031fb3ed24d9467b785b685206eee8855b0510518e5a28cf1aa8238bca85aff5\"}"
                     }
                 }
             ]
@@ -93,8 +93,9 @@
                     "clParameter": {
                         "requestType": "getSitePaymentsDetail",
                         "userAction": "查看明細_site",
-			"passing":"{\"userAction\":\"查看明細_site\",\"requestType\":\"getSitePaymentsDetail\",\"tradeId\":\"bk_031fb3ed24d9467b785b685206eee8855b0510518e5a28cf1aa8238bca85aff5\"}"}"
+			"passing":"{\"userAction\":\"查看明細_site\",\"requestType\":\"getSitePaymentsDetail\",\"tradeId\":\"bk_031fb3ed24d9467b785b685206eee8855b0510518e5a28cf1aa8238bca85aff5\"}"
                 }
+              }
             ]
         },
         {
@@ -213,7 +214,7 @@
                 }
             ]
         }
-		    ]
+]
     }
     ],
     "from": "bot",
