@@ -93,8 +93,7 @@
                     "clParameter": {
                         "requestType": "getSitePaymentsDetail",
                         "userAction": "查看明細_site",
-			"passing":"{\"userAction\":\"查看明細_site\"}"
-                    }
+			"passing":"{\"userAction\":\"查看明細_site\"}"                    }
                 }
             ]
         },
