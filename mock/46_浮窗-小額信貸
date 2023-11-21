@@ -1,0 +1,24 @@
+{
+    "channel": "ChatWeb",
+    "chatWeb": true,
+    "content": [
+        {
+            "action": 7,
+            "type": 12,
+            "widget": "doUnsecuredLoan",
+            "imageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=Loan_card3_20190313084734.png",
+            "note": "FROM FLOW",
+            "loginString": "提供你量身設計的資金方案<br>讓阿發助你一臂之力",
+            "identify": "0",
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-11-20 09:32:13",
+    "timestamp": 1700443933357
+}
