@@ -1,0 +1,180 @@
+{
+    "channel": "ChatWeb",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 2,
+            "cType": "carousel",
+            "cards": [
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImageUrl": "https://88.8.143.220/cathaybk/-/media/b232105254254574a5ff1f6d4c0bca6a?v=1",
+                        "cAppImage": "",
+                        "cImage": "img-credbank01",
+                        "cOutUrl": "Y",
+                        "cImageTextType": 2,
+                        "cImageTexts": []
+                    },
+                    "cTextType": "3",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "Visa 現金回饋御璽卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號後4碼",
+                            "cText": "3671"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "優惠價",
+                            "cText": "台北/新北/桃園 每次620元起 "
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "了解更多",
+                            "clAlt": "了解更多",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "卡友權益",
+                            "clSecondBotIntent": "b_q_a_booking_num",
+                            "clParameter": {
+                                "premiumQualificationContent": "刷卡購買國際線機票全額或國外團費總金額8成以上且付款成功，並於預約前6個月內至少新增一筆海外交易（不限金額）",
+                                "cardName": "Visa 現金回饋御璽卡",
+                                "button1Text": "預約服務",
+                                "cardType": "SC",
+                                "premiumPriceTitle": "優惠價",
+                                "telNumContent": "肯譯預約專線：04-2206-4655",
+                                "premiumDurationContent": "110/1/1～110/12/31",
+                                "button2Link": "",
+                                "telNumTitle": "預約專線",
+                                "premiumDurationTitle": "優惠期間",
+                                "premiumPriceContent": "台北/新北/桃園 每次620元起 ",
+                                "premiumQualificationTitle": "優惠資格",
+                                "passing": "{\"premiumQualificationContent\":\"刷卡購買國際線機票全額或國外團費總金額8成以上且付款成功，並於預約前6個月內至少新增一筆海外交易（不限金額）\",\"cardName\":\"Visa 現金回饋御璽卡\",\"button1Text\":\"預約服務\",\"cardType\":\"SC\",\"premiumPriceTitle\":\"優惠價\",\"telNumContent\":\"肯譯預約專線：04-2206-4655\",\"premiumDurationContent\":\"110/1/1～110/12/31\",\"button2Link\":\"\",\"telNumTitle\":\"預約專線\",\"premiumDurationTitle\":\"優惠期間\",\"premiumPriceContent\":\"台北/新北/桃園 每次620元起 \",\"premiumQualificationTitle\":\"優惠資格\",\"button1Link\":\"https://www.freeliving.com.tw/visa/index.aspx\"}",
+                                "button1Link": "https://www.freeliving.com.tw/visa/index.aspx"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImage": "img-credbank",
+                        "cImageUrl": "card-b37.jpg",
+                        "cAppImage": "card-b37.jpg"
+                    },
+                    "cTextType": "5",
+                    "cTitle": "全卡友優惠",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cText": "卡友刷卡訂購機場接送服務，可享優惠價，接送服務若有其他加價請以廠商提供之價格為主"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 4,
+                            "clText": "了解詳情",
+                            "clAlt": "",
+                            "clReply": "",
+                            "clUrl": "https://www.cathaybk.com.tw/cathaybk/personal/credit-card/cards/rights/",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": true,
+            "isShowTime": false,
+            "isFirstDialog": true
+        },
+        {
+            "type": 2,
+            "cType": "card",
+            "cards": [
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=2023newyearetop_20221209100107.png",
+                        "cAppImage": "",
+                        "cOutUrlsml": "Y"
+                    },
+                    "cLinkType": 1,
+                    "cTextType": "1",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "新年好運連環發活動",
+                            "cText": ""
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "",
+                            "cText": "恭喜你完成任務~快來刮刮樂抽獎!"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "我要抽獎",
+                            "clAlt": "我要抽獎",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "doPrize",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "action": "prizeAdd",
+                                "missionId": "trans",
+                                "passing": "{\"action\":\"prizeAdd\",\"missionId\":\"trans\",\"lotteryId\":\"act02\"}",
+                                "lotteryId": "act02"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "查看抽獎",
+                            "clAlt": "查看抽獎",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "doPrize",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "action": "prizeQuery",
+                                "lotteryId": "act02",
+                                "passing": "{\"action\":\"prizeQuery\",\"lotteryId\":\"act02\"}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": true
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-11-17 17:15:11",
+    "timestamp": 1700212511493
+}
