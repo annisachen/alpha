@@ -29,7 +29,7 @@
             "closeSecondBotIntent": "c_h_c_stop_closeNotice",
             "noticeBoardKey": "STOP_CARD_NOTICE_N",
             "closeIntent": "信用卡",
-            "isRead": false,
+            "isRead": true,
             "channel": "ChatWeb",
             "role": "alpha",
             "isShowPic": false,
