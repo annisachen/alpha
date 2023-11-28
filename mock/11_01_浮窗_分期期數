@@ -1,0 +1,175 @@
+{
+
+    "channel": "ChatWeb",
+
+    "chatWeb": true,
+
+    "content": [
+
+        {
+
+            "annoTitle": "請選擇期數",
+
+            "annoText": "一般分期申請金額 ",
+
+            "text": "*本試算僅供參考，客戶每月應繳金額應視其個別產品及個人信用狀況而有所不同。",
+
+            "unit": "NT$",
+
+            "amount": "3,002",
+
+            "type": 12,
+
+            "action": 7,
+
+            "dataList": [
+
+                {
+
+                    "rateYear": "0.00",
+
+                    "amount": "$ 1,000",
+
+                    "rate": "0.00％",
+
+                    "CEPPPlan": "555",
+
+                    "groupId": "JO",
+
+                    "NoninstNum": "0",
+
+                    "rateOrg": "0.00",
+
+                    "CheckValue": "01b8e71b9bc7276d565199e82e0a54f66d927e2636762a1f04a3ac7ce5a75692",
+
+                    "instNum": "3"
+
+                },
+
+                {
+
+                    "rateYear": "6.00",
+
+                    "amount": "$ 500",
+
+                    "rate": "0.50％",
+
+                    "CEPPPlan": "555",
+
+                    "groupId": "JO",
+
+                    "NoninstNum": "0",
+
+                    "rateOrg": "0.50",
+
+                    "CheckValue": "b7eaf6e56851346a34c40b8253a6a47a1e718a125fa9456b32b92223b1d341d4",
+
+                    "instNum": "6"
+
+                },
+
+                {
+
+                    "rateYear": "6.00",
+
+                    "amount": "$ 250",
+
+                    "rate": "0.50％",
+
+                    "CEPPPlan": "555",
+
+                    "groupId": "JO",
+
+                    "NoninstNum": "0",
+
+                    "rateOrg": "0.50",
+
+                    "CheckValue": "16bdbc15280f0d2d60a7c1634519ad46e55395a4e58d277b54a38607e6038b5c",
+
+                    "instNum": "12"
+
+                },
+
+                {
+
+                    "rateYear": "6.00",
+
+                    "amount": "$ 166",
+
+                    "rate": "0.50％",
+
+                    "CEPPPlan": "555",
+
+                    "groupId": "JO",
+
+                    "NoninstNum": "0",
+
+                    "rateOrg": "0.50",
+
+                    "CheckValue": "bf655c75de36acfb6b8788e0b1ae870bdefdc2586d0b1e21967a6abe6e64a991",
+
+                    "instNum": "18"
+
+                },
+
+                {
+
+                    "rateYear": "6.00",
+
+                    "amount": "$ 125",
+
+                    "rate": "0.50％",
+
+                    "CEPPPlan": "555",
+
+                    "groupId": "JO",
+
+                    "NoninstNum": "0",
+
+                    "rateOrg": "0.50",
+
+                    "CheckValue": "0b668db20cdf9283e71f428f88d06b9de7a982e82dc0ae4d87ce8c455d192988",
+
+                    "instNum": "24"
+
+                }
+
+            ],
+
+            "widget": "doInstallment",
+
+            "intent": "信用卡",
+
+            "secondBotIntent": "c_h_i_installment_selectMonth",
+
+            "textMessage": "(選擇分期期數)",
+
+            "closeIntent": "信用卡",
+
+            "closeSecondBotIntent": "c_h_i_installment_cancelSelect",
+
+            "closeTextMessage": "(沒有選擇分期期數)",
+
+            "channel": "ChatWeb",
+
+            "role": "alpha",
+
+            "isShowPic": false,
+
+            "isShowTime": false
+
+        }
+
+    ],
+
+    "from": "bot",
+
+    "isIdleMsg": false,
+
+    "role": "alpha",
+
+    "showTime": "2023-11-27 17:44:33",
+
+    "timestamp": 1701078273461
+
+}
