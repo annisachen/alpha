@@ -1,0 +1,22 @@
+{
+    "channel": "ChatWeb",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 12,
+            "action": 7,
+            "widget": "setMmbAcount",
+            "idNo": "A128906364",
+            "custBirthDay": "01301982",
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-12-01 16:35:13",
+    "timestamp": 1701419713351
+}
