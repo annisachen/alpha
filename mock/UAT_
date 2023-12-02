@@ -1,0 +1,95 @@
+{
+"channel": "ChatWeb",
+"chatWeb": true,
+"content": [
+{
+"billTitle": "即時交易明細",
+"billSubTitle": "※即時消費為你名下所有正附卡近30天刷卡當下的授權未請款紀錄",
+"billFlag": "1",
+"type": 14,
+"action": 7,
+"billContentList": [
+{
+"billList": [
+{
+"billDate": "2023/11/02",
+"billContent": "捐款",
+"billAmount": "NT$3,004"
+},
+{
+"billDate": "2023/11/02",
+"billContent": "百貨公司",
+"billAmount": "NT$3,003"
+},
+{
+"billDate": "2023/11/02",
+"billContent": "旅遊",
+"billAmount": "NT$3,002"
+},
+{
+"billDate": "2023/11/02",
+"billContent": "美容美髮保養",
+"billAmount": "NT$3,001"
+}
+],
+"billCard": "卡號末四碼：3671"
+}
+],
+"channel": "ChatWeb",
+"role": "alpha",
+"isShowPic": true,
+"isShowTime": false,
+"isFirstDialog": true
+},
+{
+"type": 1,
+"text": "要不要去看看有沒有可分期的消費呢？",
+"useHtml": false,
+"channel": "ChatWeb",
+"role": "alpha",
+"isShowPic": false,
+"isShowTime": true
+},
+{
+"type": 4,
+"lType": "select-tag01",
+"linkList": [
+{
+"lAction": 2,
+"lText": "看看可分期的消費",
+"lAlt": "看看可分期的消費",
+"lReply": "",
+"lUrl": "",
+"lCustomerAction": "",
+"lIntent": "信用卡",
+"lSecondBotIntent": "c_h_i_installment_apply",
+"lParameter": {
+"passing": "{}"
+}
+},
+{
+"lAction": 2,
+"lText": "消費有疑慮",
+"lAlt": "消費有疑慮",
+"lReply": "",
+"lUrl": "",
+"lCustomerAction": "",
+"lIntent": "信用卡",
+"lSecondBotIntent": "c_h_a_consumptionReport",
+"lParameter": {
+"passing": "{}"
+}
+}
+],
+"channel": "ChatWeb",
+"role": "alpha",
+"isShowPic": false,
+"isShowTime": false
+}
+],
+"from": "bot",
+"isIdleMsg": false,
+"role": "alpha",
+"showTime": "2023-12-02 08:51:24",
+"timestamp": 1701478284150
+}
