@@ -1,0 +1,414 @@
+{
+    "channel": "ChatWeb",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 1,
+            "text": "提供你最近的五家分行!!<br>提醒你~配合政府防疫實聯制，目前暫停分行預約取號服務。",
+            "useHtml": true,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": true,
+            "isShowTime": false,
+            "isFirstDialog": true
+        },
+        {
+            "type": 2,
+            "cType": "card",
+            "cards": [
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=BANK-100_20231205102116.jpg",
+                        "cAppImage": "requestqaimage?imageid=bank-100_20231205102116.jpg",
+                        "placeType": "BRANCH",
+                        "cImageTextType": 1,
+                        "cImageTexts": [
+                            {
+                                "cImageTextTitle": "內湖分行"
+                            }
+                        ]
+                    },
+                    "cTextType": "place",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "地址",
+                            "cText": "台北市內湖區內湖路一段３１０號",
+                            "cTextStyle": "1"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "距離",
+                            "cText": "290公尺",
+                            "cTextStyle": "1"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "電話",
+                            "cText": "(02)26596899",
+                            "cTextStyle": "1"
+                        }
+                    ],
+                    "cLinkType": 1,
+                    "cLinkList": [
+                        {
+                            "clAction": 4,
+                            "clText": "查google地圖",
+                            "clAlt": "查google地圖",
+                            "clUrl": "https://www.google.com.tw/maps/search/台北市內湖區內湖路一段３１０號",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 12,
+                            "clText": "撥號",
+                            "clAlt": "02-26596899",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=BANK-100_20231205102116.jpg",
+                        "cAppImage": "requestqaimage?imageid=bank-100_20231205102116.jpg",
+                        "placeType": "BRANCH",
+                        "cImageTextType": 1,
+                        "cImageTexts": [
+                            {
+                                "cImageTextTitle": "內科分行"
+                            }
+                        ]
+                    },
+                    "cTextType": "place",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "地址",
+                            "cText": "台北市內湖區瑞光路３３３號",
+                            "cTextStyle": "1"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "距離",
+                            "cText": "517公尺",
+                            "cTextStyle": "1"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "電話",
+                            "cText": "(02)26590998",
+                            "cTextStyle": "1"
+                        }
+                    ],
+                    "cLinkType": 1,
+                    "cLinkList": [
+                        {
+                            "clAction": 4,
+                            "clText": "查google地圖",
+                            "clAlt": "查google地圖",
+                            "clUrl": "https://www.google.com.tw/maps/search/台北市內湖區瑞光路３３３號",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 12,
+                            "clText": "撥號",
+                            "clAlt": "02-26590998",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=BANK-100_20231205102116.jpg",
+                        "cAppImage": "requestqaimage?imageid=bank-100_20231205102116.jpg",
+                        "placeType": "BRANCH",
+                        "cImageTextType": 1,
+                        "cImageTexts": [
+                            {
+                                "cImageTextTitle": "瑞湖分行"
+                            }
+                        ]
+                    },
+                    "cTextType": "place",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "地址",
+                            "cText": "台北市內湖區陽光街２９２號１樓",
+                            "cTextStyle": "1"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "距離",
+                            "cText": "850公尺",
+                            "cTextStyle": "1"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "電話",
+                            "cText": "(02)26580608",
+                            "cTextStyle": "1"
+                        }
+                    ],
+                    "cLinkType": 1,
+                    "cLinkList": [
+                        {
+                            "clAction": 4,
+                            "clText": "查google地圖",
+                            "clAlt": "查google地圖",
+                            "clUrl": "https://www.google.com.tw/maps/search/台北市內湖區陽光街２９２號",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 12,
+                            "clText": "撥號",
+                            "clAlt": "02-26580608",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=BANK-100_20231205102116.jpg",
+                        "cAppImage": "requestqaimage?imageid=bank-100_20231205102116.jpg",
+                        "placeType": "BRANCH",
+                        "cImageTextType": 1,
+                        "cImageTexts": [
+                            {
+                                "cImageTextTitle": "南內湖分行"
+                            }
+                        ]
+                    },
+                    "cTextType": "place",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "地址",
+                            "cText": "台北市內湖區行愛路１６９號",
+                            "cTextStyle": "1"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "距離",
+                            "cText": "1777公尺",
+                            "cTextStyle": "1"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "電話",
+                            "cText": "(02)87928068",
+                            "cTextStyle": "1"
+                        }
+                    ],
+                    "cLinkType": 1,
+                    "cLinkList": [
+                        {
+                            "clAction": 4,
+                            "clText": "查google地圖",
+                            "clAlt": "查google地圖",
+                            "clUrl": "https://www.google.com.tw/maps/search/台北市內湖區行愛路１６９號",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 12,
+                            "clText": "撥號",
+                            "clAlt": "02-87928068",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=BANK-100_20231205102116.jpg",
+                        "cAppImage": "requestqaimage?imageid=bank-100_20231205102116.jpg",
+                        "placeType": "BRANCH",
+                        "cImageTextType": 1,
+                        "cImageTexts": [
+                            {
+                                "cImageTextTitle": "大直分行"
+                            }
+                        ]
+                    },
+                    "cTextType": "place",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "地址",
+                            "cText": "台北市中山區明水路５８９號",
+                            "cTextStyle": "1"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "距離",
+                            "cText": "1891公尺",
+                            "cTextStyle": "1"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "電話",
+                            "cText": "(02)85097878",
+                            "cTextStyle": "1"
+                        }
+                    ],
+                    "cLinkType": 1,
+                    "cLinkList": [
+                        {
+                            "clAction": 4,
+                            "clText": "查google地圖",
+                            "clAlt": "查google地圖",
+                            "clUrl": "https://www.google.com.tw/maps/search/台北市中山區明水路５８９號",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 12,
+                            "clText": "撥號",
+                            "clAlt": "02-85097878",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": true
+        },
+        {
+            "type": 13,
+            "annoText": "分行可領取外幣現鈔：美元、人民幣、歐元、港幣、日幣",
+            "useHtml": false,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        },
+        {
+            "type": 4,
+            "lType": "select-tag02",
+            "linkList": [
+                {
+                    "lAction": 4,
+                    "lText": "查詢指定地址",
+                    "lAlt": "查詢指定地址",
+                    "lReply": "服務據點",
+                    "lUrl": "https://www.cathaybk.com.tw/cathaybk/locations/",
+                    "lCustomerAction": "",
+                    "lIntent": "",
+                    "lSecondBotIntent": "",
+                    "lParameter": {
+                        "passing": "{}"
+                    }
+                },
+                {
+                    "lAction": 2,
+                    "lText": "附近的ATM",
+                    "lAlt": "附近的ATM",
+                    "lReply": "",
+                    "lUrl": "",
+                    "lCustomerAction": "",
+                    "lIntent": "服務據點",
+                    "lSecondBotIntent": "sp_q_ATM_nearBy",
+                    "lParameter": {
+                        "passing": "{}"
+                    }
+                },
+                {
+                    "lAction": 2,
+                    "lText": "外幣ATM",
+                    "lAlt": "查詢外幣ATM",
+                    "lReply": "",
+                    "lUrl": "",
+                    "lCustomerAction": "",
+                    "lIntent": "服務據點",
+                    "lSecondBotIntent": "sp_q_forexATM",
+                    "lParameter": {
+                        "passing": "{}"
+                    }
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-12-11 15:19:49",
+    "timestamp": 1702279189323
+}
