@@ -1,0 +1,346 @@
+{
+    "channel": "ChatWeb",
+    "chatWeb": true,
+    "content": [
+        {
+            "billFlag": "2",
+            "billTitle": "2023年11月帳單消費明細",
+            "billDay": "11/19",
+            "billDueDay": "12/04",
+            "billCurrentBalance": "2,362",
+            "billDueAmount": "1,000",
+            "unit": "NT$",
+            "showTwd": "Y",
+            "type": 14,
+            "action": 7,
+            "billContentList": [
+                {
+                    "billList": [
+                        {
+                            "billDate": "2023/11/03",
+                            "billContent": "本行自動扣繳",
+                            "billAmount": "NT$-2,991"
+                        },
+                        {
+                            "billDate": "2023/11/17",
+                            "billContent": "ＫＯＫＯ３％回饋",
+                            "billAmount": "NT$-38"
+                        },
+                        {
+                            "billDate": "2023/11/17",
+                            "billContent": "ＫＯＫＯ一般回饋",
+                            "billAmount": "NT$-2"
+                        }
+                    ],
+                    "billCard": "消費金額"
+                },
+                {
+                    "billList": [
+                        {
+                            "billDate": "2023/10/15",
+                            "billContent": "ＯＰ錢包統一超商",
+                            "billAmount": "NT$25"
+                        },
+                        {
+                            "billDate": "2023/10/18",
+                            "billContent": "ＯＰ錢包統一超商",
+                            "billAmount": "NT$153"
+                        },
+                        {
+                            "billDate": "2023/10/18",
+                            "billContent": "ＯＰ錢包統一超商",
+                            "billAmount": "NT$49"
+                        },
+                        {
+                            "billDate": "2023/10/22",
+                            "billContent": "ＯＰ錢包統一超商",
+                            "billAmount": "NT$49"
+                        },
+                        {
+                            "billDate": "2023/10/24",
+                            "billContent": "ＯＰ錢包統一超商",
+                            "billAmount": "NT$35"
+                        },
+                        {
+                            "billDate": "2023/10/25",
+                            "billContent": "ＯＰ錢包統一超商",
+                            "billAmount": "NT$97"
+                        },
+                        {
+                            "billDate": "2023/10/26",
+                            "billContent": "ＯＰ錢包統一超商",
+                            "billAmount": "NT$49"
+                        },
+                        {
+                            "billDate": "2023/10/30",
+                            "billContent": "ＯＰ錢包統一超商",
+                            "billAmount": "NT$35"
+                        },
+                        {
+                            "billDate": "2023/10/30",
+                            "billContent": "ＯＰ錢包統一超商隨時取",
+                            "billAmount": "NT$900"
+                        },
+                        {
+                            "billDate": "2023/10/31",
+                            "billContent": "ＯＰ錢包統一超商",
+                            "billAmount": "NT$179"
+                        },
+                        {
+                            "billDate": "2023/11/02",
+                            "billContent": "ＯＰ錢包統一超商",
+                            "billAmount": "NT$378"
+                        },
+                        {
+                            "billDate": "2023/11/06",
+                            "billContent": "ＯＰ錢包統一超商",
+                            "billAmount": "NT$74"
+                        },
+                        {
+                            "billDate": "2023/11/08",
+                            "billContent": "連加＊逗煮達人永安店",
+                            "billAmount": "NT$60"
+                        },
+                        {
+                            "billDate": "2023/11/09",
+                            "billContent": "ＯＰ錢包統一超商",
+                            "billAmount": "NT$49"
+                        },
+                        {
+                            "billDate": "2023/11/13",
+                            "billContent": "連加＊ＬＩＮＥＴＡＸ",
+                            "billAmount": "NT$270"
+                        }
+                    ],
+                    "billCard": "卡號末4碼:3113"
+                }
+            ],
+            "billTotal": "帳單總額 NT$-629共18筆",
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": true,
+            "isShowTime": false,
+            "isFirstDialog": true
+        },
+        {
+            "type": 2,
+            "cType": "card",
+            "cards": [
+                {
+                    "cLinkDisable": "N",
+                    "cName": "大樹貸客戶信貸諮詢",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cOutUrlsml": "Y",
+                        "cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=Loan_20200507_20200507042311.jpg",
+                        "cAppImage": ""
+                    },
+                    "cTextType": "1",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "夢想金-大樹速貸"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "初估額度：",
+                            "cText": "135萬"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "貸款利率：",
+                            "cText": "3.2%"
+                        }
+                    ],
+                    "cLinkType": 1,
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "立即申辦",
+                            "clAlt": "立即申辦",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "貸款",
+                            "clSecondBotIntent": "l_h_treeQuickLoan",
+                            "clParameter": {
+                                "identify": "1",
+                                "note": "信用卡_查詢_明細.查詢明細",
+                                "passing": "{\"identify\":\"1\",\"note\":\"信用卡_查詢_明細.查詢明細\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "預約諮詢",
+                            "clAlt": "大樹貸客戶信貸諮詢",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "貸款",
+                            "clSecondBotIntent": "l_h_unsecuredWidget",
+                            "clParameter": {
+                                "identify": "1",
+                                "note": "信用卡_查詢_明細.查詢明細",
+                                "passing": "{\"identify\":\"1\",\"note\":\"信用卡_查詢_明細.查詢明細\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 4,
+                            "clText": "了解更多",
+                            "clAlt": "",
+                            "clReply": "",
+                            "clUrl": "https://www.cathaybk.com.tw/cathaybk/promo/event/loan/product/treeloan/index.html?P=all_afa?CUB_SRC=YAHOO&CUB_CHL1=URL&CUB_CHL2=01&MA_TK=DB519&CUB_DT=20220101&utm_source=Cathay_Afa&utm_medium=Afaanswer_tree3_A01_version5_test&utm_campaign=2022_cubloan_tree3_treeloan&c=DD&t=892e4e22-5238-46d8-a6c5-6f792c6a803f",
+                            "clIntent": "貸款",
+                            "clSecondBotIntent": "l_h_openWeb",
+                            "clParameter": {
+                                "identify": "1",
+                                "note": "信用卡_查詢_明細.查詢明細",
+                                "passing": "{\"identify\":\"1\",\"note\":\"信用卡_查詢_明細.查詢明細\"}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cName": "",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=MMB_20220718044701.PNG",
+                        "cAppImage": "",
+                        "cOutUrlsml": "Y"
+                    },
+                    "cLinkType": 1,
+                    "cTextType": "1",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "消費即時通知更安心",
+                            "cText": ""
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "下載CUBE App (原網銀App)登入開啟推播通知，時間、金額，店家立即報您知！",
+                            "cText": ""
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 4,
+                            "clText": "立即下載登入",
+                            "clAlt": "",
+                            "clReply": "",
+                            "clUrl": "https://mymobibank.page.link/9n1y",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "actFlow": "信用卡_查詢_明細.查詢明細",
+                                "ocsActFlag": "Y",
+                                "channel": "ChatWeb",
+                                "faqId": "https://mymobibank.page.link/9n1y",
+                                "id": 20,
+                                "passing": "{\"actFlow\":\"信用卡_查詢_明細.查詢明細\",\"ocsActFlag\":\"Y\",\"channel\":\"ChatWeb\",\"faqId\":\"https://mymobibank.page.link/9n1y\",\"id\":20,\"type\":\"URL\"}",
+                                "type": "URL"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cName": "",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=Loan_20210521_20210521025038.png",
+                        "cAppImage": "",
+                        "cOutUrlsml": "Y"
+                    },
+                    "cLinkType": 1,
+                    "cTextType": "1",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "國泰集團待扣繳項目",
+                            "cText": ""
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "僅提供重點項目，詳細繳費項目依各公司通知為準",
+                            "cText": ""
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 16,
+                            "clText": "查看國泰集團待扣繳",
+                            "clAlt": "@intent:oneChatBot",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "oneChatBot",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "actFlow": "信用卡_查詢_明細.查詢明細",
+                                "ocsActFlag": "Y",
+                                "channel": "ChatWeb",
+                                "faqId": "@intent:oneChatBot",
+                                "id": 40,
+                                "passing": "{\"actFlow\":\"信用卡_查詢_明細.查詢明細\",\"ocsActFlag\":\"Y\",\"channel\":\"ChatWeb\",\"faqId\":\"@intent:oneChatBot\",\"id\":40,\"type\":\"INTENT\"}",
+                                "type": "INTENT"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": true
+        },
+        {
+            "type": 4,
+            "lType": "select-tag01",
+            "linkList": [
+                {
+                    "lAction": 2,
+                    "lText": "阿發幫你繳款",
+                    "lAlt": "阿發幫你繳款",
+                    "lReply": "",
+                    "lUrl": "",
+                    "lCustomerAction": "",
+                    "lIntent": "信用卡",
+                    "lSecondBotIntent": "c_p_pay_yes",
+                    "lParameter": {
+                        "passing": "{}"
+                    }
+                },
+                {
+                    "lAction": 2,
+                    "lText": "看看可分期的消費",
+                    "lAlt": "看看可分期的消費",
+                    "lReply": "",
+                    "lUrl": "",
+                    "lCustomerAction": "",
+                    "lIntent": "信用卡",
+                    "lSecondBotIntent": "c_h_i_installment_apply",
+                    "lParameter": {
+                        "passing": "{}"
+                    }
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-12-12 16:40:14",
+    "timestamp": 1702370414687,
+    "toCelebrusMsg": "明細_近一期帳單明細_有資料"
+}
