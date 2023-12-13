@@ -21,7 +21,22 @@
 					  "billDate": "2022/07/25",
 					  "billContent": "台哥大電話費",
 					  "billAmount": "NT$641"
-					}
+					},
+					{
+					  "billDate": "2022/07/25",
+					  "billContent": "台哥大電話費",
+					  "billAmount": "NT$641"
+					},
+					{
+					  "billDate": "2022/07/25",
+					  "billContent": "台哥大電話費",
+					  "billAmount": "NT$641"
+					},
+					{
+					  "billDate": "2022/07/25",
+					  "billContent": "台哥大電話費",
+					  "billAmount": "NT$641"
+					}					  
 				  ],
 				  "billCard": "消費金額"
 				},
