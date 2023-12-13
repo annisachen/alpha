@@ -35,6 +35,54 @@
 				  "googleUrl": "https://www.google.com.tw/maps/search/桃園市蘆竹區新南路一段376號",
 				  "setAddressKind": "長榮航空南崁大樓",
 				  "addressImageName": "location.png"
+				},
+				{
+				  "coinType": "美元/日幣",
+				  "coinImageName": "coins.png",
+				  "address": "台北市中正區館前路65號",
+				  "googleUrl": "https://www.google.com.tw/maps/search/台北市中正區館前路65號",
+				  "setAddressKind": "館前分行",
+				  "addressImageName": "location.png"
+				},
+				{
+				  "coinType": "美元/日幣",
+				  "coinImageName": "coins.png",
+				  "address": "桃園市蘆竹區新南路一段376號1樓",
+				  "googleUrl": "https://www.google.com.tw/maps/search/桃園市蘆竹區新南路一段376號",
+				  "setAddressKind": "長榮航空南崁大樓",
+				  "addressImageName": "location.png"
+				},
+				{
+				  "coinType": "美元/日幣",
+				  "coinImageName": "coins.png",
+				  "address": "台北市中正區館前路65號",
+				  "googleUrl": "https://www.google.com.tw/maps/search/台北市中正區館前路65號",
+				  "setAddressKind": "館前分行",
+				  "addressImageName": "location.png"
+				},
+				{
+				  "coinType": "美元/日幣",
+				  "coinImageName": "coins.png",
+				  "address": "桃園市蘆竹區新南路一段376號1樓",
+				  "googleUrl": "https://www.google.com.tw/maps/search/桃園市蘆竹區新南路一段376號",
+				  "setAddressKind": "長榮航空南崁大樓",
+				  "addressImageName": "location.png"
+				},
+				{
+				  "coinType": "美元/日幣",
+				  "coinImageName": "coins.png",
+				  "address": "台北市中正區館前路65號",
+				  "googleUrl": "https://www.google.com.tw/maps/search/台北市中正區館前路65號",
+				  "setAddressKind": "館前分行",
+				  "addressImageName": "location.png"
+				},
+				{
+				  "coinType": "美元/日幣",
+				  "coinImageName": "coins.png",
+				  "address": "桃園市蘆竹區新南路一段376號1樓",
+				  "googleUrl": "https://www.google.com.tw/maps/search/桃園市蘆竹區新南路一段376號",
+				  "setAddressKind": "長榮航空南崁大樓",
+				  "addressImageName": "location.png"
 				}
 			  ]
 			}
