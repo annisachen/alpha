@@ -13,7 +13,7 @@
             "closeSecondBotIntent": "c_h_q_creditLimit_uploadFileCancel",
             "closeTextMessage": "(取消上傳2-4)",
             "contentMsg": "提醒：請使用自身電腦進行資料上傳圖擋，勿於公眾場合或使用公用電腦避免個人資料外流。<br/>檔案類型數量限4個以內，格式為JPG、 PNG 、PDF等圖檔格式，每個圖檔大小限制為2MB 謝謝。",
-            "caseNo": "CHB20240311120209",
+            "caseNo": "CHB20240311120204",
             "fileMaxSize": 2, 
             "fileListSize": 4, 
             "channel": "MMB",
