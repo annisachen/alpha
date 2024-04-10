@@ -1,0 +1,57 @@
+{
+    "from": "bot",
+    "showTime": "2024-04-10 14:26:31",
+    "content": [
+        {
+            "type": 12,
+            "widget": "stopWaitMsgTimer",
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        },
+        {
+            "type": 1,
+            "text": "hi 您好，想瞭解產險活動請到產險官網。<br><a href=\"javascript: void(0)\" onclick=\"App.handleOneChatBot('eyJtc2ciOiLpu57miJHvvIzmiJHmmK/ms6jmhI/kuovpoIUiLCJzZWNvbmRCb3RJbnRlbnQiOiIiLCJwYXJhbWV0ZXIiOnsicmVxdWVzdFR5cGUiOiJnZXROb3RpY2Vib2FyZCIsImFjdEJ0bklkIjoiMTc3Nzk0NTc1MzU3NzY4NDk5NCIsImtleSI6bnVsbCwicHJvamVjdCI6IueUoumaqua4rOippua0u+WLlSJ9LCJpbnRlbnQiOiJvbmVDaGF0Qm90In0=')\">點我，我是注意事項</a>",
+            "useHtml": true,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": true,
+            "isShowTime": true,
+            "isFirstDialog": true
+        },
+        {
+            "type": 4,
+            "lType": "select-tag04",
+            "linkList": [
+                {
+                    "lAction": 4,
+                    "lText": "前往 ANNISATEST",
+                    "lAlt": "前往 ANNISATEST",
+                    "lReply": null,
+                    "lUrl": "http://annisa.com.tw",
+                    "lCustomerAction": null,
+                    "lIntent": "oneChatBot",
+                    "lSecondBotIntent": null,
+                    "lParameter": {
+                        "closeSdk":true,
+                        "userAction": "ANNISATEST_ins",
+                        "transfer": "ins",
+                        "requestType": "recordLog",
+                        "customerAction": null,
+                        "project": "產險測試活動",
+                        "actionMemo": "ANNISATEST_QR",
+                        "logAction": "recordLog",
+                        "tradeId": "ins_89d05636aa235fd2ea537e62bfc4842e7e9cce16ea7717fe74c3fc286bfd88ec"
+                    }
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+    ],
+    "channel": "ChatWeb",
+    "role": "alpha"
+}
