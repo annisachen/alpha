@@ -61,7 +61,6 @@
 "clIntent":"oneChatBot",
 "clSecondBotIntent":null,
 "clParameter":{
-"closeSdk":true,
 "userAction":"產_I_商品查詢_ins",
 "transfer":"ins",
 "requestType":"recordLog",
