@@ -113,14 +113,9 @@
                 },
                 {
                     "cUserHtml": false,
-                    "cLabel": "待扣款總額",
-                    "cTextClass": "2",
-                    "cAmtList": [
-                        {
-                            "cUnit": "",
-                            "cAmount": "無待扣款項"
-                        }
-                    ]
+                    "cLabel": "淨收付金額",
+                    "cTextClass": "0",
+		    "cText": "-"
                 }
             ],
             "cLinkList": [
