@@ -42,11 +42,7 @@
 {
 "cUseHtml":true,
 "cLabel":"HTML測試",
-"cText":"<ol>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>",
+"cText":"<ol><li>Coffee</li><li>Tea</li><li>Milk</li></ol>",
 "cUnit":null,
 "cAmount":null,
 "cMessage":null,
