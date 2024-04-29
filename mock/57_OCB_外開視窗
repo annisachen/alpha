@@ -40,7 +40,7 @@
 },
 "cTexts":[
 {
-"cUseHtml":false,
+"cUseHtml":true,
 "cLabel":"HTML測試",
 "cText":"<ol>
   <li>Coffee</li>
