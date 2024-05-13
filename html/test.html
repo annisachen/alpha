@@ -1,18 +1,12 @@
 <html>
-      <body>
-          <button onclick="nextButtonAction(0, '1')">下一步</button>
-          <script type="text/javascript">
-              // 按 web 按鈕觸發的 func
-              function nextButtonAction(target, id) {
-                 // AppFunc 為自定義 使用方式下面會提到 
-                 window.webkit.messageHandlers.AppFunctionName.postMessage({target: target, id: id})
-              }
-              
-              // app 要呼叫 web 的 func
-              function changeBackgroundColor(color) {
-                  // 更改web背景顏色
-                  document.bgColor= color
-              }
-          </script>
-      </body>
-  </html>
+  <body>
+      <button style="font-size:60px;" onclick="nextButtonAction('執行關閉阿發')">下一步</button>
+      <script type="text/javascript">
+          // 按 web 按鈕觸發的 func
+          function nextButtonAction(message) {
+             // AppFunctionName 為自定義，使用方式下面會提到
+             window.webkit.messageHandlers.AppFunctionName.postMessage({message: message})
+          }
+      </script>
+  </body>
+</html>
