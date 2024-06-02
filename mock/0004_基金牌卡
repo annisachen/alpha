@@ -1,0 +1,80 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+{
+ "type": 2,
+ "cType": "card",
+ "cards": [
+  {
+   "cLinkType": 1,
+   "cWidth": "segment",
+   "cMessage": "安聯收益成長基金-AM穩定月收類股(美元)",
+   "cImageData": {
+    "cImage": "img-credbank",
+    "cImageTag": "TW.png",
+    "cImageTextType": 25,
+    "cImageUrl": "ffe98ad9-14e6-49a2-b3bb-efc998952ed6",
+    "cImageTexts": [
+     {
+      "cImageTextTitle": "日期",
+      "cImageText": "2024/04/15,2024/04/16,2024/04/17,2024/04/18,2024/04/19,2024/04/22,2024/04/23,2024/04/24,2024/04/25,2024/04/26,2024/04/29,2024/04/30,2024/05/02,2024/05/03,2024/05/06,2024/05/07,2024/05/08,2024/05/09,2024/05/10,2024/05/13,2024/05/14,2024/05/15,2024/05/16,2024/05/17,2024/05/20,2024/05/21,2024/05/22,2024/05/23,2024/05/24,2024/05/27"
+     },
+     {
+      "cImageTextTitle": "淨值",
+      "cImageText": "64.6000,62.0300,64.1400,64.5800,61.6200,58.7100,59.6600,63.1400,61.9400,63.5100,63.8000,64.2700,64.0300,63.9100,64.0100,64.4600,64.5200,64.1600,63.3800,63.2000,64.2300,63.7500,64.9000,65.1600,64.0600,64.4200,65.6000,66.2100,67.4900,68.3100",
+      "cImageTextClass": "#E9C46A",
+      "cImageTextTag": "#E9C46A"
+     }
+    ]
+   },
+   "cLinkList": [
+    {
+     "clAction": 2,
+     "clText": "立即申購",
+     "clAlt": "立即申購",
+     "clReply": "",
+     "clUrl": "",
+     "clIntent": "",
+     "clSecondBotIntent": "",
+     "clParameter": {}
+    }
+   ],
+   "cFundTexts": [
+    {
+     "lLabel": "<span style='color: #E9C46A;'>━━</span> 最新淨值",
+     "lContent": "7.9547",
+     "lClass": "lClass1",
+     "lSubContent": "2023/06/14",
+     "lSubClass": "rClass1",
+     "rLabel": "績效表現",
+     "rContent": "<span class='rClass1'>1個月</span><span class='rClass2'> 3.91%</span>",
+     "rClass": "",
+     "rSubContent": "<span class='rClass1'>6個月</span><span class='rClass2'> 5.19%</span>",
+     "rSubClass": "fund_sub_number_red"
+    },
+    {
+     "lLabel": "晨星評等",
+     "lContent": "1",
+     "lClass": "star",
+     "lSubContent": "",
+     "lSubClass": "",
+     "rLabel": "風險屬性(本行)",
+     "rContent": "積極型",
+     "rClass": "rClass2",
+     "rSubContent": "",
+     "rSubClass": ""
+    }
+   ]
+  }
+ ],
+ "channel": "ChatWeb",
+ "role": "alpha",
+ "isShowPic": false,
+ "isShowTime": true
+}
+ 
+ 
+ ],                      "from":"bot",               "initType":0,                    "role":"alpha",                 "showTime":"2023-09-05 18:29:44",
+    "timestamp": 1692267569126
+}
