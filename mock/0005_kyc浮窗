@@ -1,0 +1,42 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+  {
+  "type": "kycNB",
+  "widget": "doKYCNoticeboard",
+  "intent": "XXX",
+  "secondBotIntent": "XXXX",
+  "textMessage":"按下送出後的文字",
+  "closeIntent": "xxx",
+  "closeSecondBotIntent": "xxxxxxxxxxxxxx",
+  "closeTextMessage":"按下X後顯示的文字訊息",
+  "noticeContentList": [
+    {
+        "noticeTitle":"特定金錢信託投資國內外有價證券信託契約",
+        "noticeContent":"",
+        "noticeURL":"https://cathaybk.moneydj.com/w/CustFundIDMap.djhtm?FUNDID=10480016&DownFile=1",
+        "mustCheck":1
+  	},
+    {
+        "noticeTitle":"重要聲明及同意事項",
+        "noticeContent":"<ol><li>...</li></ol>",
+        "noticeURL":"",
+        "mustCheck":1
+  	},
+    {
+        "noticeTitle":"特定目的外同意使用之個別條款",
+        "noticeContent":"",
+        "noticeURL":"https://cathaybk.moneydj.com/w/CustFundIDMap.djhtm?FUNDID=10480016&DownFile=4",
+        "mustCheck":0
+  	}
+  ],
+  "contentTitle":"聲明事項"
+}
+],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
