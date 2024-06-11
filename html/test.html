@@ -5,7 +5,7 @@
           // 按 web 按鈕觸發的 func
           function nextButtonAction(message) {
              // AppFunctionName 為自定義，使用方式下面會提到
-             window.webkit.messageHandlers.AppFunctionName.postMessage({message: message})
+             window.webkit.messageHandlers.closeWebView.postMessage({message: message})
           }
       </script>
   </body>
