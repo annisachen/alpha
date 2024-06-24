@@ -11,7 +11,7 @@
 				"cImageTextType": 8,
 				"cImage": "img-credbank",
 				"cImageUrl": "https://10.20.30.135:63001/ChatWeb/resources/images/cip_01.jpg",
-				"cAppImage": "card05.png",
+				"cAppImage": "",
 				"cImageTexts": [
 					{
 						"cImageText": "黃金VIP",
