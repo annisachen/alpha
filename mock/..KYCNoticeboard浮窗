@@ -17,7 +17,7 @@
     },
     {
         "noticeTitle":"重要聲明及同意事項",
-        "noticeContent":"<ol><li>...</li></ol>",
+        "noticeContent":"<b>重要聲明及同意事項</b><br>重要聲明及同意事項重要聲明及同意事項重要聲明及同意事項重要聲明及同意事項<br>@@@@@@@@<br>重要聲明及同意事項",
         "noticeURL":"",
         "mustCheck": true
     },
@@ -28,6 +28,6 @@
         "mustCheck": false
   	}
   ],
-  "contentTitle":"聲明事項"
+  "contentTitle":"聲明事項唷"
 }
 ],"from":"bot","isIdleMsg":false,"role":"alpha","showTime":"2024-06-06 10:51:58","timestamp":1717642318549}
