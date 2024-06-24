@@ -1,5 +1,5 @@
 {"channel":"MMB","chatWeb":false,"content":[
-	"type": 2,
+	{"type": 2,
 	"cType": "carousel",
 	"cards": [
 		{
