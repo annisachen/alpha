@@ -1,0 +1,31 @@
+{
+  "type": 12,
+  "widget": "doKYCNoticeboard",
+  "intent": "intentXXX",
+  "secondBotIntent": "secondintentXXXX",
+  "textMessage":"按下送出後的文字",
+  "closeIntent": "closexxx",
+  "closeSecondBotIntent": "closesecondxxxxxx",
+  "closeTextMessage":"按下X後的文字訊息",
+  "noticeContentList": [
+    {
+        "noticeTitle":"特定金錢信託投資國內外有價證券信託契約",
+        "noticeContent":"",
+        "noticeURL":"https://cathaybk.moneydj.com/w/CustFundIDMap.djhtm?FUNDID=10480016&DownFile=1",
+        "mustCheck": true
+    },
+    {
+        "noticeTitle":"重要聲明及同意事項",
+        "noticeContent":"<ol><li>...</li></ol>",
+        "noticeURL":"",
+        "mustCheck": true
+    },
+    {
+        "noticeTitle":"特定目的外同意使用之個別條款",
+        "noticeContent":"",
+        "noticeURL":"https://cathaybk.moneydj.com/w/CustFundIDMap.djhtm?FUNDID=10480016&DownFile=4",
+        "mustCheck": false
+  	}
+  ],
+  "contentTitle":"聲明事項"
+}
