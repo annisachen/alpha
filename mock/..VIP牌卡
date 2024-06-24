@@ -10,8 +10,8 @@
 			"cImageData": {
 				"cImageTextType": 8,
 				"cImage": "img-credbank",
-				"cImageUrl": "cip_01.jpg",
-				"cAppImage": "",
+				"cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/resources/images/cip_01.jpg",
+				"cAppImage": "card13-1.png",
 				"cImageTexts": [
 					{
 						"cImageText": "黃金VIP",
