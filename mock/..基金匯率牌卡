@@ -1,16 +1,17 @@
+{"channel":"MMB","chatWeb":false,"content":[
 {
  "type": 2,
  "cType": "card",
  "cards": [
   {
    "cLinkDisable":"N",
-   "cTextType":"28",  (基金牌卡)
+   "cTextType":"28",  
    "cWidth":"segment",
    "cName":"USD",
    "cMessage":"安聯收益成長基金-AM穩定月收類股(美元)",
-   "cLvlCount":6, (X軸要顯示幾個label，前後不顯示)
+   "cLvlCount":6, 
    "cParam": [
-{"rate":33.789,"date":"2024/04/01"},
+     {"rate":33.789,"date":"2024/04/01"},
 {"rate":33.789,"date":"2024/04/02"},
 {"rate":32.9304,"date":"2024/04/03"},
 {"rate":33.566,"date":"2024/04/04"},
@@ -374,7 +375,7 @@
 {"rate":17.7079399999999,"date":"2025/03/28"},
 {"rate":17.5551799999999,"date":"2025/03/29"},
 {"rate":17.4024199999999,"date":"2025/03/30"}
-},
+    ],
    "cLinkList": [
     {
      "clAction": 2,
@@ -416,3 +417,4 @@
   }
 ]
 }
+],"from":"bot","isIdleMsg":false,"role":"alpha","showTime":"2024-06-06 10:51:58","timestamp":1717642318549}
