@@ -1,4 +1,4 @@
-
+{"channel":"MMB","chatWeb":false,"content":[
 	"type": 2,
 	"cType": "carousel",
 	"cards": [
@@ -59,3 +59,4 @@
 		}
 	]
 }
+],"from":"bot","isIdleMsg":false,"role":"alpha","showTime":"2024-06-06 10:51:58","timestamp":1717642318549}
