@@ -10,8 +10,6 @@
    "cName":"USD",
    "cMessage":"安聯收益成長基金-AM穩定月收類股(美元)",
    "cLvlCount":6,
-			"cYLvlCount":6,
-			"cYDigit":4,
    "cParam": [
   {"rate":19.99934,"date":"2024/04/01"},
 {"rate":19.84658,"date":"2024/04/02"},
