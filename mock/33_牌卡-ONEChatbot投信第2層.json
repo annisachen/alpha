@@ -72,7 +72,7 @@
                         "clAction": 4,
                         "clText": "前往 查看我的投資",
                         "clAlt": "前往 查看我的投資",
-                        "clUrl": "https://www.cathaysite.com.tw/ChatWeb/chat?deeplink_channel=bk&deeplink_type=chat&deeplink_memo=ONE-pay&initMessage=%E6%9F%A5%E7%9C%8B%E6%88%91%E7%9A%84%E6%8A%95%E8%B3%87",
+                        "clUrl": "https://cube.cathaybk.com/7Nyv",
                         "clIntent": "oneChatBot",
                         "clParameter": {
                             "userAction": "前往 查看我的投資_bk",
