@@ -1,0 +1,41 @@
+{
+	"from":"bot",
+	"initType":0,
+	"showTime":"2024-07-27 14:30:03",
+	"content":[
+		{
+			"type":2,
+			"cType":"card",
+			"cards":[
+				{
+					"cLinkType":1,
+					"cTextType":"3",
+					"cWidth":"segment",
+					"cImageData":{
+						"cImage":"",
+						"cImageTextType":132,
+						"cImageUrl":"your_risk.png",
+						"cImageTexts":[
+							{
+								"cImageText":"積極型<br/>(高波動承受型)"
+							}
+						]
+					},
+					"cTexts":[
+						{
+							"cLabel":"適合申購的產品",
+							"cText":"你適合申購風險報酬等級<br/>RR1~RR5的ETF基金"
+						},
+						{
+							"cLabel":"風險等級效期",
+							"cText":"至2025/07/16有效"
+						}
+					]
+				}
+			]
+		}
+	],
+	"noAutoComplete":null,
+	"channel":"ChatWeb",
+	"role":"alpha"
+}
