@@ -1,4 +1,9 @@
 {
+	"from":"bot",
+	"initType":0,
+	"showTime":"2024-07-27 14:30:03",
+	"content":[
+{
   "type": "12",
   "widget": "doTrustAccountOpen",
   "intent": "intentXXX",
@@ -303,4 +308,9 @@
   	}
   ],
   "contentTitle":"信託開戶"
+}
+],
+	"noAutoComplete":null,
+	"channel":"ChatWeb",
+	"role":"alpha"
 }
