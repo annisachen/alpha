@@ -1,0 +1,96 @@
+{
+    "channel": "ChatWeb",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 1,
+            "text": "哎呀！目前想調整這個額度，請【<a href=\"javascript: void(0)\" onclick=\"App.sendMsgToChatWeb('上傳財力', {intent: '信用卡',secondBotIntent: 'c_h_q_creditLimit_uploadCheckAdv'});\">上傳財力</a>】申請喔!",
+            "useHtml": true,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": true,
+            "isShowTime": false,
+            "isFirstDialog": true
+        },
+        {
+            "type": 1,
+            "text": "我發現你也可以先申請以下額度喔~給你參考!",
+            "useHtml": false,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        },
+        {
+            "type": 2,
+            "cType": "carousel",
+            "cards": [
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cImageData": {
+                        "cImage": "img-credbank07",
+                        "cAppImage": "card22.jpg",
+                        "cImageTextType": 2,
+                        "cImageTexts": [
+                            {
+                                "cImageText": "永久可調高額度"
+                            }
+                        ]
+                    },
+                    "cTextType": "3",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "目前信用額度",
+                            "cText": "NT$ 380,000"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "建議永久可調額度",
+                            "cText": "NT$ 430,000"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "就調建議額度吧",
+                            "clAlt": "就調建議額度吧",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_q_creditLimitPerm_confim",
+                            "clParameter": {
+                                "confirmCardDataId": "a6f24958-6f8b-4e16-84fe-71d2c9606a85",
+                                "passing": "{\"confirmCardDataId\":\"a6f24958-6f8b-4e16-84fe-71d2c9606a85\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "調整其他額度",
+                            "clAlt": "調整其他額度",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_q_creditLimitPerm_AdjustAmount",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": true
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2024-08-01 14:00:52",
+    "timestamp": 1722492052825
+}
