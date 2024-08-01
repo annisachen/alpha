@@ -21,7 +21,12 @@
 				"cImage": "img-credbank01",
 				"cOutUrl": "Y",
 				"cImageTextType": 2,
-        "cImageTexts": ["aaaaaa","bbbbb"]
+                                "cImageTexts": [
+                                {
+                                           "cImageText": "AAAAAAAAA"
+                                },{
+                                           "cImageText": "bbbbbbbbbbb"
+                                }]
 			  },
 			  "cTexts": [
 				{
