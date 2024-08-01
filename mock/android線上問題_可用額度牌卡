@@ -1,0 +1,297 @@
+{
+    "channel": "ChatWeb",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 1,
+            "text": "來看看你的可用額度吧！",
+            "useHtml": false,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": true,
+            "isShowTime": false,
+            "isFirstDialog": true
+        },
+        {
+            "type": 2,
+            "cType": "carousel",
+            "cards": [
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImage": "img-credbank01",
+                        "cAppImage": "",
+                        "cImageUrl": "https://88.8.143.220/cathaybk/-/media/f4b6a50bc798486c9afeb357adb17e5f?v=1",
+                        "cOutUrl": "Y",
+                        "cImageTextType": 7,
+                        "cImageTexts": []
+                    },
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "VISA CUBE COMBO悠遊御璽卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡別",
+                            "cText": "正卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號",
+                            "cText": "4284********7271"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡片額度",
+                            "cText": "NT$ 464,000"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "目前可用額度",
+                            "cText": "NT$ 464,000"
+                        }
+                    ],
+                    "cTextType": "1"
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImage": "img-credbank01",
+                        "cAppImage": "",
+                        "cImageUrl": "https://88.8.143.220/cathaybk/-/media/7aa997cf7da84de6afffdc19540d86e9?v=1",
+                        "cOutUrl": "Y",
+                        "cImageTextType": 7,
+                        "cImageTexts": []
+                    },
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "VISA CUBE COMBO白金卡 (原白金卡)"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡別",
+                            "cText": "正卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號",
+                            "cText": "4063********3190"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡片額度",
+                            "cText": "NT$ 684,000"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "目前可用額度",
+                            "cText": "NT$ 685,178"
+                        }
+                    ],
+                    "cTextType": "1"
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        },
+        {
+            "type": 1,
+            "text": "提醒你，多張卡共用一個額度，可用額度會合併計算。想要申請額度調整嗎，找阿發就對了",
+            "useHtml": false,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        },
+        {
+            "type": 2,
+            "cType": "card",
+            "cards": [
+                {
+                    "cLinkDisable": "N",
+                    "cName": "",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=Loan_20200507_20200507042311.jpg",
+                        "cAppImage": "",
+                        "cOutUrlsml": "Y"
+                    },
+                    "cLinkType": 1,
+                    "cTextType": "1",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "限時專屬超優惠方案",
+                            "cText": ""
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "",
+                            "cText": ""
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 16,
+                            "clText": "立即申辦",
+                            "clAlt": "Loan",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "actFlow": "信用卡_查詢_可用額度.查詢可用額度",
+                                "ocsActFlag": "Y",
+                                "channel": "ChatWeb",
+                                "faqId": "Loan",
+                                "id": 19,
+                                "passing": "{\"actFlow\":\"信用卡_查詢_可用額度.查詢可用額度\",\"ocsActFlag\":\"Y\",\"channel\":\"ChatWeb\",\"faqId\":\"Loan\",\"id\":19,\"type\":\"INTENT\"}",
+                                "type": "INTENT"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cName": "",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=600x400-2024newyear_20231212020803.jpg",
+                        "cAppImage": "",
+                        "cOutUrlsml": "Y"
+                    },
+                    "cLinkType": 1,
+                    "cTextType": "1",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "和阿發種下心意，讓好事持續發生",
+                            "cText": ""
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "與阿發互動後留下資料可參加抽獎，抽出阿發種子紅包袋種出好事吧！",
+                            "cText": ""
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 1,
+                            "clText": "我要留資料",
+                            "clAlt": "我要留資料",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "handleCampaign",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "actFlow": "信用卡_查詢_可用額度.查詢可用額度",
+                                "ocsActFlag": "Y",
+                                "showBotMsg": "恭喜完成已符合抽獎資格!阿發祝你旅途愉快~中獎名單預計<span style=\"color: rgb(255, 102, 0);\">2月底前</span>公告於官網最新消息!如要查詢更多權益請【<a href=\"javascript: void(0)\" onclick=\"App.handleFAQLink(915, '', '旅遊權益')\">點我</a>】",
+                                "channel": "ChatWeb",
+                                "faqId": "",
+                                "id": 47,
+                                "passing": "{\"actFlow\":\"信用卡_查詢_可用額度.查詢可用額度\",\"ocsActFlag\":\"Y\",\"showBotMsg\":\"恭喜完成已符合抽獎資格!阿發祝你旅途愉快~中獎名單預計<span style=\\\"color: rgb(255, 102, 0);\\\">2月底前</span>公告於官網最新消息!如要查詢更多權益請【<a href=\\\"javascript: void(0)\\\" onclick=\\\"App.handleFAQLink(915, '', '旅遊權益')\\\">點我</a>】\",\"channel\":\"ChatWeb\",\"faqId\":\"\",\"id\":47,\"type\":\"ACTIVITY\"}",
+                                "type": "ACTIVITY"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 1,
+                            "clText": "過年活動說明與注意事項",
+                            "clAlt": "活動說明",
+                            "clReply": "2309",
+                            "clUrl": "",
+                            "clIntent": "queryFaqById",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "actFlow": "信用卡_查詢_可用額度.查詢可用額度",
+                                "ocsActFlag": "Y",
+                                "channel": "ChatWeb",
+                                "faqId": "2309",
+                                "id": 47,
+                                "passing": "{\"actFlow\":\"信用卡_查詢_可用額度.查詢可用額度\",\"ocsActFlag\":\"Y\",\"channel\":\"ChatWeb\",\"faqId\":\"2309\",\"id\":47,\"type\":\"FAQ\"}",
+                                "type": "FAQ"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 1,
+                            "clText": "我要參加更多阿發過年慶拿好禮",
+                            "clAlt": " details 我要參加更多阿發過年慶拿好禮",
+                            "clReply": "2732",
+                            "clUrl": "",
+                            "clIntent": "queryFaqById",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "actFlow": "信用卡_查詢_可用額度.查詢可用額度",
+                                "ocsActFlag": "Y",
+                                "channel": "ChatWeb",
+                                "faqId": "2732",
+                                "id": 47,
+                                "passing": "{\"actFlow\":\"信用卡_查詢_可用額度.查詢可用額度\",\"ocsActFlag\":\"Y\",\"channel\":\"ChatWeb\",\"faqId\":\"2732\",\"id\":47,\"type\":\"FAQ\"}",
+                                "type": "FAQ"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": true
+        },
+        {
+            "type": 4,
+            "lType": "select-tag01",
+            "linkList": [
+                {
+                    "lAction": 2,
+                    "lText": "申請額度調整",
+                    "lAlt": "申請額度調整",
+                    "lReply": "",
+                    "lUrl": "",
+                    "lCustomerAction": "",
+                    "lIntent": "信用卡",
+                    "lSecondBotIntent": "c_h_q_creditLimit_apply",
+                    "lParameter": {
+                        "passing": "{}"
+                    }
+                },
+                {
+                    "lAction": 2,
+                    "lText": "查詢消費明細",
+                    "lAlt": "查詢消費明細",
+                    "lReply": "",
+                    "lUrl": "",
+                    "lCustomerAction": "",
+                    "lIntent": "信用卡",
+                    "lSecondBotIntent": "c_q_bd_query",
+                    "lParameter": {
+                        "passing": "{}"
+                    }
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2024-08-01 13:59:32",
+    "timestamp": 1722491972474
+}
