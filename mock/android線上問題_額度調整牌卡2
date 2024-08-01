@@ -31,7 +31,7 @@
                     "cImageData": {
                         "cImage": "img-credbank07",
                         "cAppImage": "card22.jpg",
-                        "cImageTextType": 2,
+                        "cImageTextType": 6,
                         "cImageTexts": [
                             {
                                 "cImageText": "永久可調高額度"
