@@ -1,0 +1,320 @@
+{
+	"from":"bot",
+	"initType":0,
+	"showTime":"2024-07-27 14:30:03",
+	"content":[
+{
+  "type": "12",
+  "widget": "doTrustAccountOpen",
+  "intent": "intentXXX",
+  "secondBotIntent": "secondintentXXXX",
+  "textMessage":"按下送出後的文字",
+  "closeIntent": "closexxx",
+  "closeSecondBotIntent": "closesecondxxxxxx",
+  "closeTextMessage":"按下X後的文字訊息",
+  "basicData":{
+     "basicTitle":"為確保你的資本資料正確，以提供你更優質的服務與體驗，請先完成以下欄位資料",
+     "industry":{
+        "labelTitle": "主要行業", 
+        "value": "B01",
+        "itemList":[
+            {
+                "title": "製造業",
+                "value": "A",
+                "subItemList":[
+                    {
+                        "title": "軍火研發或軍火製造業",
+                        "value": "A01"
+                    },
+                    {
+                        "title": "航空器、船舶製造業",
+                        "value": "A02"
+                    },
+                    {
+                        "title": "珠寶、貴金屬及其他高單價商品製造業",
+                        "value": "A03"
+                    },
+                    {
+                        "title": "紡織業、農、畜產品加工業",
+                        "value": "A04"
+                    },
+                    {
+                        "title": "一般製造業",
+                        "value": "A05"
+                    }
+                ]
+            },
+            {
+                "title": "電子暨資訊相關產業",
+                "value": "B",
+                "subItemList":[
+                    {
+                        "title": "電子暨資訊相關產業",
+                        "value": "B01"
+                    },
+                    {
+                        "title": "線上遊戲點數發行商",
+                        "value": "B02"
+                    }
+                ]
+            },
+            {
+                "title": "批發零售業",
+                "value": "C",
+                "subItemList":[
+                    {
+                        "title": "航空器、船舶買賣業",
+                        "value": "C01"
+                    },
+                    {
+                        "title": "珠寶、貴金屬及其他高單價商品買賣業",
+                        "value": "C02"
+                    },
+                    {
+                        "title": "無實體店面零售業",
+                        "value": "C03"
+                    },
+                    {
+                        "title": "進出口貿易業",
+                        "value": "C04"
+                    },
+                    {
+                        "title": "二手車買賣",
+                        "value": "C05"
+                    },
+                    {
+                        "title": "其他批發零售業",
+                        "value": "C99"
+                    }
+                ]
+            },
+            {
+                "title": "水、電、燃氣(油)供應",
+                "value": "D",
+                "subItemList":[
+                    {
+                        "title": "水、電及燃氣(油)供應業",
+                        "value": "D01"
+                    },
+                    {
+                        "title": "船用燃油供應業(非燃油製造)",
+                        "value": "D02"
+                    }
+                ]
+            },
+            {
+                "title": "通訊、運輸及倉儲服務業",
+                "value": "E",
+                "subItemList":[
+                    {
+                        "title": "郵政及電信通訊業",
+                        "value": "E01"
+                    },
+                    {
+                        "title": "旅運、貨運、倉儲業",
+                        "value": "E02"
+                    },
+                    {
+                        "title": "船舶、飛行器租賃業",
+                        "value": "E03"
+                    },
+                    {
+                        "title": "汽/機車等交通工具租賃業",
+                        "value": "E04"
+                    },
+                    {
+                        "title": "報關代理",
+                        "value": "E05"
+                    }
+                ]
+            },
+            {
+                "title": "金融相關產業",
+                "value": "F",
+                "subItemList":[
+                    {
+                        "title": "典當、現金服務及其他民間融資業",
+                        "value": "F01"
+                    },
+                    {
+                        "title": "金融業(例如：銀行業、保險業、信託業、證券業和租賃業等)",
+                        "value": "F02"
+                    },
+                    {
+                        "title": "投信/投顧公司",
+                        "value": "F03"
+                    }
+                ]
+            }
+        ]
+     },
+     "postion":{
+        "labelTitle": "主要職位", 
+        "value":"1",
+        "itemList":[
+            {
+                "value": "1",
+                "title": "負責人"
+            },
+            {
+                "value": "2",
+                "title": "高階管理職務人員及財務主管"
+            },
+            {
+                "value": "3",
+                "title": "一般主管"
+            },
+            {
+                "value": "4",
+                "title": "業務人員"
+            },
+            {
+                "value": "5",
+                "title": "一般職員"
+            },
+            {
+                "value": "6",
+                "title": "保全、警衛、司機、管理及清潔人員"
+            },
+            {
+                "value": "7",
+                "title": "領隊/導遊"
+            },
+            {
+                "value": "8",
+                "title": "臨時人員"
+            },
+            {
+                "value": "9",
+                "title": "船長/大副/船員/引水人"
+            },
+            {
+                "value": "10",
+                "title": "飛行駕駛"
+            },
+            {
+                "value": "11",
+                "title": "空服員"
+            },
+            {
+                "value": "12",
+                "title": "公職人員/民意代表"
+            },
+            {
+                "value": "13",
+                "title": "教師"
+            }
+         ]
+     },
+     "company":{
+        "labelTitle": "主要任職機購", 
+        "value":""
+     },
+     "yearIncome":{
+        "labelTitle": "年收入", 
+        "value":"3",
+        "itemList":[
+            {
+                "value":"1",
+                "title": "低於100萬"
+            },
+            {
+                "value":"2",
+                "title": "100萬(含)~300萬"
+            },
+            {
+                "value":"3",
+                "title": "300萬(含)~500萬"
+            },
+            {
+                "value":"4",
+                "title": "500萬(含)~1,000萬"
+            },
+            {
+                "value":"5",
+                "title": "1,000萬(含)以上"
+            }
+        ]
+     },
+     "fundsSource":{
+        "labelTitle": "資產來源<複選>", 
+        "values":"1,2,3,4,xxxx",
+        "itemList":[
+            {
+                "value":"1",
+                "title": "薪資/營業所得"
+            },
+            {
+                "value":"2",
+                "title": "執業所得"
+            },
+            {
+                "value":"3",
+                "title": "投資所得"
+            },
+            {
+                "value":"4",
+                "title": "退休金或保險金"
+            },
+            {
+                "value":"5",
+                "title": "繼承或贈與"
+            },
+            {
+                "value":"6",
+                "title": "租賃所得"
+            },
+            {
+                "value":"7",
+                "title": "不動產"
+            },
+            {
+                "value":"8",
+                "title": "高單價動產"
+            },
+            {
+                "value":"9",
+                "title": "有價證券"
+            },
+            {
+                "value":"10",
+                "title": "虛擬貨幣"
+            },
+            {
+                "value":"11",
+                "title": "無型資產"
+            }
+        ],
+        "other":{
+            "displyLabel": "其他，請輸入資產來源",
+            "value":""
+        }
+     }
+  },
+  "noticeContentList": [
+    {
+        "noticeTitle":"特定金錢信託投資國內外有價證券信託契約",
+        "noticeContent":"",
+        "noticeURL":"https://cathaybk.moneydj.com/w/CustFundIDMap.djhtm?FUNDID=10480016&DownFile=1",
+        "mustCheck": true
+    },
+    {
+        "noticeTitle":"重要聲明及同意事項",
+        "noticeContent":"<ol><li>...</li></ol>",
+        "noticeURL":"",
+        "mustCheck": true
+    },
+    {
+        "noticeTitle":"特定目的外同意使用之個別條款",
+        "noticeContent":"",
+        "noticeURL":"https://cathaybk.moneydj.com/w/CustFundIDMap.djhtm?FUNDID=10480016&DownFile=4",
+        "mustCheck": false
+  	}
+  ],
+  "contentTitle":"信託開戶"
+}
+],
+	"noAutoComplete":null,
+	"channel":"ChatWeb",
+	"role":"alpha"
+}
