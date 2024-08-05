@@ -238,7 +238,7 @@
      },
      "fundsSource":{
         "labelTitle": "資產來源<複選>", 
-        "values":"1,2,3,4,xxxx",
+        "values":"1,2,3,4",
         "itemList":[
             {
                 "value":"1",
