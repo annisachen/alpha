@@ -4,7 +4,7 @@
 	"showTime":"2024-07-27 14:30:03",
 	"content":[
 {
-  "type": "12",
+  "type": 12,
   "widget": "doTrustAccountOpen",
   "intent": "intentXXX",
   "secondBotIntent": "secondintentXXXX",
