@@ -208,7 +208,7 @@
      },
      "company":{
         "labelTitle": "主要任職機購", 
-        "value":""
+        "value":"22"
      },
      "yearIncome":{
         "labelTitle": "年收入", 
@@ -287,7 +287,7 @@
         ],
         "other":{
             "displyLabel": "其他，請輸入資產來源",
-            "value":""
+            "value":"22"
         }
      }
   },
