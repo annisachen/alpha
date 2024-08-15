@@ -282,7 +282,7 @@
             }
         ],
         "other":{
-            "displyLabel": "其他，請輸入資產來源",
+            "displayLabel": "其他，請輸入資產來源",
             "value":""
         }
      }
