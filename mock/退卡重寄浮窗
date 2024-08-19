@@ -1,0 +1,1014 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 12,
+            "action": 7,
+            "widget": "doSelectCUBBranch",
+            "branchList": [
+                {
+                    "branchName": "鳳山分行",
+                    "addr": "高雄市鳳山區中山西路２０３號"
+                },
+                {
+                    "branchName": "安和分行",
+                    "addr": "台北市大安區安和路二段９２號"
+                },
+                {
+                    "branchName": "松江分行",
+                    "addr": "台北市中山區松江路３２８號"
+                },
+                {
+                    "branchName": "苓雅分行",
+                    "addr": "高雄市苓雅區林森二路８９號"
+                },
+                {
+                    "branchName": "古亭分行",
+                    "addr": "台北市大安區羅斯福路三段１４９號"
+                },
+                {
+                    "branchName": "建成分行",
+                    "addr": "台北市大同區南京西路３６號"
+                },
+                {
+                    "branchName": "東門分行",
+                    "addr": "台北市大安區信義路三段９號"
+                },
+                {
+                    "branchName": "桃園分行",
+                    "addr": "桃園市桃園區復興路１７０號１樓"
+                },
+                {
+                    "branchName": "豐原分行",
+                    "addr": "台中市豐原區三民路１９９號"
+                },
+                {
+                    "branchName": "嘉義分行",
+                    "addr": "嘉義市西區民生北路２６號"
+                },
+                {
+                    "branchName": "松山分行",
+                    "addr": "台北市信義區基隆路一段１５１號"
+                },
+                {
+                    "branchName": "前金分行",
+                    "addr": "高雄市前金區中正四路１４８號"
+                },
+                {
+                    "branchName": "北三重分行",
+                    "addr": "新北市三重區三和路四段１１１號"
+                },
+                {
+                    "branchName": "新竹分行",
+                    "addr": "新竹市北區北大路３０７號"
+                },
+                {
+                    "branchName": "永康分行",
+                    "addr": "台南市永康區中華路４２３號一樓"
+                },
+                {
+                    "branchName": "中山分行",
+                    "addr": "台北市中山區中山北路二段183號"
+                },
+                {
+                    "branchName": "埔墘分行",
+                    "addr": "新北市板橋區三民路二段１９６號"
+                },
+                {
+                    "branchName": "新生分行",
+                    "addr": "台北市中山區民生東路一段５５號"
+                },
+                {
+                    "branchName": "清水分行",
+                    "addr": "台中市清水區中山路１７０號"
+                },
+                {
+                    "branchName": "彰化分行",
+                    "addr": "彰化縣彰化市華山路３５號"
+                },
+                {
+                    "branchName": "內科分行",
+                    "addr": "台北市內湖區瑞光路３３３號"
+                },
+                {
+                    "branchName": "中正分行",
+                    "addr": "台北市大安區復興南路一段９９號"
+                },
+                {
+                    "branchName": "五權分行",
+                    "addr": "台中市西區英才路５３０號"
+                },
+                {
+                    "branchName": "東台南分行",
+                    "addr": "台南市東區林森路一段３９５號"
+                },
+                {
+                    "branchName": "新興分行",
+                    "addr": "高雄市新興區中正三路５５號"
+                },
+                {
+                    "branchName": "敦南分行",
+                    "addr": "台北市大安區敦化南路一段１８５號"
+                },
+                {
+                    "branchName": "後埔分行",
+                    "addr": "新北市板橋區重慶路２６０號"
+                },
+                {
+                    "branchName": "蘆洲分行",
+                    "addr": "新北市蘆洲區中正路７９號"
+                },
+                {
+                    "branchName": "西門分行",
+                    "addr": "台北市萬華區長沙街二段９３號"
+                },
+                {
+                    "branchName": "三民分行",
+                    "addr": "台北市松山區民生東路五段１６５－７號"
+                },
+                {
+                    "branchName": "前鎮分行",
+                    "addr": "高雄市前鎮區保泰路３５５號"
+                },
+                {
+                    "branchName": "土城分行",
+                    "addr": "新北市土城區中央路二段２０９號"
+                },
+                {
+                    "branchName": "南高雄分行",
+                    "addr": "高雄市前鎮區民權二路３８５號"
+                },
+                {
+                    "branchName": "大同分行",
+                    "addr": "台北市大同區重慶北路二段５０號"
+                },
+                {
+                    "branchName": "成功分行",
+                    "addr": "台南市永康區中華路１號"
+                },
+                {
+                    "branchName": "中港分行",
+                    "addr": "台中市西屯區臺灣大道二段６００號"
+                },
+                {
+                    "branchName": "世貿分行",
+                    "addr": "台北市信義區信義路四段４５６號"
+                },
+                {
+                    "branchName": "北桃園分行",
+                    "addr": "桃園市桃園區中正路４４８號一樓"
+                },
+                {
+                    "branchName": "善化分行",
+                    "addr": "台南市善化區中山路３４９號１樓"
+                },
+                {
+                    "branchName": "士林分行",
+                    "addr": "台北市士林區中正路１９７號"
+                },
+                {
+                    "branchName": "雙和分行",
+                    "addr": "新北市中和區中和路１０２號"
+                },
+                {
+                    "branchName": "二重分行",
+                    "addr": "新北市三重區重新路五段６０９巷４號"
+                },
+                {
+                    "branchName": "花蓮分行",
+                    "addr": "花蓮縣花蓮市民國路１６３號"
+                },
+                {
+                    "branchName": "內湖分行",
+                    "addr": "台北市內湖區內湖路一段３１０號"
+                },
+                {
+                    "branchName": "華江分行",
+                    "addr": "新北市板橋區莊敬路４３號"
+                },
+                {
+                    "branchName": "竹科分行",
+                    "addr": "新竹市東區光復路一段３６９號"
+                },
+                {
+                    "branchName": "南門分行",
+                    "addr": "台北市中正區羅斯福路二段５號"
+                },
+                {
+                    "branchName": "八德分行",
+                    "addr": "台北市松山區八德路四段６５６－１號"
+                },
+                {
+                    "branchName": "永春分行",
+                    "addr": "台北市信義區忠孝東路五段６８７號"
+                },
+                {
+                    "branchName": "萬華分行",
+                    "addr": "台北市萬華區萬大路４５０號"
+                },
+                {
+                    "branchName": "屏東分行",
+                    "addr": "屏東縣屏東市中正路１２５號"
+                },
+                {
+                    "branchName": "台東分行",
+                    "addr": "台東縣台東市中山路２５８號"
+                },
+                {
+                    "branchName": "文山分行",
+                    "addr": "台北市文山區木柵路二段９４號"
+                },
+                {
+                    "branchName": "新樹分行",
+                    "addr": "新北市新莊區新樹路４９９號"
+                },
+                {
+                    "branchName": "宜蘭分行",
+                    "addr": "宜蘭縣宜蘭市神農路一段１０５號１樓"
+                },
+                {
+                    "branchName": "南港分行",
+                    "addr": "台北市南港區三重路６６－３號"
+                },
+                {
+                    "branchName": "斗六分行",
+                    "addr": "雲林縣斗六市中山路８９號"
+                },
+                {
+                    "branchName": "學府分行",
+                    "addr": "新北市土城區學府路一段１２２號"
+                },
+                {
+                    "branchName": "北新分行",
+                    "addr": "新北市新店區中正路１９０號"
+                },
+                {
+                    "branchName": "信安分行",
+                    "addr": "台北市大安區信義路三段１４９號"
+                },
+                {
+                    "branchName": "文德分行",
+                    "addr": "台北市內湖區成功路３段１７４巷１２號"
+                },
+                {
+                    "branchName": "公益分行",
+                    "addr": "台中市南屯區公益路２段５３號"
+                },
+                {
+                    "branchName": "水湳分行",
+                    "addr": "台中市西屯區中清路二段２１５號"
+                },
+                {
+                    "branchName": "市政分行",
+                    "addr": "台中市西屯區市政北三路３１號"
+                },
+                {
+                    "branchName": "東台中分行",
+                    "addr": "台中市東區建成路７３５號"
+                },
+                {
+                    "branchName": "昌平分行",
+                    "addr": "台中市北屯區昌平路二段３６之１號"
+                },
+                {
+                    "branchName": "健行分行",
+                    "addr": "台中市北區健行路５９０號"
+                },
+                {
+                    "branchName": "西屯分行",
+                    "addr": "台中市西屯區朝富路２１９號"
+                },
+                {
+                    "branchName": "南屯分行",
+                    "addr": "台中市西區五權路１－１２８號"
+                },
+                {
+                    "branchName": "崇德分行",
+                    "addr": "台中市北屯區崇德路二段１２８號"
+                },
+                {
+                    "branchName": "香山分行",
+                    "addr": "新竹市香山區中華路四段５８２號"
+                },
+                {
+                    "branchName": "竹北分行",
+                    "addr": "新竹縣竹北市光明六路８７之１號"
+                },
+                {
+                    "branchName": "同德分行",
+                    "addr": "桃園市桃園區中正路１１２５號"
+                },
+                {
+                    "branchName": "南投分行",
+                    "addr": "南投縣南投市三和三路１３號"
+                },
+                {
+                    "branchName": "汐止分行",
+                    "addr": "新北市汐止區大同路二段１９６號"
+                },
+                {
+                    "branchName": "大直分行",
+                    "addr": "台北市中山區明水路５８９號"
+                },
+                {
+                    "branchName": "左營分行",
+                    "addr": "高雄市左營區博愛二路３６６號"
+                },
+                {
+                    "branchName": "新營分行",
+                    "addr": "台南市新營區中山路１３４號"
+                },
+                {
+                    "branchName": "大甲分行",
+                    "addr": "台中市大甲區順天路２２２－１號"
+                },
+                {
+                    "branchName": "苗栗分行",
+                    "addr": "苗栗縣苗栗市中正路４０８號"
+                },
+                {
+                    "branchName": "北投分行",
+                    "addr": "台北市北投區中央南路一段１５０號"
+                },
+                {
+                    "branchName": "臨安分行",
+                    "addr": "台南市北區臨安路二段１７號"
+                },
+                {
+                    "branchName": "幸福分行",
+                    "addr": "新北市新莊區幸福路６９２號"
+                },
+                {
+                    "branchName": "華山分行",
+                    "addr": "台北市中正區忠孝東路二段１２８號"
+                },
+                {
+                    "branchName": "東湖分行",
+                    "addr": "台北市內湖區成功路五段４５２號"
+                },
+                {
+                    "branchName": "岡山分行",
+                    "addr": "高雄市岡山區中山北路２８號"
+                },
+                {
+                    "branchName": "臨沂分行",
+                    "addr": "台北市中正區仁愛路二段７１號"
+                },
+                {
+                    "branchName": "新湖分行",
+                    "addr": "台北市內湖區民權東路六段１１１號"
+                },
+                {
+                    "branchName": "中崙分行",
+                    "addr": "台北市松山區八德路三段１８２號"
+                },
+                {
+                    "branchName": "基隆分行",
+                    "addr": "基隆市仁愛區忠一路５號"
+                },
+                {
+                    "branchName": "樹林分行",
+                    "addr": "新北市樹林區中山路一段１６６號"
+                },
+                {
+                    "branchName": "淡水分行",
+                    "addr": "新北市淡水區中山路１０６號"
+                },
+                {
+                    "branchName": "連城分行",
+                    "addr": "新北市中和區連城路２３６號"
+                },
+                {
+                    "branchName": "石牌分行",
+                    "addr": "台北市北投區石牌路一段１８８號"
+                },
+                {
+                    "branchName": "南內湖分行",
+                    "addr": "台北市內湖區行愛路１６９號"
+                },
+                {
+                    "branchName": "景美分行",
+                    "addr": "台北市文山區羅斯福路六段２８５號"
+                },
+                {
+                    "branchName": "寶橋分行",
+                    "addr": "新北市新店區寶橋路９６號"
+                },
+                {
+                    "branchName": "丹鳳分行",
+                    "addr": "新北市新莊區中正路８７９－１７號"
+                },
+                {
+                    "branchName": "南京東路分行",
+                    "addr": "台北市中山區南京東路二段１３２號"
+                },
+                {
+                    "branchName": "高雄分行",
+                    "addr": "高雄市三民區博愛一路３６６號"
+                },
+                {
+                    "branchName": "台中分行",
+                    "addr": "台中市西區自由路一段１４８號"
+                },
+                {
+                    "branchName": "台北分行",
+                    "addr": "台北市中正區博愛路７７號３樓"
+                },
+                {
+                    "branchName": "永和分行",
+                    "addr": "新北市永和區永和路一段１５號"
+                },
+                {
+                    "branchName": "台南分行",
+                    "addr": "台南市中西區民生路一段６２號"
+                },
+                {
+                    "branchName": "忠孝分行",
+                    "addr": "台北市大安區忠孝東路四段２９３號"
+                },
+                {
+                    "branchName": "天母分行",
+                    "addr": "台北市士林區天母西路２４號"
+                },
+                {
+                    "branchName": "西台中分行",
+                    "addr": "台中市西區民權路１８５號"
+                },
+                {
+                    "branchName": "東高雄分行",
+                    "addr": "高雄市苓雅區中正二路７２號"
+                },
+                {
+                    "branchName": "信義分行",
+                    "addr": "台北市大安區敦化南路二段３２號"
+                },
+                {
+                    "branchName": "光復分行",
+                    "addr": "台北市松山區南京東路五段９９號"
+                },
+                {
+                    "branchName": "板橋分行",
+                    "addr": "新北市板橋區中正路１０２號"
+                },
+                {
+                    "branchName": "復興分行",
+                    "addr": "台北市松山區南京東路三段２４８號"
+                },
+                {
+                    "branchName": "民權分行",
+                    "addr": "台北市松山區民權東路三段１４４號"
+                },
+                {
+                    "branchName": "大安分行",
+                    "addr": "台北市大安區仁愛路四段３３號"
+                },
+                {
+                    "branchName": "三重分行",
+                    "addr": "新北市三重區重陽路二段２９號"
+                },
+                {
+                    "branchName": "中壢分行",
+                    "addr": "桃園市中壢區中央西路一段１１號"
+                },
+                {
+                    "branchName": "員林分行",
+                    "addr": "彰化縣員林市中山路二段３２０號"
+                },
+                {
+                    "branchName": "新店分行",
+                    "addr": "新北市新店區中正路５４２之４號"
+                },
+                {
+                    "branchName": "新莊分行",
+                    "addr": "新北市新莊區中正路２４５號"
+                },
+                {
+                    "branchName": "彰美分行",
+                    "addr": "彰化縣彰化市辭修路１３６號"
+                },
+                {
+                    "branchName": "太平分行",
+                    "addr": "台中市太平區中興東路１４２號"
+                },
+                {
+                    "branchName": "沙鹿分行",
+                    "addr": "台中市沙鹿區中山路４７６號"
+                },
+                {
+                    "branchName": "大里分行",
+                    "addr": "台中市大里區國光路二段２５９號"
+                },
+                {
+                    "branchName": "逢甲分行",
+                    "addr": "台中市西屯區河南路二段３６３號之５"
+                },
+                {
+                    "branchName": "大雅分行",
+                    "addr": "台中市大雅區民生路一段１２５號"
+                },
+                {
+                    "branchName": "潭子分行",
+                    "addr": "台中市潭子區潭興路三段４６號"
+                },
+                {
+                    "branchName": "光華分行",
+                    "addr": "台北市中山區松江路１３６號"
+                },
+                {
+                    "branchName": "西松分行",
+                    "addr": "台北市松山區南京東路五段２３０號"
+                },
+                {
+                    "branchName": "蘭雅分行",
+                    "addr": "台北市士林區德行西路４５號１樓"
+                },
+                {
+                    "branchName": "永平分行",
+                    "addr": "台北市松山區復興北路１９９號"
+                },
+                {
+                    "branchName": "和平分行",
+                    "addr": "台北市大安區和平東路一段１９７號"
+                },
+                {
+                    "branchName": "慶城分行",
+                    "addr": "台北市松山區民生東路三段１５８號"
+                },
+                {
+                    "branchName": "瑞湖分行",
+                    "addr": "台北市內湖區陽光街２９２號１樓"
+                },
+                {
+                    "branchName": "文昌分行",
+                    "addr": "台北市信義區光復南路５５７號"
+                },
+                {
+                    "branchName": "正義分行",
+                    "addr": "新北市三重區重新路二段９號"
+                },
+                {
+                    "branchName": "新板分行",
+                    "addr": "新北市板橋區中山路一段１５６號"
+                },
+                {
+                    "branchName": "永貞分行",
+                    "addr": "新北市永和區中山路一段２２５號"
+                },
+                {
+                    "branchName": "林口分行",
+                    "addr": "桃園市龜山區文化三路３１９號"
+                },
+                {
+                    "branchName": "南崁分行",
+                    "addr": "桃園市蘆竹區中正路７０號"
+                },
+                {
+                    "branchName": "東林口分行",
+                    "addr": "新北市林口區文化三路一段３３５、３３７號"
+                },
+                {
+                    "branchName": "大湳分行",
+                    "addr": "桃園市八德區金和路３０號"
+                },
+                {
+                    "branchName": "松勤分行",
+                    "addr": "台北市信義區信義路五段１０６號"
+                },
+                {
+                    "branchName": "六家分行",
+                    "addr": "新竹縣竹北市文興路一段３０１號"
+                },
+                {
+                    "branchName": "仁愛分行",
+                    "addr": "台北市大安區仁愛路四段８５號１樓"
+                },
+                {
+                    "branchName": "大昌分行",
+                    "addr": "高雄市三民區大昌二路７６號"
+                },
+                {
+                    "branchName": "民生分行",
+                    "addr": "台北市中山區民生東路二段１４１號"
+                },
+                {
+                    "branchName": "篤行分行",
+                    "addr": "台中市北區五權路１９０號"
+                },
+                {
+                    "branchName": "板東分行",
+                    "addr": "新北市板橋區三民路一段２１６號"
+                },
+                {
+                    "branchName": "桃興分行",
+                    "addr": "桃園市桃園區中山路４６９號"
+                },
+                {
+                    "branchName": "嘉泰分行",
+                    "addr": "嘉義市東區中山路２４２－１號"
+                },
+                {
+                    "branchName": "忠誠分行",
+                    "addr": "台北市士林區忠誠路二段２４７號"
+                },
+                {
+                    "branchName": "敦化分行",
+                    "addr": "台北市大安區敦化南路二段２１８號"
+                },
+                {
+                    "branchName": "新泰分行",
+                    "addr": "新北市新莊區中正路３８７號"
+                },
+                {
+                    "branchName": "文心分行",
+                    "addr": "台中市五權西路二段６６６號"
+                },
+                {
+                    "branchName": "福和分行",
+                    "addr": "新北市永和區福和路３５３－１號"
+                },
+                {
+                    "branchName": "四維分行",
+                    "addr": "高雄市苓雅區四維四路７號"
+                },
+                {
+                    "branchName": "重新分行",
+                    "addr": "新北市三重區重新路四段８７號"
+                },
+                {
+                    "branchName": "營業部",
+                    "addr": "台北市松仁路７號１樓"
+                },
+                {
+                    "branchName": "北中壢分行",
+                    "addr": "桃園市中壢區慈惠三街１２９號"
+                },
+                {
+                    "branchName": "城東分行",
+                    "addr": "台北市松山區南京東路四段１２６號"
+                },
+                {
+                    "branchName": "建國分行",
+                    "addr": "台北市中山區南京東路三段１３２號"
+                },
+                {
+                    "branchName": "明誠分行",
+                    "addr": "高雄市鼓山區明誠四路152號"
+                },
+                {
+                    "branchName": "竹城分行",
+                    "addr": "新竹市東區中央路189號1樓"
+                },
+                {
+                    "branchName": "中和分行",
+                    "addr": "新北市中和區中山路二段２９６號"
+                },
+                {
+                    "branchName": "館前分行",
+                    "addr": "台北市中正區館前路２號"
+                }
+            ],
+            "areaList": [
+                {
+                    "area": "鳳山區",
+                    "cityAndArea": "高雄市鳳山區"
+                },
+                {
+                    "area": "大安區",
+                    "cityAndArea": "台北市大安區"
+                },
+                {
+                    "area": "中山區",
+                    "cityAndArea": "台北市中山區"
+                },
+                {
+                    "area": "苓雅區",
+                    "cityAndArea": "高雄市苓雅區"
+                },
+                {
+                    "area": "大同區",
+                    "cityAndArea": "台北市大同區"
+                },
+                {
+                    "area": "桃園區",
+                    "cityAndArea": "桃園市桃園區"
+                },
+                {
+                    "area": "豐原區",
+                    "cityAndArea": "台中市豐原區"
+                },
+                {
+                    "area": "西區",
+                    "cityAndArea": "嘉義市西區"
+                },
+                {
+                    "area": "信義區",
+                    "cityAndArea": "台北市信義區"
+                },
+                {
+                    "area": "前金區",
+                    "cityAndArea": "高雄市前金區"
+                },
+                {
+                    "area": "三重區",
+                    "cityAndArea": "新北市三重區"
+                },
+                {
+                    "area": "北區",
+                    "cityAndArea": "新竹市北區"
+                },
+                {
+                    "area": "永康區",
+                    "cityAndArea": "台南市永康區"
+                },
+                {
+                    "area": "板橋區",
+                    "cityAndArea": "新北市板橋區"
+                },
+                {
+                    "area": "清水區",
+                    "cityAndArea": "台中市清水區"
+                },
+                {
+                    "area": "彰化市",
+                    "cityAndArea": "彰化縣彰化市"
+                },
+                {
+                    "area": "內湖區",
+                    "cityAndArea": "台北市內湖區"
+                },
+                {
+                    "area": "西區",
+                    "cityAndArea": "台中市西區"
+                },
+                {
+                    "area": "東區",
+                    "cityAndArea": "台南市東區"
+                },
+                {
+                    "area": "新興區",
+                    "cityAndArea": "高雄市新興區"
+                },
+                {
+                    "area": "蘆洲區",
+                    "cityAndArea": "新北市蘆洲區"
+                },
+                {
+                    "area": "萬華區",
+                    "cityAndArea": "台北市萬華區"
+                },
+                {
+                    "area": "松山區",
+                    "cityAndArea": "台北市松山區"
+                },
+                {
+                    "area": "前鎮",
+                    "cityAndArea": "高雄市前鎮"
+                },
+                {
+                    "area": "土城區",
+                    "cityAndArea": "新北市土城區"
+                },
+                {
+                    "area": "西屯區",
+                    "cityAndArea": "台中市西屯區"
+                },
+                {
+                    "area": "善化區",
+                    "cityAndArea": "台南市善化區"
+                },
+                {
+                    "area": "士林區",
+                    "cityAndArea": "台北市士林區"
+                },
+                {
+                    "area": "中和區",
+                    "cityAndArea": "新北市中和區"
+                },
+                {
+                    "area": "花蓮市",
+                    "cityAndArea": "花蓮縣花蓮市"
+                },
+                {
+                    "area": "東區",
+                    "cityAndArea": "新竹市東區"
+                },
+                {
+                    "area": "中正區",
+                    "cityAndArea": "台北市中正區"
+                },
+                {
+                    "area": "屏東市",
+                    "cityAndArea": "屏東縣屏東市"
+                },
+                {
+                    "area": "台東市",
+                    "cityAndArea": "台東縣台東市"
+                },
+                {
+                    "area": "文山區",
+                    "cityAndArea": "台北市文山區"
+                },
+                {
+                    "area": "新莊區",
+                    "cityAndArea": "新北市新莊區"
+                },
+                {
+                    "area": "宜蘭市",
+                    "cityAndArea": "宜蘭縣宜蘭市"
+                },
+                {
+                    "area": "南港區",
+                    "cityAndArea": "台北市南港區"
+                },
+                {
+                    "area": "斗六市",
+                    "cityAndArea": "雲林縣斗六市"
+                },
+                {
+                    "area": "新店區",
+                    "cityAndArea": "新北市新店區"
+                },
+                {
+                    "area": "南屯區",
+                    "cityAndArea": "台中市南屯區"
+                },
+                {
+                    "area": "東區",
+                    "cityAndArea": "台中市東區"
+                },
+                {
+                    "area": "北屯區",
+                    "cityAndArea": "台中市北屯區"
+                },
+                {
+                    "area": "北區",
+                    "cityAndArea": "台中市北區"
+                },
+                {
+                    "area": "香山區",
+                    "cityAndArea": "新竹市香山區"
+                },
+                {
+                    "area": "竹北市",
+                    "cityAndArea": "新竹縣竹北市"
+                },
+                {
+                    "area": "南投市",
+                    "cityAndArea": "南投縣南投市"
+                },
+                {
+                    "area": "汐止區",
+                    "cityAndArea": "新北市汐止區"
+                },
+                {
+                    "area": "左營區",
+                    "cityAndArea": "高雄市左營區"
+                },
+                {
+                    "area": "新營區",
+                    "cityAndArea": "台南市新營區"
+                },
+                {
+                    "area": "大甲區",
+                    "cityAndArea": "台中市大甲區"
+                },
+                {
+                    "area": "苗栗市",
+                    "cityAndArea": "苗栗縣苗栗市"
+                },
+                {
+                    "area": "北投區",
+                    "cityAndArea": "台北市北投區"
+                },
+                {
+                    "area": "北區",
+                    "cityAndArea": "台南市北區"
+                },
+                {
+                    "area": "岡山區",
+                    "cityAndArea": "高雄市岡山區"
+                },
+                {
+                    "area": "仁愛區",
+                    "cityAndArea": "基隆市仁愛區"
+                },
+                {
+                    "area": "樹林區",
+                    "cityAndArea": "新北市樹林區"
+                },
+                {
+                    "area": "淡水區",
+                    "cityAndArea": "新北市淡水區"
+                },
+                {
+                    "area": "三民區",
+                    "cityAndArea": "高雄市三民區"
+                },
+                {
+                    "area": "永和區",
+                    "cityAndArea": "新北市永和區"
+                },
+                {
+                    "area": "中西區",
+                    "cityAndArea": "台南市中西區"
+                },
+                {
+                    "area": "中壢區",
+                    "cityAndArea": "桃園市中壢區"
+                },
+                {
+                    "area": "員林市",
+                    "cityAndArea": "彰化縣員林市"
+                },
+                {
+                    "area": "太平區",
+                    "cityAndArea": "台中市太平區"
+                },
+                {
+                    "area": "沙鹿區",
+                    "cityAndArea": "台中市沙鹿區"
+                },
+                {
+                    "area": "大里區",
+                    "cityAndArea": "台中市大里區"
+                },
+                {
+                    "area": "大雅區",
+                    "cityAndArea": "台中市大雅區"
+                },
+                {
+                    "area": "潭子區",
+                    "cityAndArea": "台中市潭子區"
+                },
+                {
+                    "area": "龜山區",
+                    "cityAndArea": "桃園市龜山區"
+                },
+                {
+                    "area": "蘆竹區",
+                    "cityAndArea": "桃園市蘆竹區"
+                },
+                {
+                    "area": "林口區",
+                    "cityAndArea": "新北市林口區"
+                },
+                {
+                    "area": "八德區",
+                    "cityAndArea": "桃園市八德區"
+                },
+                {
+                    "area": "東區",
+                    "cityAndArea": "嘉義市東區"
+                },
+                {
+                    "area": "",
+                    "cityAndArea": "台中市"
+                },
+                {
+                    "area": "",
+                    "cityAndArea": "台北市"
+                },
+                {
+                    "area": "鼓山區",
+                    "cityAndArea": "高雄市鼓山區"
+                }
+            ],
+            "cityList": [
+                "高雄市",
+                "台北市",
+                "桃園市",
+                "台中市",
+                "嘉義市",
+                "新北市",
+                "新竹市",
+                "台南市",
+                "彰化縣",
+                "花蓮縣",
+                "屏東縣",
+                "台東縣",
+                "宜蘭縣",
+                "雲林縣",
+                "新竹縣",
+                "南投縣",
+                "苗栗縣",
+                "基隆市"
+            ],
+            "textMessage": "送出取卡分行",
+            "intent": "信用卡",
+            "secondBotIntent": "c_h_rc_checkCardInfo",
+            "closeTextMessage": "關閉選擇取卡分行",
+            "closeIntent": "信用卡",
+            "closeSecondBotIntent": "c_h_rc_closeNotice",
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2024-08-14 17:19:49",
+    "timestamp": 1723627189276
+}
