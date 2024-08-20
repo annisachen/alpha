@@ -400,18 +400,6 @@
      "rContent2": "3.56%",
      "rSubContent1": "1年",
      "rSubContent2": "19.8%"
-    },
-    {
-     "lLabel": "晨星評等",
-     "lContent": "1",
-     "lClass": "star",
-     "lSubContent": "",
-     "lSubClass": "",
-     "rLabel": "風險屬性(本行)",
-     "rContent1": "",
-     "rContent2":"積極型",
-     "rSubContent1": "",
-     "rSubContent2": ""
     }
    ]
   }
