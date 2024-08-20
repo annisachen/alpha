@@ -4,11 +4,11 @@
  "cards": [
   {
    "cLinkDisable":"N",
-   "cTextType":"28",  (基金牌卡)
+   "cTextType":"28", 
    "cWidth":"segment",
    "cName":"USD",
    "cMessage":"安聯收益成長基金-AM穩定月收類股(美元)",
-   "cLvlCount":6, (X軸要顯示幾個label，前後不顯示)
+   "cLvlCount":6, 
    "cParam": [
      {
       "rate":28.123456,
