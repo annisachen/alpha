@@ -1,0 +1,28 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 12,
+            "action": 7,
+            "widget": "doEmailVerify",
+            "intent": "信用卡",
+            "secondBotIntent": "c_h_e_elecbill_emailVerifySuccess",
+            "textMessage": "(Email驗證成功)",
+            "closeIntent": "信用卡",
+            "closeSecondBotIntent": "c_h_e_elecbill_emailVerifyCancel",
+            "closeTextMessage": "(關閉Email驗證視窗)",
+            "noticeText": "1.單日同一支手機門號最多發送10次驗證碼<br>2.若您尚未收到手機驗證碼，請確認留存的電話號碼是否正確。\r\n",
+            "email": "0930xxx568",
+            "showEmail": "0939",
+            "custId": "L123673216",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
