@@ -24,23 +24,109 @@
                 "subItemList":[
                     {
                         "title": "軍火研發或軍火製造業",
-                        "value": "A01"
+                        "value": "A01",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     },
                     {
                         "title": "航空器、船舶製造業",
-                        "value": "A02"
+                        "value": "A02",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		}
+         		]
                     },
                     {
                         "title": "珠寶、貴金屬及其他高單價商品製造業",
-                        "value": "A03"
+                        "value": "A03",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     },
                     {
                         "title": "紡織業、農、畜產品加工業",
-                        "value": "A04"
+                        "value": "A04",
+			"postionList":[
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     },
                     {
                         "title": "一般製造業",
-                        "value": "A05"
+                        "value": "A05",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     }
                 ]
             },
@@ -50,11 +136,47 @@
                 "subItemList":[
                     {
                         "title": "電子暨資訊相關產業",
-                        "value": "B01"
+                        "value": "B01",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     },
                     {
                         "title": "線上遊戲點數發行商",
-                        "value": "B02"
+                        "value": "B02",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     }
                 ]
             },
@@ -64,27 +186,159 @@
                 "subItemList":[
                     {
                         "title": "航空器、船舶買賣業",
-                        "value": "C01"
+                        "value": "C01",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     },
                     {
                         "title": "珠寶、貴金屬及其他高單價商品買賣業",
-                        "value": "C02"
+                        "value": "C02",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     },
                     {
                         "title": "無實體店面零售業",
-                        "value": "C03"
+                        "value": "C03",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     },
                     {
                         "title": "進出口貿易業",
-                        "value": "C04"
+                        "value": "C04",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     },
                     {
                         "title": "二手車買賣",
-                        "value": "C05"
+                        "value": "C05",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     },
                     {
                         "title": "其他批發零售業",
-                        "value": "C99"
+                        "value": "C99",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     }
                 ]
             },
@@ -94,11 +348,55 @@
                 "subItemList":[
                     {
                         "title": "水、電及燃氣(油)供應業",
-                        "value": "D01"
+                        "value": "D01,
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     },
                     {
                         "title": "船用燃油供應業(非燃油製造)",
-                        "value": "D02"
+                        "value": "D02",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     }
                 ]
             },
@@ -108,23 +406,133 @@
                 "subItemList":[
                     {
                         "title": "郵政及電信通訊業",
-                        "value": "E01"
+                        "value": "E01",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     },
                     {
                         "title": "旅運、貨運、倉儲業",
-                        "value": "E02"
+                        "value": "E02",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     },
                     {
                         "title": "船舶、飛行器租賃業",
-                        "value": "E03"
+                        "value": "E03",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     },
                     {
                         "title": "汽/機車等交通工具租賃業",
-                        "value": "E04"
+                        "value": "E04",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     },
                     {
                         "title": "報關代理",
-                        "value": "E05"
+                        "value": "E05",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     }
                 ]
             },
@@ -134,15 +542,81 @@
                 "subItemList":[
                     {
                         "title": "典當、現金服務及其他民間融資業",
-                        "value": "F01"
+                        "value": "F01",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     },
                     {
                         "title": "金融業(例如：銀行業、保險業、信託業、證券業和租賃業等)",
-                        "value": "F02"
+                        "value": "F02",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     },
                     {
                         "title": "投信/投顧公司",
-                        "value": "F03"
+                        "value": "F03",
+			"postionList":[
+            		{
+                		"value": "1",
+                		"title": "負責人"
+            		},
+            		{
+                		"value": "2",
+                		"title": "高階管理職務人員及財務主管"
+            		},
+            		{
+                		"value": "3",
+                		"title": "一般主管"
+            		},
+            		{
+                		"value": "4",
+                		"title": "業務人員"
+            		},
+            		{
+                		"value": "5",
+                		"title": "一般職員"
+            		}
+         		]
                     }
                 ]
             }
@@ -150,61 +624,7 @@
      },
      "postion":{
         "labelTitle": "主要職位", 
-        "value":"1",
-        "itemList":[
-            {
-                "value": "1",
-                "title": "負責人"
-            },
-            {
-                "value": "2",
-                "title": "高階管理職務人員及財務主管"
-            },
-            {
-                "value": "3",
-                "title": "一般主管"
-            },
-            {
-                "value": "4",
-                "title": "業務人員"
-            },
-            {
-                "value": "5",
-                "title": "一般職員"
-            },
-            {
-                "value": "6",
-                "title": "保全、警衛、司機、管理及清潔人員"
-            },
-            {
-                "value": "7",
-                "title": "領隊/導遊"
-            },
-            {
-                "value": "8",
-                "title": "臨時人員"
-            },
-            {
-                "value": "9",
-                "title": "船長/大副/船員/引水人"
-            },
-            {
-                "value": "10",
-                "title": "飛行駕駛"
-            },
-            {
-                "value": "11",
-                "title": "空服員"
-            },
-            {
-                "value": "12",
-                "title": "公職人員/民意代表"
-            },
-            {
-                "value": "13",
-                "title": "教師"
-            }
-         ]
+        "value":"4"
      },
      "company":{
         "labelTitle": "主要任職機購", 
