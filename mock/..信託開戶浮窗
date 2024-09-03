@@ -24,7 +24,7 @@
                     {
                         "title": "軍火研發或軍火製造業",
                         "value": "A01",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -50,7 +50,7 @@
                     {
                         "title": "航空器、船舶製造業",
                         "value": "A02",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -76,7 +76,7 @@
                     {
                         "title": "珠寶、貴金屬及其他高單價商品製造業",
                         "value": "A03",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -102,7 +102,7 @@
                     {
                         "title": "紡織業、農、畜產品加工業",
                         "value": "A04",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -128,7 +128,7 @@
                     {
                         "title": "一般製造業",
                         "value": "A05",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -160,7 +160,7 @@
                     {
                         "title": "電子暨資訊相關產業",
                         "value": "B01",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -186,7 +186,7 @@
                     {
                         "title": "線上遊戲點數發行商",
                         "value": "B02",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -218,7 +218,7 @@
                     {
                         "title": "航空器、船舶買賣業",
                         "value": "C01",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -244,7 +244,7 @@
                     {
                         "title": "珠寶、貴金屬及其他高單價商品買賣業",
                         "value": "C02",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -270,7 +270,7 @@
                     {
                         "title": "無實體店面零售業",
                         "value": "C03",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -296,7 +296,7 @@
                     {
                         "title": "進出口貿易業",
                         "value": "C04",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -322,7 +322,7 @@
                     {
                         "title": "二手車買賣",
                         "value": "C05",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -348,7 +348,7 @@
                     {
                         "title": "其他批發零售業",
                         "value": "C99",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -380,7 +380,7 @@
                     {
                         "title": "水、電及燃氣(油)供應業",
                         "value": "D01",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -398,7 +398,7 @@
                     {
                         "title": "船用燃油供應業(非燃油製造)",
                         "value": "D02",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -418,7 +418,7 @@
                     {
                         "title": "郵政及電信通訊業",
                         "value": "E01",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -444,7 +444,7 @@
                     {
                         "title": "旅運、貨運、倉儲業",
                         "value": "E02",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -470,7 +470,7 @@
                     {
                         "title": "船舶、飛行器租賃業",
                         "value": "E03",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "航長"
@@ -484,7 +484,7 @@
                     {
                         "title": "汽/機車等交通工具租賃業",
                         "value": "E04",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "部長"
@@ -510,7 +510,7 @@
                     {
                         "title": "報關代理",
                         "value": "E05",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "主席"
@@ -538,7 +538,7 @@
                     {
                         "title": "典當、現金服務及其他民間融資業",
                         "value": "F01",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "CED"
@@ -564,7 +564,7 @@
                     {
                         "title": "金融業(例如：銀行業、保險業、信託業、證券業和租賃業等)",
                         "value": "F02",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -590,7 +590,7 @@
                     {
                         "title": "投信/投顧公司",
                         "value": "F03",
-			"postionList":[
+			"positionList":[
             		{
                 		"value": "1",
                 		"title": "負責人"
@@ -621,7 +621,7 @@
             }
         ]
      },
-     "postion":{
+     "position":{
         "labelTitle": "主要職位"
      },
      "company":{
