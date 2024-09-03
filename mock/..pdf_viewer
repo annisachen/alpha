@@ -1,6 +1,5 @@
 {
 	"from":"bot",
-	"initType":0,
 	"showTime":"2024-07-27 14:30:03",
 	"content":[
         {
@@ -13,7 +12,6 @@
           "title":"PDF浮窗標題"
         }
 ],
-	"noAutoComplete":null,
-	"channel":"ChatWeb",
+	"channel":"MMB",
 	"role":"alpha"
 }
