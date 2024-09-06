@@ -348,7 +348,7 @@
                 "subItemList":[
                     {
                         "title": "水、電及燃氣(油)供應業",
-                        "value": "D01,
+                        "value": "D01",
 			"positionList":[
             		{
                 		"value": "1",
@@ -721,7 +721,7 @@
     },
     {
         "noticeTitle":"重要聲明及同意事項",
-        "noticeContent":"<font size="12px">This is some text.</font><BR><font size="12px">This is some text.</font><BR><BR><font size="12px">This is some text.</font><BR><BR><BR><BR><font size="12px">This is some text.</font><BR><font size="12px">This is some text.</font><BR><BR><BR><font size="12px">This is some text.</font><BR><font size="12px">This is some text.</font>",
+        "noticeContent":"<font size='12px'>This is some text.</font><BR><font size='12px'>This is some text.</font><BR><BR><font size='12px'>This is some text.</font><BR><BR><BR><BR><font size='12px'>This is some text.</font><BR><font size='12px'>This is some text.</font><BR><BR><BR><font size='12px'>This is some text.</font><BR><font size='12px'>This is some text.</font>",
         "noticeFile":"",
         "display":"",
         "mustCheck": true
