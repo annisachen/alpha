@@ -17,7 +17,8 @@
             "showEmail": "testest12312t1231231**@***asfasf.com",
             "custId": "L123673216",
             "isShowPic": false,
-            "isShowTime": false
+            "isShowTime": false,
+            "OTPType":"B"
         }
     ],
     "from": "bot",
