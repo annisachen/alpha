@@ -402,13 +402,8 @@
      "rSubContent2": "19.8%"
     }
    ]
-  }
-]
-},{
- "type": 2,
- "cType": "card",
- "cards": [
-  {
+  },
+ {
    "cLinkDisable":"N",
    "cTextType":"28",  
    "cWidth":"segment",
