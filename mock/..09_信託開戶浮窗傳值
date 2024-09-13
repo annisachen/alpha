@@ -19,7 +19,7 @@
         "value": "B01",
         "itemList":[
             {
-                "title": "製造業",
+                "title": "無任職公司或非受薪族(包含無營業登記負責人)",
                 "value": "A",
                 "subItemList":[
                     {
@@ -181,7 +181,7 @@
                 ]
             },
             {
-                "title": "批發零售業",
+                "title": "大眾傳播、住宿、餐飲、旅遊、休閒娛樂、美容等服務業",
                 "value": "C",
                 "subItemList":[
                     {
