@@ -721,15 +721,15 @@
     },
     {
         "noticeTitle":"重要聲明及同意事項",
-        "noticeContent":"<font size='12px'>This is some text.</font><BR><font size='12px'>This is some text.</font><BR><BR><font size='12px'>This is some text.</font><BR><BR><BR><BR><font size='12px'>This is some text.</font><BR><font size='12px'>This is some text.</font><BR><BR><BR><font size='12px'>This is some text.</font><BR><font size='12px'>This is some text.</font>",
-        "noticeFile":"",
+        "noticeContent":"",
+        "noticeFile":"PDF1",
         "display":"",
         "mustCheck": true
     },
     {
         "noticeTitle":"特定目的外同意使用之個別條款",
         "noticeContent":"",
-        "noticeFile":"IMNOTE",
+        "noticeFile":"PDF2",
         "display":"(本條款並非強制條款，申請人請審慎考量後決定是否同意)",
         "mustCheck": false
   	}
