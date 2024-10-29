@@ -10,7 +10,7 @@
             "secondBotIntent": "c_h_q_creditLimit_uploadFile",
             "textMessage": "(上傳檔案3-9)",
             "closeIntent": "信用卡",
-            "closeSecondBotIntent": "c_h_q_creditLimit_uploadFileCancel",
+            "closeSecondBotIntent": "",
             "closeTextMessage": "(取消上傳3-9)",
             "contentMsg": "提醒：請使用自身電腦進行資料上傳圖擋，勿於公眾場合或使用公用電腦避免個人資料外流。<br/>檔案類型數量限9個以內，格式為JPG、 PNG 、PDF等圖檔格式，每個圖檔大小限制為3MB 謝謝。",
             "caseNo": "CHB20240311120309",
