@@ -1,0 +1,915 @@
+{
+    "channel": "ChatWeb",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 1,
+            "text": "下列卡片因未至郵局招領，卡片已退回本行，請選擇你要重新寄送的卡片：",
+            "useHtml": false,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": true,
+            "isShowTime": false,
+            "isFirstDialog": true
+        },
+        {
+            "type": 2,
+            "cType": "carousel",
+            "cards": [
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cTextType": "1",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImageUrl": "https://88.8.143.220/cathaybk/-/media/b46260ca832b450a83b12ce30c9aa267?v=1",
+                        "cAppImage": "",
+                        "cOutUrl": "Y",
+                        "cImage": "img-credbank01",
+                        "cImageTextType": 2
+                    },
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "Mastercard CUBE鈦金卡 (原享購鈦金卡)"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡別",
+                            "cText": "附卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號",
+                            "cText": "5241********8302"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "退卡日期",
+                            "cText": "2024/10/26"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "申請重寄",
+                            "clAlt": "申請重寄",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantResendCard",
+                            "clParameter": {
+                                "confirmCardDataId": "bfff5bde-aa39-45d6-9597-5896b5c19500",
+                                "passing": "{\"confirmCardDataId\":\"bfff5bde-aa39-45d6-9597-5896b5c19500\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "分行親領",
+                            "clAlt": "分行親領",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantSendToBranch",
+                            "clParameter": {
+                                "confirmCardDataId": "bfff5bde-aa39-45d6-9597-5896b5c19500",
+                                "passing": "{\"confirmCardDataId\":\"bfff5bde-aa39-45d6-9597-5896b5c19500\"}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cTextType": "1",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImageUrl": "https://88.8.143.220/cathaybk/-/media/b46260ca832b450a83b12ce30c9aa267?v=1",
+                        "cAppImage": "",
+                        "cOutUrl": "Y",
+                        "cImage": "img-credbank01",
+                        "cImageTextType": 2
+                    },
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "Mastercard CUBE鈦金卡 (原享購鈦金卡)"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡別",
+                            "cText": "正卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號",
+                            "cText": "5241********4897"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "退卡日期",
+                            "cText": "2024/10/26"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "申請重寄",
+                            "clAlt": "申請重寄",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantResendCard",
+                            "clParameter": {
+                                "confirmCardDataId": "2aaf11e7-8bd5-4847-a242-d6ffa52c676e",
+                                "passing": "{\"confirmCardDataId\":\"2aaf11e7-8bd5-4847-a242-d6ffa52c676e\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "分行親領",
+                            "clAlt": "分行親領",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantSendToBranch",
+                            "clParameter": {
+                                "confirmCardDataId": "2aaf11e7-8bd5-4847-a242-d6ffa52c676e",
+                                "passing": "{\"confirmCardDataId\":\"2aaf11e7-8bd5-4847-a242-d6ffa52c676e\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "申請停用",
+                            "clAlt": "申請停用",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_c_stop_showCard",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cTextType": "1",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImageUrl": "https://88.8.143.220/cathaybk/-/media/b232105254254574a5ff1f6d4c0bca6a?v=1",
+                        "cAppImage": "",
+                        "cOutUrl": "Y",
+                        "cImage": "img-credbank01",
+                        "cImageTextType": 2
+                    },
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "Visa 現金回饋御璽卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡別",
+                            "cText": "附卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號",
+                            "cText": "4284********8903"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "退卡日期",
+                            "cText": "2024/10/28"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "申請重寄",
+                            "clAlt": "申請重寄",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantResendCard",
+                            "clParameter": {
+                                "confirmCardDataId": "f0134969-48dc-42b1-a5a5-e4b7df0856f1",
+                                "passing": "{\"confirmCardDataId\":\"f0134969-48dc-42b1-a5a5-e4b7df0856f1\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "分行親領",
+                            "clAlt": "分行親領",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantSendToBranch",
+                            "clParameter": {
+                                "confirmCardDataId": "f0134969-48dc-42b1-a5a5-e4b7df0856f1",
+                                "passing": "{\"confirmCardDataId\":\"f0134969-48dc-42b1-a5a5-e4b7df0856f1\"}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cTextType": "1",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImageUrl": "https://88.8.143.220/cathaybk/-/media/89fefae615ba4ba39d4829496a538dca?v=1",
+                        "cAppImage": "",
+                        "cOutUrl": "Y",
+                        "cImage": "img-credbank01",
+                        "cImageTextType": 2
+                    },
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "Mastercard CUBE COMBO白金卡 (原白金卡)"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡別",
+                            "cText": "正卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號",
+                            "cText": "5148********6274"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "退卡日期",
+                            "cText": "2024/10/26"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "申請重寄",
+                            "clAlt": "申請重寄",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantResendCard",
+                            "clParameter": {
+                                "confirmCardDataId": "8eef1942-433d-430f-945f-b891b69a9a37",
+                                "passing": "{\"confirmCardDataId\":\"8eef1942-433d-430f-945f-b891b69a9a37\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "分行親領",
+                            "clAlt": "分行親領",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantSendToBranch",
+                            "clParameter": {
+                                "confirmCardDataId": "8eef1942-433d-430f-945f-b891b69a9a37",
+                                "passing": "{\"confirmCardDataId\":\"8eef1942-433d-430f-945f-b891b69a9a37\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "申請停用",
+                            "clAlt": "申請停用",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_c_stop_showCard",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cTextType": "1",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImageUrl": "https://88.8.143.220/cathaybk/-/media/b232105254254574a5ff1f6d4c0bca6a?v=1",
+                        "cAppImage": "",
+                        "cOutUrl": "Y",
+                        "cImage": "img-credbank01",
+                        "cImageTextType": 2
+                    },
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "Visa 現金回饋御璽卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡別",
+                            "cText": "附卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號",
+                            "cText": "4284********8879"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "退卡日期",
+                            "cText": "2024/10/28"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "申請重寄",
+                            "clAlt": "申請重寄",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantResendCard",
+                            "clParameter": {
+                                "confirmCardDataId": "66f80370-99c7-4e15-9fd6-91abcf74ec75",
+                                "passing": "{\"confirmCardDataId\":\"66f80370-99c7-4e15-9fd6-91abcf74ec75\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "分行親領",
+                            "clAlt": "分行親領",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantSendToBranch",
+                            "clParameter": {
+                                "confirmCardDataId": "66f80370-99c7-4e15-9fd6-91abcf74ec75",
+                                "passing": "{\"confirmCardDataId\":\"66f80370-99c7-4e15-9fd6-91abcf74ec75\"}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cTextType": "1",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImageUrl": "https://88.8.143.220/cathaybk/-/media/b232105254254574a5ff1f6d4c0bca6a?v=1",
+                        "cAppImage": "",
+                        "cOutUrl": "Y",
+                        "cImage": "img-credbank01",
+                        "cImageTextType": 2
+                    },
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "Visa 現金回饋御璽卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡別",
+                            "cText": "正卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號",
+                            "cText": "4284********8861"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "退卡日期",
+                            "cText": "2024/10/28"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "申請重寄",
+                            "clAlt": "申請重寄",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantResendCard",
+                            "clParameter": {
+                                "confirmCardDataId": "91c27b1f-3bc0-41b7-ba6f-8cd6abdd579d",
+                                "passing": "{\"confirmCardDataId\":\"91c27b1f-3bc0-41b7-ba6f-8cd6abdd579d\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "分行親領",
+                            "clAlt": "分行親領",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantSendToBranch",
+                            "clParameter": {
+                                "confirmCardDataId": "91c27b1f-3bc0-41b7-ba6f-8cd6abdd579d",
+                                "passing": "{\"confirmCardDataId\":\"91c27b1f-3bc0-41b7-ba6f-8cd6abdd579d\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "申請停用",
+                            "clAlt": "申請停用",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_c_stop_showCard",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cTextType": "1",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImageUrl": "https://88.8.143.220/cathaybk/-/media/b46260ca832b450a83b12ce30c9aa267?v=1",
+                        "cAppImage": "",
+                        "cOutUrl": "Y",
+                        "cImage": "img-credbank01",
+                        "cImageTextType": 2
+                    },
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "Mastercard CUBE鈦金卡 (原享購鈦金卡)"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡別",
+                            "cText": "附卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號",
+                            "cText": "5241********4905"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "退卡日期",
+                            "cText": "2024/10/26"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "申請重寄",
+                            "clAlt": "申請重寄",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantResendCard",
+                            "clParameter": {
+                                "confirmCardDataId": "6c2fdd8a-68b1-4511-8d1a-456368a107a5",
+                                "passing": "{\"confirmCardDataId\":\"6c2fdd8a-68b1-4511-8d1a-456368a107a5\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "分行親領",
+                            "clAlt": "分行親領",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantSendToBranch",
+                            "clParameter": {
+                                "confirmCardDataId": "6c2fdd8a-68b1-4511-8d1a-456368a107a5",
+                                "passing": "{\"confirmCardDataId\":\"6c2fdd8a-68b1-4511-8d1a-456368a107a5\"}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cTextType": "1",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImageUrl": "https://88.8.143.220/cathaybk/-/media/aa9118472a4a4981b93f06deb5e395e6?v=1",
+                        "cAppImage": "",
+                        "cOutUrl": "Y",
+                        "cImage": "img-credbank01",
+                        "cImageTextType": 2
+                    },
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "Visa 現金回饋御璽icash聯名卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡別",
+                            "cText": "附卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號",
+                            "cText": "4284********8895"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "退卡日期",
+                            "cText": "2024/10/28"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "申請重寄",
+                            "clAlt": "申請重寄",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantResendCard",
+                            "clParameter": {
+                                "confirmCardDataId": "70c0b9d9-2f39-427f-bdce-101e4114000f",
+                                "passing": "{\"confirmCardDataId\":\"70c0b9d9-2f39-427f-bdce-101e4114000f\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "分行親領",
+                            "clAlt": "分行親領",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantSendToBranch",
+                            "clParameter": {
+                                "confirmCardDataId": "70c0b9d9-2f39-427f-bdce-101e4114000f",
+                                "passing": "{\"confirmCardDataId\":\"70c0b9d9-2f39-427f-bdce-101e4114000f\"}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cTextType": "1",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImageUrl": "https://88.8.143.220/cathaybk/-/media/aa9118472a4a4981b93f06deb5e395e6?v=1",
+                        "cAppImage": "",
+                        "cOutUrl": "Y",
+                        "cImage": "img-credbank01",
+                        "cImageTextType": 2
+                    },
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "Visa 現金回饋御璽icash聯名卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡別",
+                            "cText": "正卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號",
+                            "cText": "4284********8853"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "退卡日期",
+                            "cText": "2024/10/28"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "申請重寄",
+                            "clAlt": "申請重寄",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantResendCard",
+                            "clParameter": {
+                                "confirmCardDataId": "04696b29-18f4-426e-a5a4-aa5e61159abb",
+                                "passing": "{\"confirmCardDataId\":\"04696b29-18f4-426e-a5a4-aa5e61159abb\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "分行親領",
+                            "clAlt": "分行親領",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantSendToBranch",
+                            "clParameter": {
+                                "confirmCardDataId": "04696b29-18f4-426e-a5a4-aa5e61159abb",
+                                "passing": "{\"confirmCardDataId\":\"04696b29-18f4-426e-a5a4-aa5e61159abb\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "申請停用",
+                            "clAlt": "申請停用",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_c_stop_showCard",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cTextType": "1",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImageUrl": "https://88.8.143.220/cathaybk/-/media/aa9118472a4a4981b93f06deb5e395e6?v=1",
+                        "cAppImage": "",
+                        "cOutUrl": "Y",
+                        "cImage": "img-credbank01",
+                        "cImageTextType": 2
+                    },
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "Visa 現金回饋御璽icash聯名卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡別",
+                            "cText": "附卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號",
+                            "cText": "4284********8929"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "退卡日期",
+                            "cText": "2024/10/28"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "申請重寄",
+                            "clAlt": "申請重寄",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantResendCard",
+                            "clParameter": {
+                                "confirmCardDataId": "bacecb5c-e3bf-4df8-bc44-ecd86f5114a3",
+                                "passing": "{\"confirmCardDataId\":\"bacecb5c-e3bf-4df8-bc44-ecd86f5114a3\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "分行親領",
+                            "clAlt": "分行親領",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantSendToBranch",
+                            "clParameter": {
+                                "confirmCardDataId": "bacecb5c-e3bf-4df8-bc44-ecd86f5114a3",
+                                "passing": "{\"confirmCardDataId\":\"bacecb5c-e3bf-4df8-bc44-ecd86f5114a3\"}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cTextType": "1",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImageUrl": "https://88.8.143.220/cathaybk/-/media/b232105254254574a5ff1f6d4c0bca6a?v=1",
+                        "cAppImage": "",
+                        "cOutUrl": "Y",
+                        "cImage": "img-credbank01",
+                        "cImageTextType": 2
+                    },
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "Visa 現金回饋御璽卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡別",
+                            "cText": "附卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號",
+                            "cText": "4284********8911"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "退卡日期",
+                            "cText": "2024/10/28"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "申請重寄",
+                            "clAlt": "申請重寄",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantResendCard",
+                            "clParameter": {
+                                "confirmCardDataId": "546b5775-bc03-43fe-8eb9-3f99a3486265",
+                                "passing": "{\"confirmCardDataId\":\"546b5775-bc03-43fe-8eb9-3f99a3486265\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "分行親領",
+                            "clAlt": "分行親領",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantSendToBranch",
+                            "clParameter": {
+                                "confirmCardDataId": "546b5775-bc03-43fe-8eb9-3f99a3486265",
+                                "passing": "{\"confirmCardDataId\":\"546b5775-bc03-43fe-8eb9-3f99a3486265\"}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cTextType": "1",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImageUrl": "https://88.8.143.220/cathaybk/-/media/b46260ca832b450a83b12ce30c9aa267?v=1",
+                        "cAppImage": "",
+                        "cOutUrl": "Y",
+                        "cImage": "img-credbank01",
+                        "cImageTextType": 2
+                    },
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "Mastercard CUBE鈦金卡 (原享購鈦金卡)"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡別",
+                            "cText": "附卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號",
+                            "cText": "5241********8310"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "退卡日期",
+                            "cText": "2024/10/26"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "申請重寄",
+                            "clAlt": "申請重寄",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantResendCard",
+                            "clParameter": {
+                                "confirmCardDataId": "e54de952-cda1-440e-906d-2b3002d14bc8",
+                                "passing": "{\"confirmCardDataId\":\"e54de952-cda1-440e-906d-2b3002d14bc8\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "分行親領",
+                            "clAlt": "分行親領",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantSendToBranch",
+                            "clParameter": {
+                                "confirmCardDataId": "e54de952-cda1-440e-906d-2b3002d14bc8",
+                                "passing": "{\"confirmCardDataId\":\"e54de952-cda1-440e-906d-2b3002d14bc8\"}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cWidth": "segment",
+                    "cTextType": "1",
+                    "cLinkType": 1,
+                    "cImageData": {
+                        "cImageUrl": "https://88.8.143.220/cathaybk/-/media/aa9118472a4a4981b93f06deb5e395e6?v=1",
+                        "cAppImage": "",
+                        "cOutUrl": "Y",
+                        "cImage": "img-credbank01",
+                        "cImageTextType": 2
+                    },
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "Visa 現金回饋御璽icash聯名卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡別",
+                            "cText": "附卡"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "卡號",
+                            "cText": "4284********8887"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "退卡日期",
+                            "cText": "2024/10/28"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "申請重寄",
+                            "clAlt": "申請重寄",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantResendCard",
+                            "clParameter": {
+                                "confirmCardDataId": "62f65f31-9c38-49df-8d87-5a4f42463f0e",
+                                "passing": "{\"confirmCardDataId\":\"62f65f31-9c38-49df-8d87-5a4f42463f0e\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "分行親領",
+                            "clAlt": "分行親領",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "信用卡",
+                            "clSecondBotIntent": "c_h_rc_wantSendToBranch",
+                            "clParameter": {
+                                "confirmCardDataId": "62f65f31-9c38-49df-8d87-5a4f42463f0e",
+                                "passing": "{\"confirmCardDataId\":\"62f65f31-9c38-49df-8d87-5a4f42463f0e\"}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": true
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2024-11-08 13:21:23",
+    "timestamp": 1731043283356
+}
