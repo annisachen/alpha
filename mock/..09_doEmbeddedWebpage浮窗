@@ -7,7 +7,7 @@
               "closeTextMessage":"按下X後的文字訊息",
             "contentTitle":"投資屬性分析",
             "token": "46701ffa-bcf8-4605-b8a1-96ee8429a00b",
-            "src": "https://www.google.com/",
+            "src": "http://10.20.30.81:61000/ChatWeb/chat",
             "channel": "ChatWeb",
             "role": "alpha",
             "isShowPic": false,
