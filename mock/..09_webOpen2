@@ -6,7 +6,6 @@
               "closeSecondBotIntent": "closesecondxxxxxx",
               "closeTextMessage":"按下X後的文字訊息",
             "contentTitle":"投資屬性分析",
-            "token": "46701ffa-bcf8-4605-b8a1-96ee8429a00b",
             "src": "https://www.google.com/",
             "channel": "ChatWeb",
             "role": "alpha",
