@@ -1,0 +1,16 @@
+{"channel":"MMB","chatWeb":false,"content":[ {
+            "action": 7,
+            "type": 12,
+            "widget": "doEmbeddedWebpage",
+              "closeIntent": "closexxx",
+              "closeSecondBotIntent": "closesecondxxxxxx",
+              "closeTextMessage":"按下X後的文字訊息",
+            "contentTitle":"投資屬性分析",
+            "token": "46701ffa-bcf8-4605-b8a1-96ee8429a00b",
+            "src": "https://www.google.com/",
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+],"from":"bot","isIdleMsg":false,"role":"alpha","showTime":"2024-06-06 10:51:58","timestamp":1717642318549}
