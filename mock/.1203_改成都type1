@@ -1,0 +1,276 @@
+{
+    "channel": "ChatWeb",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 1,
+            "text": "阿發看到你名下目前沒有消費明細哦！若有疑問，可轉接真人文字客服為你服務。",
+            "useHtml": false,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": true,
+            "isShowTime": false,
+            "isFirstDialog": true
+        },
+        {
+            "type": 2,
+            "cType": "card",
+            "cards": [
+                {
+                    "cLinkDisable": "N",
+                    "cName": "大樹貸客戶信貸諮詢",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cOutUrlsml": "Y",
+                        "cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=LOAN10-100_20240530110720.jpg",
+                        "cAppImage": ""
+                    },
+                    "cTextType": "1",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "夢想金-大樹速貸"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "初估額度：",
+                            "cText": "35萬"
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "貸款利率：",
+                            "cText": "6.23%"
+                        }
+                    ],
+                    "cLinkType": 1,
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "立即申辦",
+                            "clAlt": "立即申辦",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clCustomerAction": "",
+                            "clIntent": "貸款",
+                            "clSecondBotIntent": "l_h_treeQuickLoan",
+                            "clParameter": {
+                                "identify": "1",
+                                "note": "信用卡_查詢_明細.查詢明細",
+                                "passing": "{\"identify\":\"1\",\"note\":\"信用卡_查詢_明細.查詢明細\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "預約諮詢",
+                            "clAlt": "大樹貸客戶信貸諮詢",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clCustomerAction": "",
+                            "clIntent": "貸款",
+                            "clSecondBotIntent": "l_h_unsecuredWidget",
+                            "clParameter": {
+                                "identify": "1",
+                                "note": "信用卡_查詢_明細.查詢明細",
+                                "passing": "{\"identify\":\"1\",\"note\":\"信用卡_查詢_明細.查詢明細\"}"
+                            },
+                            "clClickMaxCount": 0
+                        },
+                        {
+                            "clAction": 4,
+                            "clText": "了解更多",
+                            "clAlt": "",
+                            "clReply": "",
+                            "clUrl": "https://www.cathaybk.com.tw/cathaybk/promo/event/loan/product/treeloan/index.html?P=all_afa?CUB_SRC=YAHOO&CUB_CHL1=URL&CUB_CHL2=01&MA_TK=DB519&CUB_DT=20220101&utm_source=Cathay_Afa&utm_medium=Afaanswer_tree3_A01_version5_test&utm_campaign=2022_cubloan_tree3_treeloan&c=DD&t=c35c4268-b208-463b-ad41-94abb2e561af",
+                            "clCustomerAction": "",
+                            "clIntent": "貸款",
+                            "clSecondBotIntent": "l_h_openWeb",
+                            "clParameter": {
+                                "identify": "1",
+                                "note": "信用卡_查詢_明細.查詢明細",
+                                "passing": "{\"identify\":\"1\",\"note\":\"信用卡_查詢_明細.查詢明細\"}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cName": "",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=ModelCUBEApp_20240529085358.jpg",
+                        "cAppImage": "",
+                        "cOutUrlsml": "Y"
+                    },
+                    "cLinkType": 1,
+                    "cTextType": "1",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "消費即時通知更安心",
+                            "cText": ""
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "下載CUBE App (原網銀App)登入開啟推播通知，時間、金額，店家立即報您知！",
+                            "cText": ""
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 4,
+                            "clText": "立即下載登入",
+                            "clAlt": "",
+                            "clReply": "",
+                            "clUrl": "https://mymobibank.page.link/W4c2",
+                            "clCustomerAction": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "actFlow": "信用卡_查詢_明細.查詢明細",
+                                "ocsActFlag": "Y",
+                                "channel": "ChatWeb",
+                                "faqId": "https://mymobibank.page.link/W4c2",
+                                "id": 21,
+                                "passing": "{\"actFlow\":\"信用卡_查詢_明細.查詢明細\",\"ocsActFlag\":\"Y\",\"channel\":\"ChatWeb\",\"faqId\":\"https://mymobibank.page.link/W4c2\",\"id\":21,\"type\":\"URL\"}",
+                                "type": "URL"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cName": "",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=ONEChatbot_20240702024333.jpg",
+                        "cAppImage": "",
+                        "cOutUrlsml": "Y"
+                    },
+                    "cLinkType": 1,
+                    "cTextType": "1",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "國泰集團待扣繳項目",
+                            "cText": ""
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "阿發幫你去國泰集團的抽屜裡整理出待扣繳項目，點擊下方按鈕查看。",
+                            "cText": ""
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 16,
+                            "clText": "查看國泰集團待扣繳",
+                            "clAlt": "@intent:oneChatBot",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clCustomerAction": "",
+                            "clIntent": "oneChatBot",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "actFlow": "信用卡_查詢_明細.查詢明細",
+                                "ocsActFlag": "Y",
+                                "channel": "ChatWeb",
+                                "faqId": "@intent:oneChatBot",
+                                "id": 40,
+                                "passing": "{\"actFlow\":\"信用卡_查詢_明細.查詢明細\",\"ocsActFlag\":\"Y\",\"channel\":\"ChatWeb\",\"faqId\":\"@intent:oneChatBot\",\"id\":40,\"type\":\"INTENT\"}",
+                                "type": "INTENT"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cName": "AT",
+                    "cWidth": "segment",
+                    "cImageData": {
+                        "cImage": "img-credbank01",
+                        "cAppImage": "",
+                        "cImageUrl": "https://www.cathaybk.com.tw/cathaybk/-/media/f57d0acd2efb4cd48e16cf3e01a7cc7f",
+                        "cOutUrl": "Y"
+                    },
+                    "cTextType": "1",
+                    "cTitle": "CUBE卡友權益公告",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cText": "麥當勞權益從集精選搬到樂饗購囉！謹慎理財 信用無價 循環利率6.75-15%"
+                        }
+                    ],
+                    "cLinkType": 1,
+                    "cLinkList": [
+                        {
+                            "clAction": 4,
+                            "clText": "立即查看",
+                            "clAlt": "立即查看",
+                            "clReply": "立即查看",
+                            "clUrl": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube-list/#shopdine",
+                            "clCustomerAction": "af_at_web_end_btn1",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": true
+        },
+        {
+            "type": 4,
+            "lType": "select-tag01",
+            "linkList": [
+                {
+                    "lAction": 2,
+                    "lText": "好，轉真人文字客服",
+                    "lAlt": "轉真人文字客服",
+                    "lReply": "",
+                    "lUrl": "",
+                    "lCustomerAction": "",
+                    "lIntent": "",
+                    "lSecondBotIntent": "",
+                    "lParameter": {
+                        "passing": "{}"
+                    }
+                },
+                {
+                    "lAction": 2,
+                    "lText": "先不用好了",
+                    "lAlt": "先不用好了",
+                    "lReply": "",
+                    "lUrl": "",
+                    "lCustomerAction": "",
+                    "lIntent": "notTurnToReal",
+                    "lSecondBotIntent": "",
+                    "lParameter": {
+                        "passing": "{}"
+                    }
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2024-12-03 11:42:33",
+    "timestamp": 1733197353341
+}
