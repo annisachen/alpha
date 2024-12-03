@@ -192,7 +192,7 @@
                 {
                     "cLinkDisable": "N",
                     "cName": "AT",
-                    "cWidth": "segment",
+                    "cWidth": "segment secard",
                     "cImageData": {
                         "cImage": "img-credbank01",
                         "cAppImage": "",
