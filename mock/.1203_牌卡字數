@@ -1,0 +1,279 @@
+{
+    "from": "bot",
+    "initType": 1,
+    "showTime": "2024-12-03 10:41:21",
+    "content": [
+                {
+            "type": 2,
+            "cType": "card",
+            "cards": [
+                {
+                    "cName": "",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "ETF_main.png"
+                    },
+                    "cTitle": "ETF專區",
+                    "cTexts": [
+                        {
+                            "cText": "ETF相關業務協助ETF相關業務協助ETF相關業務協助ETF相關業務協助ETF相關業務協助ETF相關業務協助"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 1,
+                            "clText": "申請/變更ETF配息帳戶",
+                            "clAlt": "申請/變更ETF配息帳戶",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "帳務",
+                            "clSecondBotIntent": "profit_account_change",
+                            "clParameter": {
+                                "customizedNotification": "03-Dividend-A01"
+                            }
+                        }
+                    ],
+                    "cTextType": "5"
+                },
+                {
+                    "cName": "",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "card-fund01@2x.png"
+                    },
+                    "cTitle": "基金交易",
+                    "cTexts": [
+                        {
+                            "cText": "基金申購、買回等相關交易。"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 1,
+                            "clText": "申購單筆基金",
+                            "clAlt": "申購單筆基金",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": null
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "定期(不)定額申請",
+                            "clAlt": "新定期定額申請",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": null
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "買回/轉申購",
+                            "clAlt": "買回轉申購",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": null
+                        },
+                        {
+                            "clAction": 5,
+                            "clText": "自動投資屬性測驗",
+                            "clAlt": "App.showUserMsg('自動投資屬性測驗');App.getActivityCard('kycAct01');",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {}
+                        }
+                    ],
+                    "cTextType": "5"
+                },
+                {
+                    "cName": "",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "card-fund02@2x.png"
+                    },
+                    "cTitle": "基金查詢",
+                    "cTexts": [
+                        {
+                            "cText": "推薦基金、基金淨值、配息查詢。"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 1,
+                            "clText": "推薦基金",
+                            "clAlt": "推薦基金",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": null
+                        },
+                        {
+                            "clAction": 1,
+                            "clText": "查詢基金淨值",
+                            "clAlt": "查詢基金淨值",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": null
+                        },
+                        {
+                            "clAction": 1,
+                            "clText": "查詢基金配息",
+                            "clAlt": "查詢基金配息",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": null
+                        },
+                        {
+                            "clAction": 1,
+                            "clText": "基金總覽",
+                            "clAlt": "基金總覽",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "基金",
+                            "clSecondBotIntent": "getWebFund",
+                            "clParameter": {}
+                        }
+                    ],
+                    "cTextType": "5"
+                },
+                {
+                    "cName": "",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "card-fund03@2x.png"
+                    },
+                    "cTitle": "我的投資",
+                    "cTexts": [
+                        {
+                            "cText": "我的投資、交易紀錄查詢。"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 2,
+                            "clText": "查詢我的投資",
+                            "clAlt": "查詢我的投資",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": null
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "新委託紀錄查詢",
+                            "clAlt": "新委託交易查詢",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": null
+                        },
+                        {
+                            "clAction": 1,
+                            "clText": "申請恢復扣款",
+                            "clAlt": "申請恢復扣款",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": null
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "募集申購紀錄查詢",
+                            "clAlt": "募集申購紀錄查詢",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "基金",
+                            "clSecondBotIntent": "ipo_queryiporecord",
+                            "clParameter": {
+                                "userAction": "募集申購紀錄查詢"
+                            }
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "我的專屬提醒",
+                            "clAlt": "我的專屬提醒",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "my_notification",
+                            "clSecondBotIntent": "",
+                            "clParameter": {}
+                        }
+                    ],
+                    "cTextType": "5"
+                },
+                {
+                    "cName": "",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "card-fund04@2x.png"
+                    },
+                    "cTitle": "我的帳務",
+                    "cTexts": [
+                        {
+                            "cText": "帳戶、開戶進度查詢及電子帳單。"
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 1,
+                            "clText": "約定帳號查詢",
+                            "clAlt": "約定帳號查詢",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": null
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "開戶進度查詢",
+                            "clAlt": "開戶進度查詢",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": null
+                        },
+                        {
+                            "clAction": 2,
+                            "clText": "補發電子帳單",
+                            "clAlt": "補發電子帳單",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": null
+                        }
+                    ],
+                    "cTextType": "5"
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": true
+        }
+    ],
+    "role": "alpha",
+    "noAutoComplete": null,
+    "channel": "ChatWeb"
+}
