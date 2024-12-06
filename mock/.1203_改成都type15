@@ -194,10 +194,10 @@
                     "cName": "AT",
                     "cWidth": "segment secard",
                     "cImageData": {
-                        "cImage": "img-credbank01",
+                        "cImage": "img-creditcard",
                         "cAppImage": "",
                         "cImageUrl": "https://www.cathaybk.com.tw/cathaybk/-/media/f57d0acd2efb4cd48e16cf3e01a7cc7f",
-                        "cOutUrl": "Y"
+                        "cOutUrlsml": "Y"
                     },
                     "cTextType": "1",
                     "cTexts": [
