@@ -1,5 +1,5 @@
 {
-    "channel": "ChatWeb",
+    "channel": "MMB",
     "chatWeb": true,
     "content": [
         {
@@ -203,7 +203,7 @@
                     "cTexts": [
                         {
                             "cUseHtml": false,
-                            "cLabel": "CUBE卡友權益公告",
+                            "cLabel": "CUBE卡友權益公告_測試",
                             "cText": ""
                         },
                         {
