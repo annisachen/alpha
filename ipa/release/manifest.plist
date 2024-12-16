@@ -17,7 +17,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>tw.com.thinkpower.SamplePro</string>
+				<string>tw.com.thinkpower.MessageDemo</string>
 				<key>bundle-version</key>
 				<string>1.2.2</string>
 				<key>kind</key>
