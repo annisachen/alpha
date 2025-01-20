@@ -1,6 +1,6 @@
 改 plist
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/annisachen/alpha/main/ipa/release/annisa1217.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/annisachen/alpha/main/ipa/release/annisa1116.plist
 
 把這串貼到產QR Code的網站去產生下載的LINK
 
