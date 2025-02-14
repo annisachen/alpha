@@ -30,7 +30,7 @@
 			  "closeIntent": "信用卡",
 			  "closeSecondBotIntent": "c_h_adv_closeAccountWidget",
 			  "transferType": 1,
-			  "remindText": "注意事項",
+			  "remindText": "注意事項type=1",
 			  "ifShowBranch": "N"
 			}
     ],
