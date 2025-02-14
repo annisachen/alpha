@@ -1,0 +1,42 @@
+{
+    "channel": "MMB",
+    "chatWeb": true,
+    "content": [
+			{
+			  "type": 12,
+			  "widget": "doEnterAccountAndBankCode",
+			  "bankList": [
+				{
+				  "available": null,
+				  "bankNo": "004",
+				  "bankName": "臺灣銀行",
+				  "bankNickName": null,
+				  "displayOrder": 0,
+				  "displayLabel": "004 臺灣銀行"
+				},
+				{
+				  "available": null,
+				  "bankNo": "005",
+				  "bankName": "土地銀行",
+				  "bankNickName": null,
+				  "displayOrder": 0,
+				  "displayLabel": "005 土地銀行"
+				}
+			  ],
+			  "textMessage": "(送出轉入帳號跟銀行代號)",
+			  "intent": "帳戶",
+			  "secondBotIntent": "doEnterToAccountAndBankCode",
+			  "closeTextMessage": "(關閉轉入帳號跟銀行代號視窗)",
+			  "closeIntent": "信用卡",
+			  "closeSecondBotIntent": "c_h_adv_closeAccountWidget",
+			  "transferType": 1,
+			  "remindText": "注意事項",
+			  "ifShowBranch": "N"
+			}
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2023-08-17 18:19:29",
+    "timestamp": 1692267569126
+}
