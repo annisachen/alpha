@@ -1,0 +1,94 @@
+{
+    "channel": "ChatWeb",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 1,
+            "text": "語音密碼可透過CUBE 網銀重設／註銷，請【<a href=\"https://www.cathaybk.com.tw/MyBank/Home/Login?QuickAction=SpecialSet/P0415_IVRSet\" target=\"_blank\">由此進入</a>】。",
+            "useHtml": true,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": true,
+            "isShowTime": false,
+            "isFirstDialog": true
+        },
+        {
+            "type": 100,
+            "widget": "faqReplyOption",
+            "showText": "答案沒幫助",
+            "showType": "frqQr-tag2",
+            "replyText": "已收到你的回饋，我們會持續改進，謝謝！",
+            "faqTime": 1741240296263,
+            "showTextList": [
+                {
+                    "lAction": 16,
+                    "lText": "(答案沒幫助)",
+                    "lAlt": "(答案沒幫助)",
+                    "lReply": "",
+                    "lUrl": "",
+                    "lCustomerAction": "",
+                    "lIntent": "feedback",
+                    "lSecondBotIntent": "",
+                    "lParameter": {
+                        "msg": "語音密碼變更",
+                        "faqQuestion": "語音密碼變更",
+                        "messageId": "a4138357-6038-4fd5-8af3-7cdc70714463",
+                        "faqId": "2279",
+                        "text": "Y",
+                        "passing": "{\"msg\":\"語音密碼變更\",\"faqQuestion\":\"語音密碼變更\",\"messageId\":\"a4138357-6038-4fd5-8af3-7cdc70714463\",\"faqId\":\"2279\",\"text\":\"Y\",\"type\":\"1\"}",
+                        "type": "1"
+                    }
+                }
+            ],
+            "linkList": [
+                {
+                    "lAction": 16,
+                    "lText": "答非所問",
+                    "lAlt": "答非所問",
+                    "lReply": "",
+                    "lUrl": "",
+                    "lCustomerAction": "",
+                    "lIntent": "feedback",
+                    "lSecondBotIntent": "",
+                    "lParameter": {
+                        "msg": "語音密碼變更",
+                        "faqQuestion": "語音密碼變更",
+                        "messageId": "a4138357-6038-4fd5-8af3-7cdc70714463",
+                        "faqId": "2279",
+                        "text": "答非所問",
+                        "passing": "{\"msg\":\"語音密碼變更\",\"faqQuestion\":\"語音密碼變更\",\"messageId\":\"a4138357-6038-4fd5-8af3-7cdc70714463\",\"faqId\":\"2279\",\"text\":\"答非所問\",\"type\":\"2\"}",
+                        "type": "2"
+                    }
+                },
+                {
+                    "lAction": 16,
+                    "lText": "答案不完整",
+                    "lAlt": "答案不完整",
+                    "lReply": "",
+                    "lUrl": "",
+                    "lCustomerAction": "",
+                    "lIntent": "feedback",
+                    "lSecondBotIntent": "",
+                    "lParameter": {
+                        "msg": "語音密碼變更",
+                        "faqQuestion": "語音密碼變更",
+                        "messageId": "a4138357-6038-4fd5-8af3-7cdc70714463",
+                        "faqId": "2279",
+                        "text": "答案不完整",
+                        "passing": "{\"msg\":\"語音密碼變更\",\"faqQuestion\":\"語音密碼變更\",\"messageId\":\"a4138357-6038-4fd5-8af3-7cdc70714463\",\"faqId\":\"2279\",\"text\":\"答案不完整\",\"type\":\"2\"}",
+                        "type": "2"
+                    }
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": true
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2025-03-06 13:51:36",
+    "timestamp": 1741240296245
+}
