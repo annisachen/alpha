@@ -4,7 +4,7 @@
     "content": [
         {
             "type": 1,
-            "text": "<a href=\"<a href=\"https://www.cathaybk.com.tw/MyBank/Home/Login?QuickAction=SpecialSet/P0415_IVRSet\" target=\"_blank\">撥打客服電話請由此進入</a>",
+            "text": "請 -><a href=\"https://webcall.cathaybk.com.tw/mmccmedia/cube/webcall/audio/index.html?Tenant=CUBE&SysCode=chatweb&CaseNo=uvNHTXRcp20xzL4ZxAQqSL6qXu8yKZCa&openExternalBrowser=1\" target=\"_blank\">撥打客服電話請由此進入</a>",
             "useHtml": true,
             "channel": "ChatWeb",
             "role": "alpha",
