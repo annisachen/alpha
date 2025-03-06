@@ -4,7 +4,7 @@
     "content": [
         {
             "type": 1,
-            "text": "<a href=\"https://webcall.cathaybk.com.tw/mmccmedia/cube/webcall/audio/index.html?Tenant=CUBE&SysCode=chatweb&CaseNo=uvNHTXRcp20xzL4ZxAQqSL6qXu8yKZCa\" target=\"_blank\">撥打客服電話請由此進入</a>",
+            "text": "<a href=\"https://webcall.cathaybk.com.tw/mmccmedia/cube/webcall/audio/index.html" target=\"_blank\">撥打客服電話請由此進入</a>",
             "useHtml": true,
             "channel": "ChatWeb",
             "role": "alpha",
