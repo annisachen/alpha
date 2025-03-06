@@ -1,0 +1,53 @@
+{
+    "channel": "ChatWeb",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 1,
+            "text": "<a href=\"https://webcall.cathaybk.com.tw/mmccmedia/cube/webcall/audio/index.html?Tenant=CUBE&SysCode=chatweb&CaseNo=uvNHTXRcp20xzL4ZxAQqSL6qXu8yKZCa\" target=\"_blank\">撥打客服電話請由此進入</a>",
+            "useHtml": true,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": true,
+            "isShowTime": false,
+            "isFirstDialog": true
+        },
+        {
+            "type": 1,
+            "text": "還有其他需要阿發幫你的地方嗎？",
+            "useHtml": false,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": true
+        },
+        {
+            "type": 4,
+            "lType": "select-tag04",
+            "linkList": [
+                {
+                    "lAction": 1,
+                    "lText": "看阿發還能幫什麼忙",
+                    "lAlt": "看阿發還能幫什麼忙",
+                    "lReply": "",
+                    "lUrl": "",
+                    "lCustomerAction": "",
+                    "lIntent": "hello",
+                    "lSecondBotIntent": "",
+                    "lParameter": {
+                        "passing": "{}"
+                    }
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2025-03-06 13:50:06",
+    "timestamp": 1741240206090
+}
