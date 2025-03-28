@@ -1,20 +1,25 @@
 {
-"from":"bot",
-"initType":0,
-"showTime":"2025-03-03 16:19:09",
-"content":[
-{
-"type":12,
-"widget":"doPrizeDraw",
-"lotteryCount":1,
-"lotteryId":"act202303",
-"missionId":"credit01",
-"token":"9bb55212d7c1410eb9fa041dea5a9384",
-"mainImg":"https://www.cathaysec.com.tw/BANNER/ADFILE/ED788439-34EE-4419-B1E1-7D8DDED5C33A.gif",
-"scratchImg":"https://www.cathaysec.com.tw/BANNER/ADFILE/DC857113-7319-4512-837D-E19FE6E33CD2.gif"
-}
-],
-"role":"alpha",
-"noAutoComplete":null,
-"channel":"ChatWeb"
+    "channel": "ChatWeb",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 12,
+            "widget": "doPrizeDraw",
+            "lotteryCount": 1,
+            "lotteryId": "act02",
+            "missionId": "卡友權益_查詢_出國保險.我的刷卡保險權益",
+            "token": "c41d37f36fdb4de69a6a83813630db62",
+            "mainImg": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=202209HBDPGIF2_20220826040001.gif",
+            "scratchImg": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=202209HBDPGIF_20220826035759.gif",
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2025-03-17 10:48:35",
+    "timestamp": 1742179715702
 }
