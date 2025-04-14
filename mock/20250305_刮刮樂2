@@ -1,0 +1,25 @@
+{
+    "channel": "ChatWeb",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 12,
+            "widget": "doPrizeDraw",
+            "lotteryCount": 1,
+            "lotteryId": "act02",
+            "missionId": "卡友權益_查詢_出國保險.我的刷卡保險權益",
+            "token": "c41d37f36fdb4de69a6a83813630db62",
+            "mainImg": "https://www.cathaysec.com.tw/BANNER/ADFILE/82100930-C0BA-43E8-8FBF-B21F516E86AE.gif",
+            "scratchImg": "https://www.cathaysec.com.tw/BANNER/ADFILE/F31F6AE7-91DF-46C4-B1C0-8540DF52DC3B.gif",
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2025-03-17 10:48:35",
+    "timestamp": 1742179715702
+}
