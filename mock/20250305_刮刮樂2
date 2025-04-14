@@ -5,7 +5,7 @@
         {
             "type": 12,
             "widget": "doPrizeDraw",
-            "lotteryCount": 1,
+            "lotteryCount": 3,
             "lotteryId": "act02",
             "missionId": "卡友權益_查詢_出國保險.我的刷卡保險權益",
             "token": "c41d37f36fdb4de69a6a83813630db62",
