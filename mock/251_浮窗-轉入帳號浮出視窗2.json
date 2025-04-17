@@ -1,0 +1,35 @@
+{
+    "channel": "ChatWeb",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 12,
+            "widget": "doEnterAccountAndBankCode",
+            "remindText": "※提醒你～繳款限本人帳戶轉帳，轉出限額每日最高10萬元；每月最高20萬元。他行會多收10元手續費。",
+            "bankList": [
+                {
+                    "bankName": "國泰世華銀行",
+                    "bankNo": "013",
+                    "displayLabel": "013 國泰世華銀行"
+                }
+            ],
+            "transferType": 2,
+            "isFixedCathaybkCode": true,
+            "textMessage": "(送出轉出帳號跟銀行代號)",
+            "intent": "信用卡",
+            "secondBotIntent": "c_p_pay_inputBankCodeAccount",
+            "closeTextMessage": "(關閉轉出帳號跟銀行代號視窗)",
+            "closeIntent": "信用卡",
+            "closeSecondBotIntent": "c_p_pay_inputBankCodeAccountCancel",
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2025-04-15 16:48:11",
+    "timestamp": 1744706891275
+}
