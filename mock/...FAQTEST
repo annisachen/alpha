@@ -1,27 +1,21 @@
 {
-    "channel": "ChatWeb",
-    "chatWeb": true,
-    "content": [
-        {
-            "type": 1,
-            "text": "App.sendMsgToChatWeb('@intent:handleOneChatBot:eyJtc2ciOiLkv6HnlKjljaHnubPntpzmiYDnqIUiLCJpbnRlbnQiOiJvbmVDaGF0Qm90IiwicGFyYW1ldGVyIjogeyJyZXF1ZXN0VHlwZSI6ICJnZXRBY3Rpdml0eURhdGEiLCJhY3RLZXkiOiIxOTA2ODg0OTYwMjUwMjM2OTMwIn19’)\”>請點我</a>",
-            "useHtml": true,
-            "channel": "ChatWeb",
-            "role": "alpha",
-            "isShowPic": true,
-            "isShowTime": false,
-            "isFirstDialog": true
-        }
-            ],
-            "channel": "ChatWeb",
-            "role": "alpha",
-            "isShowPic": false,
-            "isShowTime": true
-        }
-    ],
-    "from": "bot",
-    "isIdleMsg": false,
-    "role": "alpha",
-    "showTime": "2025-05-02 13:24:04",
-    "timestamp": 1746163444951
+  "channel": "ChatWeb",
+  "chatWeb": true,
+  "content": [
+    {
+      "type": 1,
+      "text": " TEST <BR><a href=\\\"https://cubecathaybk.pse.is/7d2bbr\\\" target=\\\"_blank\\\"><BR>APP KYC畫面</a> <BR><a href=\\\"https://cube.cathaybk.com/7Nyv\\\" target=\\\"_blank\\\">CUBE方案</a><br>Hi~我是阿發 繳綜所稅理財必刷技 國泰世華卡享分期0零利率！快來了解更多~~<a href=\\\"javascript: void(0)\\\" onclick=\\\"App.sendMsgToChatWeb('@intent:handleOneChatBot:eyJtc2ciOiLkv6HnlKjljaHnubPntpzmiYDnqIUiLCJpbnRlbnQiOiJvbmVDaGF0Qm90IiwicGFyYW1ldGVyIjogeyJyZXF1ZXN0VHlwZSI6ICJnZXRBY3Rpdml0eURhdGEiLCJhY3RLZXkiOiIxOTA2ODg0OTYwMjUwMjM2OTMwIn19')\\\">請點我</a>",
+      "useHtml": true,
+      "channel": "ChatWeb",
+      "role": "alpha",
+      "isShowPic": true,
+      "isShowTime": false,
+      "isFirstDialog": true
+    }
+  ],
+  "from": "bot",
+  "isIdleMsg": false,
+  "role": "alpha",
+  "showTime": "2025-05-02 13:30:18",
+  "timestamp": 1746163818084
 }
