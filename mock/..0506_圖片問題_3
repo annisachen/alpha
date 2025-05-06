@@ -24,7 +24,7 @@
                         "cImage": "img-credbank01",
                         "cAppImage": "",
                         "cImageUrl": "https://istockapp.cathaysec.com.tw/StaticFiles/afa/images/card-cor03@2x.png",
-                        "cOutUrl": "Y"
+                        "cOutUrl": true
                     },
                     "cTextType": "5",
                     "cTitle": "CUBE卡友權益公告",
