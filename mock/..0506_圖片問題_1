@@ -72,7 +72,8 @@
                         "cImageUrl": "https://storage.googleapis.com/onechatbot-img-onechb-net/2c70a277-ee9e-4a08-8685-b861b95ab2f3.jp",
                         "cOutUrlsml": "Y",
                         "cOutUrl": "Y",
-                        "cImage": "img-creditcard"
+                        "cImage": "img-creditcard",
+                        "cAppImage": ""
                     },
                     "cTexts": [
                         {
@@ -94,7 +95,7 @@
                                 "actionMemo": "campaign_旅遊刷卡優惠_2-1"
                             },
                             "clIntent": "oneChatBot",
-                            "clText": "旅遊刷卡優惠"
+                            "clText": "旅遊刷卡優惠2"
                         },
                         {
                             "clAlt": "機場接送",
@@ -136,7 +137,8 @@
                         "cImageUrl": "https://storage.googleapis.com/onechatbot-img-onechb-net/f54999f1-7d7e-4297-a0b0-431e3938a837.png",
                         "cOutUrlsml": "Y",
                         "cOutUrl": "Y",
-                        "cImage": "img-creditcard"
+                        "cImage": "img-creditcard",
+                        "cAppImage": ""
                     },
                     "cTexts": [
                         {
@@ -201,7 +203,8 @@
                         "cImageUrl": "https://gcp.cathay-ins.com.tw/CXIDocs/PF/chatbot/image/CPtravel003.jpg",
                         "cOutUrlsml": "Y",
                         "cOutUrl": "Y",
-                        "cImage": "img-creditcard"
+                        "cImage": "img-creditcard",
+                        "cAppImage": ""
                     },
                     "cTexts": [
                         {
