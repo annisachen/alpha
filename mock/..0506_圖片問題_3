@@ -1,0 +1,103 @@
+{
+    "channel": "ChatWeb",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 1,
+            "text": "阿發看到你名下目前沒有消費明細哦！若有疑問，可轉接真人文字客服為你服務。",
+            "useHtml": false,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": true,
+            "isShowTime": false,
+            "isFirstDialog": true
+        },
+        {
+            "type": 2,
+            "cType": "card",
+            "cards": [
+                {
+                    "cLinkDisable": "N",
+                    "cName": "AT",
+                    "cWidth": "segment",
+                    "cImageData": {
+                        "cImage": "img-credbank01",
+                        "cAppImage": "",
+                        "cImageUrl": "https://istockapp.cathaysec.com.tw/StaticFiles/afa/images/card-cor03@2x.png",
+                        "cOutUrl": "Y"
+                    },
+                    "cTextType": "5",
+                    "cTitle": "CUBE卡友權益公告",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cText": "麥當勞權益從集精選搬到樂饗購囉！謹慎理財 信用無價 循環利率6.75-15%"
+                        }
+                    ],
+                    "cLinkType": 1,
+                    "cLinkList": [
+                        {
+                            "clAction": 4,
+                            "clText": "立即查看",
+                            "clAlt": "立即查看",
+                            "clReply": "立即查看",
+                            "clUrl": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube-list/#shopdine",
+                            "clCustomerAction": "af_at_web_end_btn1",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": true
+        },
+        {
+            "type": 4,
+            "lType": "select-tag01",
+            "linkList": [
+                {
+                    "lAction": 2,
+                    "lText": "好，轉真人文字客服",
+                    "lAlt": "轉真人文字客服",
+                    "lReply": "",
+                    "lUrl": "",
+                    "lCustomerAction": "",
+                    "lIntent": "",
+                    "lSecondBotIntent": "",
+                    "lParameter": {
+                        "passing": "{}"
+                    }
+                },
+                {
+                    "lAction": 2,
+                    "lText": "先不用好了",
+                    "lAlt": "先不用好了",
+                    "lReply": "",
+                    "lUrl": "",
+                    "lCustomerAction": "",
+                    "lIntent": "notTurnToReal",
+                    "lSecondBotIntent": "",
+                    "lParameter": {
+                        "passing": "{}"
+                    }
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2024-12-03 11:42:33",
+    "timestamp": 1733197353341
+}
