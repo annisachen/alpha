@@ -1,0 +1,227 @@
+{
+    "channel": "ChatWeb",
+    "chatWeb": true,
+    "content": [
+        {
+            "useHtml": false,
+            "text": "阿發幫你整理了國泰旅遊須知大小事，快來看看！",
+            "type": 1,
+            "channel": "ChatWeb",
+            "role": "",
+            "isShowPic": true,
+            "isShowTime": false,
+            "isFirstDialog": true
+        },
+        {
+            "cards": [
+                {
+                    "cLinkList": [
+                        {
+                            "clAlt": "申請額度調整",
+                            "clAction": 2,
+                            "clParameter": {
+                                "userAction": "信用卡額度調整",
+                                "requestType": "recordLog",
+                                "customerAction": "oneChatBotRecordLog",
+                                "project": "20240219_旅遊模組_銀行_金控",
+                                "actionMemo": "信用卡額度調整_1-1",
+                                "logAction": "recordLog",
+                                "tradeId": "bk_5d4cc98f518fb7c1da80c84e5be655c08f6aa8d8f7dfea796545057283e15aa8"
+                            },
+                            "clText": "信用卡額度調整"
+                        },
+                        {
+                            "clUrl": "https://cube.cathaybk.com/eNqg",
+                            "clAlt": "前往 外幣換匯",
+                            "clAction": 4,
+                            "clParameter": {
+                                "userAction": "外幣換匯",
+                                "transfer": "bk",
+                                "requestType": "recordLog",
+                                "project": "20240219_旅遊模組_銀行_金控",
+                                "actionMemo": "外幣換匯_1-2",
+                                "logAction": "recordLog",
+                                "tradeId": "bk_5d4cc98f518fb7c1da80c84e5be655c08f6aa8d8f7dfea796545057283e15aa8"
+                            },
+                            "clIntent": "oneChatBot",
+                            "clText": "前往 外幣換匯"
+                        },
+                        {
+                            "clUrl": "https://www.cathay-ins.com.tw/INSEBWeb/BOBE/travel/travel_quote/prompt?projectId=Q1VTMDMwMQ%253D%253D&utm_source=CTBK&utm_medium=chatbot&utm_campaign=content_sp_202404_bobe_CTBKchatbot_travel&utm_content=text_CTBK_chatbot_travel",
+                            "clAlt": "前往 我要投保",
+                            "clAction": 4,
+                            "clParameter": {
+                                "userAction": "我要投保",
+                                "transfer": "ins",
+                                "requestType": "recordLog",
+                                "project": "20240219_旅遊模組_銀行_金控",
+                                "actionMemo": "我要投保_1-3",
+                                "logAction": "recordLog",
+                                "tradeId": "bk_5d4cc98f518fb7c1da80c84e5be655c08f6aa8d8f7dfea796545057283e15aa8"
+                            },
+                            "clIntent": "oneChatBot",
+                            "clText": "前往 我要投保"
+                        }
+                    ],
+                    "cTitle": "旅遊前準備",
+                    "cTextType": "5",
+                    "cName": "",
+                    "cLinkDisable": "N",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImageUrl": "https://gcp.cathay-ins.com.tw/CXIDocs/PF/chatbot/image/CPtravel001.jpg",
+                        "cOutUrlsml": true,
+                        "cOutUrl": false,
+                        "cImage": "img-creditcard"
+                    },
+                    "cTexts": [
+                        {
+                            "cUserHtml": false,
+                            "cText": "外幣消費及旅遊保障"
+                        }
+                    ]
+                },
+                {
+                    "cLinkList": [
+                        {
+                            "clAlt": "",
+                            "clAction": 2,
+                            "clParameter": {
+                                "userAction": "campaign_旅遊刷卡優惠",
+                                "actKey": "1770293024180453377",
+                                "requestType": "getActivityData",
+                                "project": "20240219_旅遊模組_銀行_金控",
+                                "actionMemo": "campaign_旅遊刷卡優惠_2-1"
+                            },
+                            "clIntent": "oneChatBot",
+                            "clText": "旅遊刷卡優惠"
+                        },
+                        {
+                            "clAlt": "機場接送",
+                            "clAction": 2,
+                            "clParameter": {
+                                "userAction": "查機場接送",
+                                "requestType": "recordLog",
+                                "customerAction": "oneChatBotRecordLog",
+                                "project": "20240219_旅遊模組_銀行_金控",
+                                "actionMemo": "查機場接送_2-2",
+                                "logAction": "recordLog",
+                                "tradeId": "bk_5d4cc98f518fb7c1da80c84e5be655c08f6aa8d8f7dfea796545057283e15aa8"
+                            },
+                            "clText": "查機場接送"
+                        },
+                        {
+                            "clUrl": "https://www.cathay-ins.com.tw/ChatWeb/chat?openExternalBrowser=1&medium=onechatbot&campaign=bk_CPtravel&initMessage=%E6%88%91%E8%A6%81%E6%9F%A5%E6%97%85%E9%81%8A%E7%B6%9C%E5%90%88%E4%BF%9D%E9%9A%AA%E4%BF%9D%E5%96%AE&deeplink_type=chat&deeplink_channel=bk&deeplink_memo=20240219_%E6%97%85%E9%81%8A%E6%A8%A1%E7%B5%84_%E9%8A%80%E8%A1%8C_%E9%87%91%E6%8E%A7",
+                            "clAlt": "前往 旅綜險保單查詢",
+                            "clAction": 4,
+                            "clParameter": {
+                                "userAction": "旅綜險保單查詢",
+                                "transfer": "ins",
+                                "requestType": "recordLog",
+                                "project": "20240219_旅遊模組_銀行_金控",
+                                "actionMemo": "旅綜險保單查詢_2-3",
+                                "logAction": "recordLog",
+                                "tradeId": "bk_5d4cc98f518fb7c1da80c84e5be655c08f6aa8d8f7dfea796545057283e15aa8"
+                            },
+                            "clIntent": "oneChatBot",
+                            "clText": "前往 旅綜險保單查詢"
+                        }
+                    ],
+                    "cTitle": "旅遊權益及優惠",
+                    "cTextType": "5",
+                    "cName": "",
+                    "cLinkDisable": "N",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImageUrl": "https://gcp.cathay-ins.com.tw/CXIDocs/PF/chatbot/image/CPtravel002.jpg",
+                        "cOutUrlsml": true,
+                        "cOutUrl": false,
+                        "cImage": "img-creditcard"
+                    },
+                    "cTexts": [
+                        {
+                            "cUserHtml": false,
+                            "cText": "刷卡權益及資訊查詢"
+                        }
+                    ]
+                },
+                {
+                    "cLinkList": [
+                        {
+                            "clAlt": "外幣ATM",
+                            "clAction": 2,
+                            "clParameter": {
+                                "userAction": "外幣ATM提款",
+                                "requestType": "recordLog",
+                                "customerAction": "oneChatBotRecordLog",
+                                "project": "20240219_旅遊模組_銀行_金控",
+                                "actionMemo": "外幣ATM提款_3-1",
+                                "logAction": "recordLog",
+                                "tradeId": "bk_5d4cc98f518fb7c1da80c84e5be655c08f6aa8d8f7dfea796545057283e15aa8"
+                            },
+                            "clText": "外幣ATM提款"
+                        },
+                        {
+                            "clUrl": "https://www.cathay-ins.com.tw/ChatWeb/chat?openExternalBrowser=1&medium=onechatbot&campaign=bk_CPtravel&initMessage=%E9%81%93%E8%B7%AF%E6%95%91%E6%8F%B4%E7%86%B1%E9%96%80%E6%9C%8D%E5%8B%99&deeplink_type=chat&deeplink_channel=bk&deeplink_memo=20240219_%E6%97%85%E9%81%8A%E6%A8%A1%E7%B5%84_%E9%8A%80%E8%A1%8C_%E9%87%91%E6%8E%A7",
+                            "clAlt": "前往 車險道路救援",
+                            "clAction": 4,
+                            "clParameter": {
+                                "userAction": "車險道路救援",
+                                "transfer": "ins",
+                                "requestType": "recordLog",
+                                "project": "20240219_旅遊模組_銀行_金控",
+                                "actionMemo": "車險道路救援_3-2",
+                                "logAction": "recordLog",
+                                "tradeId": "bk_5d4cc98f518fb7c1da80c84e5be655c08f6aa8d8f7dfea796545057283e15aa8"
+                            },
+                            "clIntent": "oneChatBot",
+                            "clText": "前往 車險道路救援"
+                        },
+                        {
+                            "clAlt": "道路救援",
+                            "clAction": 2,
+                            "clParameter": {
+                                "userAction": "信用卡道路救援",
+                                "requestType": "recordLog",
+                                "customerAction": "oneChatBotRecordLog",
+                                "project": "20240219_旅遊模組_銀行_金控",
+                                "actionMemo": "信用卡道路救援_3-3",
+                                "logAction": "recordLog",
+                                "tradeId": "bk_5d4cc98f518fb7c1da80c84e5be655c08f6aa8d8f7dfea796545057283e15aa8"
+                            },
+                            "clText": "信用卡道路救援"
+                        }
+                    ],
+                    "cTitle": "阿發猜你想知道",
+                    "cTextType": "5",
+                    "cName": "",
+                    "cLinkDisable": "N",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImageUrl": "https://gcp.cathay-ins.com.tw/CXIDocs/PF/chatbot/image/CPtravel003.jpg",
+                        "cOutUrlsml": true,
+                        "cOutUrl": false,
+                        "cImage": "img-creditcard"
+                    },
+                    "cTexts": [
+                        {
+                            "cUserHtml": false,
+                            "cText": "其他刷卡權益及服務"
+                        }
+                    ]
+                }
+            ],
+            "cType": "card",
+            "type": 2,
+            "channel": "ChatWeb",
+            "role": "",
+            "isShowPic": false,
+            "isShowTime": true
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "",
+    "showTime": "2025-05-06 09:23:10",
+    "timestamp": 1746494590773
+}
