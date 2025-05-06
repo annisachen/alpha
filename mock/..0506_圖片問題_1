@@ -69,7 +69,7 @@
                     "cLinkDisable": "N",
                     "cWidth": "segment secard",
                     "cImageData": {
-                        "cImageUrl": "https://gcp.cathay-ins.com.tw/CXIDocs/PF/chatbot/image/CPtravel001.jpg",
+                        "cImageUrl": "https://storage.googleapis.com/onechatbot-img-onechb-net/2c70a277-ee9e-4a08-8685-b861b95ab2f3.jp",
                         "cOutUrlsml": true,
                         "cOutUrl": false,
                         "cImage": "img-creditcard"
@@ -127,13 +127,13 @@
                             "clText": "前往 旅綜險保單查詢"
                         }
                     ],
-                    "cTitle": "旅遊權益及優惠",
+                    "cTitle": "旅遊權益及優惠99",
                     "cTextType": "5",
                     "cName": "",
                     "cLinkDisable": "N",
                     "cWidth": "segment secard",
                     "cImageData": {
-                        "cImageUrl": "https://gcp.cathay-ins.com.tw/CXIDocs/PF/chatbot/image/CPtravel002.jpg",
+                        "cImageUrl": "https://storage.googleapis.com/onechatbot-img-onechb-net/f54999f1-7d7e-4297-a0b0-431e3938a837.png",
                         "cOutUrlsml": true,
                         "cOutUrl": false,
                         "cImage": "img-creditcard"
