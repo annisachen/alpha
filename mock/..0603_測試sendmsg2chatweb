@@ -13,14 +13,9 @@
             "isFirstDialog": true
         },
         {
-            "type": 1,
-            "text": "<a href=\"javascript: void(0)\" onclick=\"App.sendMsgToChatWeb('查詢消費明細')\">sendMsgToChatWeb查詢消費明細</a>",
-            "useHtml": true,
-            "channel": "ChatWeb",
-            "role": "alpha",
-            "isShowPic": true,
-            "isShowTime": false,
-            "isFirstDialog": true
+            "type":1,
+            "text":"如果想瞭解完整股票交割詳情，可以前往樹精靈APP進行查詢。<a href=\"javascript: void(0)\" onclick=App.sendMsgToChatWeb('@intent:doStockNotifyBoard')>『其他注意事項請點我』</a>",
+            "useHtml":true
         },
         {
             "type": 1,
