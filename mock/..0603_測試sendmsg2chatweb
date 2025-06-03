@@ -1,0 +1,329 @@
+{
+
+    "channel": "ChatWeb",
+
+    "chatWeb": true,
+
+    "content": [
+
+        {
+
+            "type": 1,
+
+            "text": "你可查詢目前累積的點數及回饋方式。<br>\r\n➤參加【銀行阿發熱門服務活動】請點選下方<a href=\"javascript: void(0)\" onclick='App.sendMsg(\"行銷模組\", \"{\"intent\":\"oneChatBot\",\"secondBotIntent\":\"maggieTest\",\"parameter\":{\"requestType\":\"getActivityData\",\"actKey\":\"1770290389794332674\"}}\")')>查詢我的點數</a>",
+
+            "useHtml": true,
+
+            "channel": "ChatWeb",
+
+            "role": "alpha",
+
+            "isShowPic": true,
+
+            "isShowTime": false,
+
+            "isFirstDialog": true
+
+        },
+
+        {
+
+            "type": 2,
+
+            "cType": "carousel",
+
+            "cards": [
+
+                {
+
+                    "cLinkDisable": "N",
+
+                    "cTextType": "1",
+
+                    "cWidth": "segment secard",
+
+                    "cLinkType": 1,
+
+                    "cTexts": [
+
+                        {
+
+                            "cUseHtml": false,
+
+                            "cLabel": "查詢我的點數",
+
+                            "cText": "查詢累積的點數以及點數到期時間"
+
+                        }
+
+                    ],
+
+                    "cLinkList": [
+
+                        {
+
+                            "clAction": 2,
+
+                            "clText": "查詢我的點數",
+
+                            "clAlt": "查詢我的點數",
+
+                            "clReply": "",
+
+                            "clUrl": "",
+
+                            "clCustomerAction": "",
+
+                            "clIntent": "信用卡",
+
+                            "clSecondBotIntent": "c_q_p_checkBonus",
+
+                            "clParameter": {
+
+                                "passing": "{}"
+
+                            },
+
+                            "clClickMaxCount": 0
+
+                        }
+
+                    ]
+
+                },
+
+                {
+
+                    "cLinkDisable": "N",
+
+                    "cTextType": "1",
+
+                    "cWidth": "segment secard",
+
+                    "cLinkType": 1,
+
+                    "cTexts": [
+
+                        {
+
+                            "cUseHtml": false,
+
+                            "cLabel": "點數回饋方式",
+
+                            "cText": "點擊下列選項，了解各類點數回饋方式"
+
+                        }
+
+                    ],
+
+                    "cLinkList": [
+
+                        {
+
+                            "clAction": 1,
+
+                            "clText": "小樹點(信用卡)",
+
+                            "clAlt": "小樹點(信用卡)",
+
+                            "clReply": "",
+
+                            "clUrl": "",
+
+                            "clCustomerAction": "",
+
+                            "clIntent": "queryFaqById",
+
+                            "clSecondBotIntent": "",
+
+                            "clParameter": {
+
+                                "faqId": "904",
+
+                                "passing": "{\"faqId\":\"904\"}"
+
+                            },
+
+                            "clClickMaxCount": 0
+
+                        },
+
+                        {
+
+                            "clAction": 1,
+
+                            "clText": "台塑聯名卡",
+
+                            "clAlt": "台塑聯名卡",
+
+                            "clReply": "",
+
+                            "clUrl": "",
+
+                            "clCustomerAction": "",
+
+                            "clIntent": "queryFaqById",
+
+                            "clSecondBotIntent": "",
+
+                            "clParameter": {
+
+                                "faqId": "114",
+
+                                "passing": "{\"faqId\":\"114\"}"
+
+                            },
+
+                            "clClickMaxCount": 0
+
+                        },
+
+                        {
+
+                            "clAction": 1,
+
+                            "clText": "蝦皮聯名卡",
+
+                            "clAlt": "蝦皮聯名卡",
+
+                            "clReply": "",
+
+                            "clUrl": "",
+
+                            "clCustomerAction": "",
+
+                            "clIntent": "queryFaqById",
+
+                            "clSecondBotIntent": "",
+
+                            "clParameter": {
+
+                                "faqId": "1350",
+
+                               "passing": "{\"faqId\":\"1350\"}"
+
+                            },
+
+                            "clClickMaxCount": 0
+
+                        }
+
+                    ]
+
+                },
+
+                {
+
+                    "cLinkDisable": "N",
+
+                    "cTextType": "1",
+
+                    "cWidth": "segment secard",
+
+                    "cLinkType": 1,
+
+                    "cTexts": [
+
+                        {
+
+                            "cUseHtml": false,
+
+                            "cLabel": "聯名卡回饋方式",
+
+                            "cText": "點擊下列選項，查詢里程數回饋方式"
+
+                        }
+
+                    ],
+
+                    "cLinkList": [
+
+                        {
+
+                            "clAction": 1,
+
+                            "clText": "長榮航空聯名卡",
+
+                            "clAlt": "長榮航空聯名卡",
+
+                            "clReply": "",
+
+                            "clUrl": "",
+
+                            "clCustomerAction": "",
+
+                            "clIntent": "queryFaqById",
+
+                            "clSecondBotIntent": "",
+
+                            "clParameter": {
+
+                                "faqId": "163",
+
+                                "passing": "{\"faqId\":\"163\"}"
+
+                            },
+
+                            "clClickMaxCount": 0
+
+                        },
+
+                        {
+
+                            "clAction": 1,
+
+                            "clText": "亞洲萬里通聯名卡",
+
+                            "clAlt": "亞洲萬里通聯名卡",
+
+                            "clReply": "",
+
+                            "clUrl": "",
+
+                            "clCustomerAction": "",
+
+                            "clIntent": "queryFaqById",
+
+                            "clSecondBotIntent": "",
+
+                            "clParameter": {
+
+                                "faqId": "154",
+
+                                "passing": "{\"faqId\":\"154\"}"
+
+                            },
+
+                            "clClickMaxCount": 0
+
+                        }
+
+                    ]
+
+                }
+
+            ],
+
+            "channel": "ChatWeb",
+
+            "role": "alpha",
+
+            "isShowPic": false,
+
+            "isShowTime": true
+
+        }
+
+    ],
+
+    "from": "bot",
+
+    "isIdleMsg": false,
+
+    "role": "alpha",
+
+    "showTime": "2025-06-03 10:50:26",
+
+    "timestamp": 1748919026537
+
+}
