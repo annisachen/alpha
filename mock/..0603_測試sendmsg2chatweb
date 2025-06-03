@@ -4,7 +4,7 @@
     "content": [
         {
             "type": 1,
-            "text": "你可查詢目前累積的點數及回饋方式。<br>\r\n➤參加【銀行阿發熱門服務活動】請點選下方<a href=\"javascript: void(0)\" onclick='App.sendMsg(\"行銷模組\", \"{\"intent\":\"oneChatBot\",\"secondBotIntent\":\"maggieTest\",\"parameter\":{\"requestType\":\"getActivityData\",\"actKey\":\"1770290389794332674\"}}\")')>查詢我的點數</a>",
+            "text": "參加【銀行阿發熱門服務活動】請點選下方<a href=\"javascript: void(0)\" onclick=App.sendMsg('行銷模組', '{\"intent\":\"oneChatBot\",\"secondBotIntent\":\"maggieTest\",\"parameter\":{\"requestType\":\"getActivityData\",\"actKey\":\"1770290389794332674\"}}'))>查詢我的點數</a>",
             "useHtml": true,
             "channel": "ChatWeb",
             "role": "alpha",
