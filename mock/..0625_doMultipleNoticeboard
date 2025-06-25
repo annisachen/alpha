@@ -1,0 +1,26 @@
+{
+  "channel": "MMB",
+  "chatWeb": false,
+  "content": [
+    {
+      "type": 12,
+      "action": 7,
+      "widget": "doMultipleNoticeboard",
+      "textMessage": "同意注意事項",
+      "closeTextMessage": "不同意注意事項",
+      "noticeContentList": [
+        {
+          "noticeContent": "第一段內容(含html)",
+          "openEffect": "1",
+          "noticeTitle": "注意事項"
+        },
+        {
+          "noticeContent": "第二段內容(含html)",
+          "openEffect": "2",
+          "noticeTitle": "同意網路銀行服務條款"
+        }
+      ],
+      "contentTitle": "注意事項",
+      "isRead": true
+    }
+  ]
