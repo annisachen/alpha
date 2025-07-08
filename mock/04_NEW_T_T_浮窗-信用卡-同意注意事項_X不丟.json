@@ -1,0 +1,29 @@
+
+{
+    "channel": "ChatWeb",
+    "chatWeb": true,
+    "content": [
+        {
+            "type": 12,
+            "annoTitle": "同意條款",
+            "annoText": "測試一個isRead是true<br><br><br>VISA卡片資訊自動更新（VAU）服務同意條款本人同意 貴行將本人名下所持有之VISA實體信用卡與簽帳金融卡之完整卡片資訊（卡號、有效期限與卡片背面三碼）提供VISA國際信用卡組織，以利本人申請綁定於配合VAU服務之指定特約商店的卡片資訊得隨時更新，使該指定特約商店可以此申請信用卡交易授權。",
+            "widget": "doNotice",
+            "intent": "信用卡",
+            "secondBotIntent": "c_h_reissueCard_agree",
+            "textMessage": "同意注意事項",
+            "isRead": true,
+            "checkBoxText": "請打勾",
+            "checkNoticeText": "(不一定要打勾勾，請審慎考量是否勾選同意喔)",
+            "canDoNotAgree": true,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+    ],
+    "from": "bot",
+    "isIdleMsg": false,
+    "role": "alpha",
+    "showTime": "2025-05-19 17:13:03",
+    "timestamp": 1747645983166
+}
