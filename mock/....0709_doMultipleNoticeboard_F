@@ -7,6 +7,8 @@
       "action": 7,
       "widget": "doMultipleNoticeboard",
       "textMessage": "同意注意事項",
+      "closeIntent": "111",
+		  "closeSecondBotIntent": "222",
       "closeTextMessage": "不同意注意事項",
       "noticeContentList": [
         {
