@@ -8,6 +8,8 @@
       "widget": "doMultipleNoticeboard",
       "textMessage": "同意注意事項",
       "closeTextMessage": "不同意注意事項",
+      "closeIntent": "111",
+		  "closeSecondBotIntent": "222",
       "noticeContentList": [
         {
           "noticeContent": "第一段內容(含html)",
