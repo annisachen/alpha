@@ -1,0 +1,20 @@
+{
+  "channel": "MMB",
+  "chatWeb": false,
+  "content": [
+    {
+      "type":12,
+"widget":"doNoticeWithoutCheckbox",
+"intent":"信用卡",
+"secondBotIntent":"c_h_rc_checkCardInfo",
+"textMessage":"同意注意事項",
+"closeIntent":"信用卡",
+"closeSecondBotIntent":"c_h_rc_closeNotice",
+"closeTextMessage":"不同意注意事項",
+"annoTitle":"退卡原址重寄注意事項",
+"annoText":"1.卡片將透過郵局掛號方式寄送，將於2~3個工作天內寄出<BR>2.請留意寄送地址投遞狀況，避免無人簽收/地址有誤造成無法投遞",
+"submitCloseText":"確認",
+"isShowBtn":false
+    }
+  ]
+}
