@@ -9,7 +9,7 @@
 },
 {
 "type":1,
-"text":"<a href=\"https://cube.cathaybk.com.tw/7lgr2x\" target=\"_blank\">由此進入</a>",
+"text":"<a href=\"https://cube.cathaybk.com.tw/7lgr2x\" target=\"_blank\">這個是用 URL 的方式開啟</a>",
 "useHtml":true
 },
 {
@@ -18,7 +18,7 @@
 "cards":[
 {
 "cLinkDisable":"N",
-"cTitle":"都是標準問",
+"cTitle":"測試URL",
 "cName":"",
 "cWidth":"segment secard",
 "cTextType":"5",
@@ -36,8 +36,8 @@
 "cTexts":[
 {
 "cUseHtml":true,
-"cLabel":"HTML測試",
-"cText":"<ol><li>Coffee</li><li>Tea</li><li>Milk</li></ol>",
+"cLabel":"測試",
+"cText":"https://cube.cathaybk.com.tw/7lgr2x",
 "cUnit":null,
 "cAmount":null,
 "cMessage":null,
@@ -68,8 +68,8 @@
 },
 {
 "clAction":4,
-"clText":"前往 7lgr2x222",
-"clAlt":"前往 7lgr2x222",
+"clText":"前往 7lgr2",
+"clAlt":"前往 7lgr2",
 "clReply":null,
 "clUrl":"https://cube.cathaybk.com.tw/7lgr2",
 "clCustomerAction":null,
