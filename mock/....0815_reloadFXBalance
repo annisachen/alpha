@@ -1,0 +1,10 @@
+{
+  "channel": "MMB",
+  "chatWeb": false,
+  "content": [
+    {
+      "type": 200,
+      "txtType": "reloadFXBalance"
+    }
+  ]
+}
