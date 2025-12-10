@@ -39,7 +39,7 @@
                         {
                             "clAction": 4,
                             "clText": "goToMMB",
-                            "clAlt": "",
+                            "clAlt": "goToMMB",
                             "clReply": "",
                             "clUrl": "",
                             "clCustomerAction": "",
