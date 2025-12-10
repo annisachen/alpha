@@ -4,7 +4,7 @@
     "content": [
         {
             "type": 1,
-            "text": "想試試升級版阿發服務嗎?快來看看阿發有沒有變得更聰明!<a href=\"javascript: void(0)\" onclick=\"App.sendMsgToChatWeb('新阿發',{'intent':'newAfaOpen'});\">【前往體驗升級版阿發】</a>",
+            "text": "想試試升級版阿發服務嗎?快來看看阿發有沒有變得更聰明!<a href=\"javascript: void(0)\" onclick=\"App.goToMMB('newAfaOpen'});\">【前往體驗升級版阿發】</a>",
             "useHtml": true,
             "channel": "ChatWeb",
             "role": "alpha",
