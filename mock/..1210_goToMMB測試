@@ -1,0 +1,40 @@
+{
+    "from": "bot",
+    "showTime": "2024-04-10 14:26:31",
+    "content": [
+        {
+            "type": 1,
+            "text": "想試試升級版阿發服務嗎?快來看看阿發有沒有變得更聰明!<a href=\"javascript: void(0)\" onclick=\"App.sendMsgToChatWeb('新阿發',{'intent':'newAfaOpen'});">【前往體驗升級版阿發】</a>",
+            "useHtml": true,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": true,
+            "isShowTime": true,
+            "isFirstDialog": true
+        },
+        {
+            "type": 4,
+            "lType": "select-tag04",
+            "linkList": [
+                {
+                    "lAction": 4,
+                    "lText": "測試goToMMB",
+                    "lAlt": "測試goToMMB",
+                    "lReply": null,
+                    "lUrl": "",
+                    "lCustomerAction": null,
+                    "lIntent": "newAfaOpen",
+                    "lSecondBotIntent": null,
+                    "lParameter": {
+                    }
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": false
+        }
+    ],
+    "channel": "ChatWeb",
+    "role": "alpha"
+}
