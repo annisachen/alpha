@@ -13,19 +13,172 @@
             "isFirstDialog": true
         },
         {
+            "type": 2,
+            "cType": "card",
+            "cards": [
+                {
+                    "cLinkDisable": "N",
+                    "cName": "AT",
+                    "cWidth": "segment",
+                    "cImageData": {
+                        "cImage": "img-credbank01",
+                        "cAppImage": "",
+                        "cImageUrl": "https://www.cathaybk.com.tw/cathaybk/-/media/f57d0acd2efb4cd48e16cf3e01a7cc7f",
+                        "cOutUrl": "Y"
+                    },
+                    "cTextType": "5",
+                    "cTitle": "goToMMB測試",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cText": "點了會執行goToMMB，然後MMB關掉阿發"
+                        }
+                    ],
+                    "cLinkType": 1,
+                    "cLinkList": [
+                        {
+                            "clAction": 4,
+                            "clText": "goToMMB",
+                            "clAlt": "goToMMB",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clCustomerAction": "",
+                            "clIntent": "newAfaOpen",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },{
+                    "cLinkDisable": "N",
+                    "cName": "",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=ModelCUBEApp_20240529085358.jpg",
+                        "cAppImage": "",
+                        "cOutUrlsml": "Y"
+                    },
+                    "cLinkType": 1,
+                    "cTextType": "1",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "消費即時通知更安心",
+                            "cText": ""
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "下載CUBE App (原網銀App)登入開啟推播通知，時間、金額，店家立即報您知！",
+                            "cText": ""
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 4,
+                            "clText": "立即下載登入",
+                            "clAlt": "",
+                            "clReply": "",
+                            "clUrl": "https://mymobibank.page.link/W4c2",
+                            "clCustomerAction": "",
+                            "clIntent": "",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "actFlow": "信用卡_查詢_明細.查詢明細",
+                                "ocsActFlag": "Y",
+                                "channel": "ChatWeb",
+                                "faqId": "https://mymobibank.page.link/W4c2",
+                                "id": 21,
+                                "passing": "{\"actFlow\":\"信用卡_查詢_明細.查詢明細\",\"ocsActFlag\":\"Y\",\"channel\":\"ChatWeb\",\"faqId\":\"https://mymobibank.page.link/W4c2\",\"id\":21,\"type\":\"URL\"}",
+                                "type": "URL"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                },
+                {
+                    "cLinkDisable": "N",
+                    "cName": "",
+                    "cWidth": "segment secard",
+                    "cImageData": {
+                        "cImage": "img-creditcard",
+                        "cImageUrl": "https://www.cathaybk.com.tw/ChatWeb/requestQAImage?imageId=ONEChatbot_20240702024333.jpg",
+                        "cAppImage": "",
+                        "cOutUrlsml": "Y"
+                    },
+                    "cLinkType": 1,
+                    "cTextType": "1",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "國泰集團待扣繳項目",
+                            "cText": ""
+                        },
+                        {
+                            "cUseHtml": false,
+                            "cLabel": "阿發幫你去國泰集團的抽屜裡整理出待扣繳項目，點擊下方按鈕查看。",
+                            "cText": ""
+                        }
+                    ],
+                    "cLinkList": [
+                        {
+                            "clAction": 16,
+                            "clText": "查看國泰集團待扣繳",
+                            "clAlt": "@intent:oneChatBot",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clCustomerAction": "",
+                            "clIntent": "oneChatBot",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "actFlow": "信用卡_查詢_明細.查詢明細",
+                                "ocsActFlag": "Y",
+                                "channel": "ChatWeb",
+                                "faqId": "@intent:oneChatBot",
+                                "id": 40,
+                                "passing": "{\"actFlow\":\"信用卡_查詢_明細.查詢明細\",\"ocsActFlag\":\"Y\",\"channel\":\"ChatWeb\",\"faqId\":\"@intent:oneChatBot\",\"id\":40,\"type\":\"INTENT\"}",
+                                "type": "INTENT"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": true
+        },
+        {
             "type": 4,
-            "lType": "select-tag04",
+            "lType": "select-tag01",
             "linkList": [
                 {
-                    "lAction": 4,
-                    "lText": "測試goToMMB",
-                    "lAlt": "測試goToMMB",
-                    "lReply": null,
+                    "lAction": 2,
+                    "lText": "好，轉真人文字客服",
+                    "lAlt": "轉真人文字客服",
+                    "lReply": "",
                     "lUrl": "",
-                    "lCustomerAction": null,
-                    "lIntent": "newAfaOpen",
-                    "lSecondBotIntent": null,
+                    "lCustomerAction": "",
+                    "lIntent": "",
+                    "lSecondBotIntent": "",
                     "lParameter": {
+                        "passing": "{}"
+                    }
+                },
+                {
+                    "lAction": 2,
+                    "lText": "先不用好了",
+                    "lAlt": "先不用好了",
+                    "lReply": "",
+                    "lUrl": "",
+                    "lCustomerAction": "",
+                    "lIntent": "notTurnToReal",
+                    "lSecondBotIntent": "",
+                    "lParameter": {
+                        "passing": "{}"
                     }
                 }
             ],
