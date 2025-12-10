@@ -37,7 +37,7 @@
                     "cLinkType": 1,
                     "cLinkList": [
                         {
-                            "clAction": 4,
+                            "clAction": 16,
                             "clText": "goToMMB",
                             "clAlt": "goToMMB",
                             "clReply": "",
