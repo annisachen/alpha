@@ -1,0 +1,64 @@
+{
+    "from": "bot",
+    "showTime": "2024-04-10 14:26:31",
+    "content": [
+        {
+            "type": 1,
+            "text": "測試牌卡按鈕goToMMB</a>",
+            "useHtml": true,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": true,
+            "isShowTime": true,
+            "isFirstDialog": true
+        },
+        {
+            "type": 2,
+            "cType": "carousel",
+            "cards": [
+                {
+                    "cLinkDisable": "N",
+                    "cName": "AT",
+                    "cWidth": "segment",
+                    "cImageData": {
+                        "cImage": "img-credbank01",
+                        "cAppImage": "",
+                        "cImageUrl": "https://www.cathaybk.com.tw/cathaybk/-/media/f57d0acd2efb4cd48e16cf3e01a7cc7f",
+                        "cOutUrl": "Y"
+                    },
+                    "cTextType": "5",
+                    "cTitle": "goToMMB測試",
+                    "cTexts": [
+                        {
+                            "cUseHtml": false,
+                            "cText": "點了會執行goToMMB，然後MMB關掉阿發"
+                        }
+                    ],
+                    "cLinkType": 1,
+                    "cLinkList": [
+                        {
+                            "clAction": 4,
+                            "clText": "goToMMB",
+                            "clAlt": "",
+                            "clReply": "",
+                            "clUrl": "",
+                            "clCustomerAction": "",
+                            "clIntent": "newAfaOpen",
+                            "clSecondBotIntent": "",
+                            "clParameter": {
+                                "passing": "{}"
+                            },
+                            "clClickMaxCount": 0
+                        }
+                    ]
+                }
+            ],
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": false,
+            "isShowTime": true
+        }
+    ],
+    "channel": "ChatWeb",
+    "role": "alpha"
+}
