@@ -11,6 +11,15 @@
             "isShowPic": true,
             "isShowTime": true,
             "isFirstDialog": true
+        },{
+            "type": 1,
+            "text": "<a href=\"javascript: void(0)\" onclick=\"App.goToMMB('newAfaOpen');\">【前往前往體驗升級版阿發】</a>",
+            "useHtml": true,
+            "channel": "ChatWeb",
+            "role": "alpha",
+            "isShowPic": true,
+            "isShowTime": true,
+            "isFirstDialog": true
         },
         {
             "type": 2,
