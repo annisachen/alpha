@@ -20,11 +20,11 @@
 				<key>bundle-identifier</key>
 				<string>tw.com.thinkpower.SamplePro</string>
 				<key>bundle-version</key>
-				<string>1.5.11</string>
+				<string>1.5.15</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>SDK_1.5.11</string>
+				<string>SDK_1.5.15</string>
 			</dict>
 		</dict>
 	</array>
